@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"WMDE"
+		]
+	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "This is an extension for adding browser based PDF rendering support through Electron PDF service"
+}

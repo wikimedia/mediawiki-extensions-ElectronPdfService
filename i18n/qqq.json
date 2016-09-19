@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"WMDE"
+		]
+	},
+	"electronPdfService": "electronPdfService",
+	"electronPdfService-desc": "{{desc|name=ElectronPdfService|url=}}"
+}

@@ -1,0 +1,42 @@
+{
+	"name": "ElectronPdfService",
+	"version": "0.0.1",
+	"author": [
+		"WMDE"
+	],
+	"url": "https://phabricator.wikimedia.org/T142201",
+	"descriptionmsg": "electronPdfService-desc",
+	"license-name": "GPL-2.0+",
+	"type": "other",
+	"manifest_version": 1,
+	"AutoloadClasses": {
+		"ElectronPdfServiceHooks": "ElectronPdfService.hooks.php"
+	},
+	"Hooks": {
+		"BeforePageDisplay": [
+			"ElectronPdfServiceHooks::onBeforePageDisplay"
+		]
+	},
+	"MessagesDirs": {
+		"ElectronPdfService": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.ElectronPdfService.init": {
+			"scripts": [
+				"modules/ext.ElectronPdfService.js",
+				"modules/ext.ElectronPdfService.init.js"
+			],
+			"styles": [
+				"modules/ext.ElectronPdfService.css"
+			],
+			"messages": [],
+			"dependencies": []
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "ElectronPdfService"
+	}
+}
