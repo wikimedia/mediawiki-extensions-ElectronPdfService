@@ -5,5 +5,11 @@
 		]
 	},
 	"electronPdfService": "electronPdfService",
-	"electronPdfService-desc": "{{desc|name=ElectronPdfService|url=}}"
+	"electronPdfService-desc": "{{desc|name=ElectronPdfService|url=}}",
+	"electronPdfService-sidebar-portlet-heading": "Title of the portlet in which the link is shown.",
+	"electronPdfService-sidebar-portlet-print-text": "Text of print-pdf-link in sidebar.",
+	"electronPdfService-invalid-article-title": "Used as title for the error message when specified page was not a valid article.",
+	"electronPdfService-invalid-article-text": "Used as error message when specified page was not a valid article.",
+	"electronPdfService-article-notfound-title": "Used as title for the error message when Electron service was not able to resolve the given URL to the article.",
+	"electronPdfService-article-notfound-text": "Used as error message when Electron service was not able to resolve the given URL to the article."
 }

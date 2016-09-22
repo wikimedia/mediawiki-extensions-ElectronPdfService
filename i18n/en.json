@@ -5,5 +5,11 @@
 		]
 	},
 	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-desc": "This is an extension for adding browser based PDF rendering support through Electron PDF service"
+	"electronPdfService-desc": "This is an extension for adding browser based PDF rendering support through Electron PDF service",
+	"electronPdfService-sidebar-portlet-heading": "Print",
+	"electronPdfService-sidebar-portlet-print-text": "Print PDF",
+	"electronPdfService-invalid-article-title": "Invalid article",
+	"electronPdfService-invalid-article-text": "The specified page is not a valid article.",
+	"electronPdfService-article-notfound-title": "Article not found by service",
+	"electronPdfService-article-notfound-text": "The service was not able to resolve the specified link."
 }

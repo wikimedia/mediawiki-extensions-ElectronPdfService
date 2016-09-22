@@ -10,12 +10,24 @@
 	"type": "other",
 	"manifest_version": 1,
 	"AutoloadClasses": {
-		"ElectronPdfServiceHooks": "ElectronPdfService.hooks.php"
+		"ElectronPdfServiceHooks": "ElectronPdfService.hooks.php",
+		"SpecialElectronPdf": "specials/SpecialElectronPdf.php"
+	},
+	"config": {
+		"ElectronPdfService": {
+			"serviceUrl":"https://pdf-electron.wmflabs.org",
+			"format":"pdf",
+			"key":"secret",
+			"articleUrl":""
+		}
+	},
+	"ExtensionMessagesFiles": {
+		"ElectronPdfServiceAlias": "ElectronPdfService.i18n.alias.php"
 	},
 	"Hooks": {
-		"BeforePageDisplay": [
-			"ElectronPdfServiceHooks::onBeforePageDisplay"
-		]
+	  "SidebarBeforeOutput": [
+		"ElectronPdfServiceHooks::onSidebarBeforeOutput"
+	  ]
 	},
 	"MessagesDirs": {
 		"ElectronPdfService": [
@@ -38,5 +50,8 @@
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
 		"remoteExtPath": "ElectronPdfService"
+	},
+	"SpecialPages": {
+		"ElectronPdf": "SpecialElectronPdf"
 	}
 }
