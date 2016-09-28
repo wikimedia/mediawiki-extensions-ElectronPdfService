@@ -25,15 +25,25 @@ class ElectronPdfServiceHooks {
 					[ 'articletitle' => $title->getPrefixedText() ]
 				)
 			];
-		} else {
-			$bar[ 'electronPdfService-sidebar-portlet-heading' ] = [
-				[
-					'text' => $skin->msg( 'electronPdfService-sidebar-portlet-print-text' )->escaped(),
-					'id' => 'electron-print_pdf',
-					'href' => $specialPageTitle->getLocalURL(
-						[ 'articletitle' => $title->getPrefixedText() ]
-					)
-				]
+		}
+
+		return true;
+	}
+
+	public static function onBuildNavUrls( Skin $skin, &$navUrls ) {
+		$title = $skin->getTitle();
+		if ( is_null( $title ) || !$title->exists() ) {
+			return false;
+		}
+
+		$specialPageTitle = SpecialPage::getTitleFor( 'ElectronPdf' );
+
+		if ( array_key_exists( 'print', $navUrls ) ) {
+			$navUrls['print'] = [
+				'text' => $skin->msg( 'printableversion' )->text(),
+				'href' => $specialPageTitle->getLocalURL(
+					[ 'articletitle' => $title->getPrefixedText() ]
+				)
 			];
 		}
 
