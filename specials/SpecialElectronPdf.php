@@ -75,7 +75,7 @@ class SpecialElectronPdf extends SpecialPage {
 			$electronPdfService["serviceUrl"] . '/' .
 			$electronPdfService["format"] .
 			'?accessKey=' . $electronPdfService["key"] .
-			'&url=' . $articleUrl;
+			'&url=' . urlencode( $articleUrl );
 
 		return $serviceUrl;
 	}
