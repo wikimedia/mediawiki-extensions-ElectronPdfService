@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "Ergänzt eine browserbasierte Unterstützung zur Darstellung von PDF-Dateien mithilfe des Electron-PDF-Dienstes",
+	"electronPdfService-sidebar-portlet-heading": "Drucken",
+	"electronPdfService-sidebar-portlet-print-text": "PDF drucken",
+	"electronPdfService-invalid-article-title": "Ungültige Seite",
+	"electronPdfService-invalid-article-text": "Die angegebene Seite ist nicht gültig.",
+	"electronPdfService-article-notfound-title": "Die Seite wurde vom Dienst nicht gefunden",
+	"electronPdfService-article-notfound-text": "Der Dienst war nicht in der Lage, den angegebenen Link zu lösen."
+}
