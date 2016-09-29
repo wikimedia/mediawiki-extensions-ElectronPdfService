@@ -8,8 +8,8 @@
 	"electronPdfService-desc": "Adds browser based PDF rendering support through Electron PDF service",
 	"electronPdfService-sidebar-portlet-heading": "Print",
 	"electronPdfService-sidebar-portlet-print-text": "Print PDF",
-	"electronPdfService-invalid-article-title": "Invalid page",
-	"electronPdfService-invalid-article-text": "The specified page is not valid.",
-	"electronPdfService-article-notfound-title": "Page not found by service",
-	"electronPdfService-article-notfound-text": "The service was not able to resolve the specified link."
+	"electronPdfService-invalid-page-title": "Invalid page",
+	"electronPdfService-invalid-page-text": "The specified page is not valid.",
+	"electronPdfService-page-notfound-title": "Page not found by service",
+	"electronPdfService-page-notfound-text": "The service was not able to resolve the specified link."
 }

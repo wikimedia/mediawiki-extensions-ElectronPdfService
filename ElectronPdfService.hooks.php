@@ -22,7 +22,7 @@ class ElectronPdfServiceHooks {
 				'text' => $skin->msg( 'electronPdfService-sidebar-portlet-print-text' )->escaped(),
 				'id' => 'electron-print_pdf',
 				'href' => $specialPageTitle->getLocalURL(
-					[ 'articletitle' => $title->getPrefixedText() ]
+					[ 'page' => $title->getPrefixedText() ]
 				)
 			];
 		}
@@ -42,7 +42,7 @@ class ElectronPdfServiceHooks {
 			$navUrls['print'] = [
 				'text' => $skin->msg( 'printableversion' )->text(),
 				'href' => $specialPageTitle->getLocalURL(
-					[ 'articletitle' => $title->getPrefixedText() ]
+					[ 'page' => $title->getPrefixedText() ]
 				)
 			];
 		}

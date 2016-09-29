@@ -26,16 +26,16 @@ class SpecialElectronPdf extends SpecialPage {
 	public function execute( $subPage ) {
 		$request = $this->getRequest();
 		$parts = ( $subPage === '' ) ? [] : explode( '/', $subPage, 2 );
-		$articleTitle = trim( $request->getVal( 'articletitle', isset( $parts[0] ) ? $parts[0] : '' ) );
-		$this->renderAndShowPdf( $articleTitle );
+		$page = trim( $request->getVal( 'page', isset( $parts[0] ) ? $parts[0] : '' ) );
+		$this->renderAndShowPdf( $page );
 	}
 
-	public function renderAndShowPdf( $articleName ) {
-		$title = Title::newFromText( $articleName );
+	public function renderAndShowPdf( $page ) {
+		$title = Title::newFromText( $page );
 		if ( $title === null ) {
 			$this->getOutput()->showErrorPage(
-				'electronPdfService-invalid-article-title',
-				'electronPdfService-invalid-article-text'
+				'electronPdfService-invalid-page-title',
+				'electronPdfService-invalid-page-text'
 			);
 			return;
 		}
@@ -46,11 +46,11 @@ class SpecialElectronPdf extends SpecialPage {
 		$request->setCallback( [ $this, 'writeToTempFile' ] );
 
 		if ( $request->execute()->isOK() ) {
-			$this->sendPdfToOutput( $articleName );
+			$this->sendPdfToOutput( $page );
 		} else {
 			$this->getOutput()->showErrorPage(
-				'electronPdfService-article-notfound-title',
-				'electronPdfService-article-notfound-text'
+				'electronPdfService-page-notfound-title',
+				'electronPdfService-page-notfound-text'
 			);
 		}
 
@@ -65,27 +65,27 @@ class SpecialElectronPdf extends SpecialPage {
 		$electronPdfService = $this->config->get( 'ElectronPdfService' );
 
 		// for testing the functionality on localhost please set
-		// $wgElectronPdfService["articleUrl"] to a publicly accessible URL in your LocalSettings.php!
-		if ( !isset( $electronPdfService["articleUrl"] ) ) {
-			$articleUrl = $title->getCanonicalURL();
+		// $wgElectronPdfService["pageUrl"] to a publicly accessible URL in your LocalSettings.php!
+		if ( !isset( $electronPdfService["pageUrl"] ) ) {
+			$pageUrl = $title->getCanonicalURL();
 		} else {
-			$articleUrl = $electronPdfService["articleUrl"];
+			$pageUrl = $electronPdfService["pageUrl"];
 		}
 		$serviceUrl =
 			$electronPdfService["serviceUrl"] . '/' .
 			$electronPdfService["format"] .
 			'?accessKey=' . $electronPdfService["key"] .
-			'&url=' . urlencode( $articleUrl );
+			'&url=' . urlencode( $pageUrl );
 
 		return $serviceUrl;
 	}
 
-	private function sendPdfToOutput( $articleName ) {
+	private function sendPdfToOutput( $page ) {
 		$fileMetaData = stream_get_meta_data( $this->tempFile );
 		wfResetOutputBuffers();
 		header( 'Content-Type:application/pdf' );
 		header( 'Content-Length: ' . filesize( $fileMetaData['uri'] ) );
-		header( 'Content-Disposition: inline; filename=' . $articleName . '.pdf' );
+		header( 'Content-Disposition: inline; filename=' . $page . '.pdf' );
 		fseek( $this->tempFile, 0 );
 		fpassthru( $this->tempFile );
 		$this->getOutput()->disable();
