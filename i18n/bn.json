@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman"
+		]
+	},
+	"electronPdfService": "ইলেকট্রনপিডিএফসার্ভিস",
+	"electronPdfService-desc": "ইলেকট্রন পিডিএফ পরিসেবার মাধ্যমে ব্রাউজার ভিত্তিক পিডিএফ পরিবেশনার সমর্থন যোগ করে",
+	"electronPdfService-sidebar-portlet-heading": "মুদ্রণ",
+	"electronPdfService-sidebar-portlet-print-text": "পিডিএফ মুদ্রণ",
+	"electronPdfService-invalid-article-title": "পাতা অবৈধ",
+	"electronPdfService-invalid-article-text": "নির্দিষ্টকৃত পাতাটি বৈধ নয়।",
+	"electronPdfService-article-notfound-title": "পরিষেবা কর্তৃক পাতা পাওয়া যায়নি",
+	"electronPdfService-article-notfound-text": "পরিষেবাটি নির্দিষ্টকৃত লিঙ্কটি সমাধান করতে সক্ষম ছিল না।"
+}

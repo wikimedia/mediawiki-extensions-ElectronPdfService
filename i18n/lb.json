@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"electronPdfService-sidebar-portlet-heading": "Drécken",
+	"electronPdfService-sidebar-portlet-print-text": "PDF drécken",
+	"electronPdfService-invalid-article-title": "Net valabel Säit",
+	"electronPdfService-invalid-article-text": "Déi spezifizéiert Säit ass net valabel.",
+	"electronPdfService-article-notfound-title": "Säit vum Service net fonnt",
+	"electronPdfService-article-notfound-text": "De Service konnt näischt mam spezifizéierte Link ufänken."
+}

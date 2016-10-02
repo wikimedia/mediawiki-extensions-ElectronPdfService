@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pickle12"
+		]
+	},
+	"electronPdfService": "Elektronski PDF program",
+	"electronPdfService-sidebar-portlet-heading": "Natisni",
+	"electronPdfService-sidebar-portlet-print-text": "Natisni datoteko PDF",
+	"electronPdfService-invalid-article-title": "Neveljavna stran",
+	"electronPdfService-invalid-article-text": "Ta stran ni veljavna.",
+	"electronPdfService-article-notfound-title": "Strani ni bilo mogoče najti",
+	"electronPdfService-article-notfound-text": "Iskane povezave ni bilo mogoče razrešiti."
+}

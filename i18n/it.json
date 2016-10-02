@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Anto"
+			"Anto",
+			"Beta16"
 		]
 	},
 	"electronPdfService-sidebar-portlet-heading": "Stampa",
 	"electronPdfService-sidebar-portlet-print-text": "Stampa PDF",
 	"electronPdfService-invalid-article-title": "Pagina non valida",
 	"electronPdfService-invalid-article-text": "La pagina specificata non è valida.",
-	"electronPdfService-article-notfound-title": "Pagina non trovata dal servizio"
+	"electronPdfService-article-notfound-title": "Pagina non trovata dal servizio",
+	"electronPdfService-article-notfound-text": "Il servizio non è stato in grado di risolvere il collegamento specificato."
 }

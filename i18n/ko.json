@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "Electron PDF 서비스를 통해 브라우저 기반 PDF 렌더링 지원을 추가합니다",
+	"electronPdfService-sidebar-portlet-heading": "인쇄",
+	"electronPdfService-sidebar-portlet-print-text": "PDF 인쇄",
+	"electronPdfService-invalid-article-title": "잘못된 페이지",
+	"electronPdfService-invalid-article-text": "지정한 문서가 올바르지 않습니다."
+}

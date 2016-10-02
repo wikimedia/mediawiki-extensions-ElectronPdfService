@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm"
+		]
+	},
+	"electronPdfService": "Servizo Pdf Electron",
+	"electronPdfService-sidebar-portlet-heading": "Imprimir",
+	"electronPdfService-sidebar-portlet-print-text": "Imprimir o PDF",
+	"electronPdfService-invalid-article-title": "Páxina non válida",
+	"electronPdfService-invalid-article-text": "A páxina especificada non é válida.",
+	"electronPdfService-article-notfound-title": "Páxina non atopada polo servizo",
+	"electronPdfService-article-notfound-text": "O servizo non puido resolver a ligazón especificada."
+}

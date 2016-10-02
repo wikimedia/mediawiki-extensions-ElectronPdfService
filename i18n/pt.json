@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vitorvicentevalente"
+		]
+	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "Adiciona ao navegador um suporte de renderização PDF através do serviço Electron PDF",
+	"electronPdfService-sidebar-portlet-heading": "Imprimir",
+	"electronPdfService-sidebar-portlet-print-text": "Imprimir como PDF",
+	"electronPdfService-invalid-article-title": "Página inválida",
+	"electronPdfService-invalid-article-text": "A página especificada é inválida.",
+	"electronPdfService-article-notfound-title": "Página não encontrada pelo serviço",
+	"electronPdfService-article-notfound-text": "O serviço não foi capaz de resolver a hiperligação especificada."
+}

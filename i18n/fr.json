@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "Ajoute un support de rendu PDF basé sur le navigateur via le service PDF Electron",
+	"electronPdfService-sidebar-portlet-heading": "Imprimer",
+	"electronPdfService-sidebar-portlet-print-text": "Imprimer le PDF",
+	"electronPdfService-invalid-article-title": "Page non valide",
+	"electronPdfService-invalid-article-text": "La page spécifiée n’est pas valide",
+	"electronPdfService-article-notfound-title": "Page non trouvée par le service",
+	"electronPdfService-article-notfound-text": "Le service n’a pas pu résoudre le lien spécifié."
+}

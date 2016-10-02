@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"electronPdfService-invalid-article-title": "صفحة غير صالحة",
+	"electronPdfService-article-notfound-text": "لم تتمكن الخدمة من التعامل مع الوصلة المحددة."
+}
