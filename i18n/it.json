@@ -7,8 +7,8 @@
 	},
 	"electronPdfService-sidebar-portlet-heading": "Stampa",
 	"electronPdfService-sidebar-portlet-print-text": "Stampa PDF",
-	"electronPdfService-invalid-article-title": "Pagina non valida",
-	"electronPdfService-invalid-article-text": "La pagina specificata non è valida.",
-	"electronPdfService-article-notfound-title": "Pagina non trovata dal servizio",
-	"electronPdfService-article-notfound-text": "Il servizio non è stato in grado di risolvere il collegamento specificato."
+	"electronPdfService-invalid-page-title": "Pagina non valida",
+	"electronPdfService-invalid-page-text": "La pagina specificata non è valida.",
+	"electronPdfService-page-notfound-title": "Pagina non trovata dal servizio",
+	"electronPdfService-page-notfound-text": "Il servizio non è stato in grado di risolvere il collegamento specificato."
 }

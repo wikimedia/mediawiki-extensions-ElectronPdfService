@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pahles"
+		]
+	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-sidebar-portlet-heading": "Aafdrökke",
+	"electronPdfService-invalid-page-title": "Ongeljige pazjena"
+}

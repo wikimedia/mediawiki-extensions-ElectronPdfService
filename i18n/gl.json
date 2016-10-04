@@ -5,10 +5,11 @@
 		]
 	},
 	"electronPdfService": "Servizo Pdf Electron",
+	"electronPdfService-desc": "Engade ao navegador soporte de renderización PDF a través do servizo Electron PDF",
 	"electronPdfService-sidebar-portlet-heading": "Imprimir",
 	"electronPdfService-sidebar-portlet-print-text": "Imprimir o PDF",
-	"electronPdfService-invalid-article-title": "Páxina non válida",
-	"electronPdfService-invalid-article-text": "A páxina especificada non é válida.",
-	"electronPdfService-article-notfound-title": "Páxina non atopada polo servizo",
-	"electronPdfService-article-notfound-text": "O servizo non puido resolver a ligazón especificada."
+	"electronPdfService-invalid-page-title": "Páxina non válida",
+	"electronPdfService-invalid-page-text": "A páxina especificada non é válida.",
+	"electronPdfService-page-notfound-title": "Páxina non atopada polo servizo",
+	"electronPdfService-page-notfound-text": "O servizo non puido resolver a ligazón especificada."
 }

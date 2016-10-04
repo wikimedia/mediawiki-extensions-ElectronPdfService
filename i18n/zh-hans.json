@@ -8,8 +8,8 @@
 	"electronPdfService-desc": "通过电子PDF服务，添加基于浏览器的PDF渲染支持",
 	"electronPdfService-sidebar-portlet-heading": "打印",
 	"electronPdfService-sidebar-portlet-print-text": "打印为PDF",
-	"electronPdfService-invalid-article-title": "无效页面",
-	"electronPdfService-invalid-article-text": "指定的页面无效。",
-	"electronPdfService-article-notfound-title": "服务找不到页面",
-	"electronPdfService-article-notfound-text": "服务无法解决特定链接。"
+	"electronPdfService-invalid-page-title": "无效页面",
+	"electronPdfService-invalid-page-text": "指定的页面无效。",
+	"electronPdfService-page-notfound-title": "服务找不到页面",
+	"electronPdfService-page-notfound-text": "服务无法解决特定链接。"
 }

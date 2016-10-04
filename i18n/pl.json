@@ -5,6 +5,6 @@
 		]
 	},
 	"electronPdfService-sidebar-portlet-heading": "Drukuj",
-	"electronPdfService-invalid-article-title": "Nieprawidłowa strona",
-	"electronPdfService-invalid-article-text": "Podana strona nie jest poprawna."
+	"electronPdfService-invalid-page-title": "Nieprawidłowa strona",
+	"electronPdfService-invalid-page-text": "Podana strona nie jest poprawna."
 }

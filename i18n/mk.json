@@ -8,8 +8,8 @@
 	"electronPdfService-desc": "Додава прелистувачка поддршка за испис на PDF преку службата Electron PDF",
 	"electronPdfService-sidebar-portlet-heading": "Печати",
 	"electronPdfService-sidebar-portlet-print-text": "Испечати PDF",
-	"electronPdfService-invalid-article-title": "Неважечка страница",
-	"electronPdfService-invalid-article-text": "Наведената страница е неважечка.",
-	"electronPdfService-article-notfound-title": "Службата не ја пронајде страницата.",
-	"electronPdfService-article-notfound-text": "Службата не успеа да ја разреши укажаната врска."
+	"electronPdfService-invalid-page-title": "Неважечка страница",
+	"electronPdfService-invalid-page-text": "Наведената страница е неважечка.",
+	"electronPdfService-page-notfound-title": "Службата не ја пронајде страницата.",
+	"electronPdfService-page-notfound-text": "Службата не успеа да ја разреши укажаната врска."
 }
