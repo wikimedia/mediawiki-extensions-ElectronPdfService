@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "Amiesta encontu pa la renderización de PDF nel navegador col serviciu Electron PDF",
+	"electronPdfService-sidebar-portlet-heading": "Imprentar",
+	"electronPdfService-sidebar-portlet-print-text": "Imprentar PDF",
+	"electronPdfService-invalid-page-title": "Páxina inválida",
+	"electronPdfService-invalid-page-text": "La páxina especificada nun ye válida.",
+	"electronPdfService-page-notfound-title": "El serviciu nun alcontró la páxina",
+	"electronPdfService-page-notfound-text": "El serviciu nun pudo resolver l'enllaz dau."
+}
