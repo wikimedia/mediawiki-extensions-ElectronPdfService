@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe"
+		]
+	},
+	"electronPdfService-sidebar-portlet-heading": "Imprimir",
+	"electronPdfService-sidebar-portlet-print-text": "Imprimir PDF",
+	"electronPdfService-invalid-page-title": "Página no válida",
+	"electronPdfService-invalid-page-text": "La página especificada no es válida.",
+	"electronPdfService-page-notfound-title": "El servicio no encontró la página",
+	"electronPdfService-page-notfound-text": "El servicio no pudo resolver el enlace especificado."
+}
