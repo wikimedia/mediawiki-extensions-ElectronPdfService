@@ -45,6 +45,35 @@
 			],
 			"messages": [],
 			"dependencies": []
+		},
+		"ext.ElectronPdfService.special": {
+			"scripts": [
+				"modules/ext.ElectronPdfService.special.js"
+			],
+			"styles": [
+				"modules/ext.ElectronPdfService.special.css"
+			],
+			"dependencies": [
+				"ext.ElectronPdfService.special.selectionImages"
+			]
+		},
+		"ext.ElectronPdfService.special.selectionImages": {
+			"class": "ResourceLoaderImageModule",
+			"selector": ".mw-electronPdfService-selection-{name}",
+			"images": {
+				"single-column-image": {
+					"file": {
+						"ltr": "resources/selection-single-col-ltr.svg",
+						"rtl": "resources/selection-single-col-rtl.svg"
+					}
+				},
+				"two-column-image": {
+					"file": {
+						"ltr": "resources/selection-two-col-ltr.svg",
+						"rtl": "resources/selection-two-col-rtl.svg"
+					}
+				}
+			}
 		}
 	},
 	"ResourceFileModulePaths": {

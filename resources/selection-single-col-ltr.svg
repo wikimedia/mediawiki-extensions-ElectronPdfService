@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="85" height="101" viewBox="0 0 85 101" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>
+        Group 4
+    </title>
+    <defs>
+        <rect id="path-1" width="79" height="95" rx="2"/>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.213881341 0" in="shadowBlurOuter1"/>
+        </filter>
+    </defs>
+    <g id="Page-1" fill="none" fill-rule="evenodd">
+        <g id="tools-explained-copy-2" transform="translate(-518 -290)">
+            <g id="Group-8" transform="translate(504 276)">
+                <g id="Group-3" transform="translate(17 16)">
+                    <g id="Group-4">
+                        <g id="Rectangle-3">
+                            <use fill="#000" filter="url(#filter-2)" xlink:href="#path-1"/>
+                            <use fill="#FFF" xlink:href="#path-1"/>
+                        </g>
+                        <g id="Group-2" opacity=".8" transform="translate(7 19)" fill="#C8CCD1">
+                            <path id="Rectangle-5-Copy" d="M0 11h65v2H0z"/>
+                            <path id="Rectangle-5-Copy-2" d="M0 17h65v2H0z"/>
+                            <path id="Rectangle-5-Copy-3" d="M0 23h65v2H0z"/>
+                            <path id="Rectangle-5-Copy-16" d="M0 59h65v2H0z"/>
+                            <path id="Rectangle-5-Copy-19" d="M0 65h65v2H0z"/>
+                            <path id="Rectangle-5-Copy-15" opacity=".5" d="M0 29h65v26H0z"/>
+                            <path id="Rectangle-5" d="M1 0h39v5H1z"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

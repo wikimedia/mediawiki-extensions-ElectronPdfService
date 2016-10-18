@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="101" viewBox="0 0 85 101" id="svg2">
+    <title id="title4">
+        Group 4
+    </title>
+    <defs id="defs6">
+        <rect id="path-1" width="79" height="95" rx="2"/>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1" id="feOffset10"/>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1" id="feGaussianBlur12"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.213881341 0" in="shadowBlurOuter1" id="feColorMatrix14"/>
+        </filter>
+    </defs>
+    <g id="Page-1" transform="matrix(-1 0 0 1 85 0)" fill="none" fill-rule="evenodd">
+        <g id="tools-explained-copy-2" transform="translate(-518 -290)">
+            <g id="Group-8" transform="translate(504 276)">
+                <g id="Group-3" transform="translate(17 16)">
+                    <g id="Group-4">
+                        <g id="Rectangle-3">
+                            <use xlink:href="#path-1" id="use22" width="100%" height="100%" fill="#000" filter="url(#filter-2)"/>
+                            <use xlink:href="#path-1" id="use24" width="100%" height="100%" fill="#fff"/>
+                        </g>
+                        <g id="Group-2" transform="translate(7 19)" opacity=".8" fill="#c8ccd1">
+                            <path id="Rectangle-5-Copy" d="M0 11h65v2H0z"/>
+                            <path id="Rectangle-5-Copy-2" d="M0 17h65v2H0z"/>
+                            <path id="Rectangle-5-Copy-3" d="M0 23h65v2H0z"/>
+                            <path id="Rectangle-5-Copy-16" d="M0 59h65v2H0z"/>
+                            <path id="Rectangle-5-Copy-19" d="M0 65h65v2H0z"/>
+                            <path id="Rectangle-5-Copy-15" d="M0 29h65v26H0z" opacity=".5"/>
+                            <path id="Rectangle-5" d="M1 0h39v5H1z"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

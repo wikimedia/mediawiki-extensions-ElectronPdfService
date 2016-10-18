@@ -27,10 +27,7 @@ class SpecialElectronPdf extends SpecialPage {
 		$request = $this->getRequest();
 		$parts = ( $subPage === '' ) ? [] : explode( '/', $subPage, 2 );
 		$page = trim( $request->getVal( 'page', isset( $parts[0] ) ? $parts[0] : '' ) );
-		$this->renderAndShowPdf( $page );
-	}
 
-	public function renderAndShowPdf( $page ) {
 		$title = Title::newFromText( $page );
 		if ( $title === null ) {
 			$this->getOutput()->showErrorPage(
@@ -40,6 +37,80 @@ class SpecialElectronPdf extends SpecialPage {
 			return;
 		}
 
+		// TODO: build a propper switch here and consider input if a method was selected
+
+		$this->showRenderModeSelectionPage( $title );
+		// $this->renderAndShowPdf( $title, $page );
+	}
+
+	public function showRenderModeSelectionPage( Title $title ) {
+		$this->setHeaders();
+
+		$out = $this->getOutput();
+		$out->enableOOUI();
+		$out->setPageTitle( $this->msg( 'electronPdfService-special-page-headline' )->text() );
+		$out->addSubtitle( $title->getText() );
+
+		$form = new OOUI\FormLayout( [
+			'method' => 'POST',
+			'action' => '',
+		] );
+
+		$form->addClasses( [ 'mw-electronPdfService-selection-form' ] );
+
+		$form->appendContent(
+			( new OOUI\Tag() )
+				->addClasses( [ 'mw-electronPdfService-selection-header' ] )
+				->appendContent( $this->msg( 'electronPdfService-select-layout-header' )->text() ),
+			( new OOUI\Tag() )
+				->addClasses( [ 'mw-electronPdfService-selection-body' ] )
+				->appendContent(
+					$this->getLabeledOptionField( 'single', true ),
+					$this->getLabeledOptionField( 'two' ),
+					new OOUI\ButtonGroupWidget( [
+						'items' => [
+							new OOUI\ButtonInputWidget( [
+								'type' => 'submit',
+								'name' => 'continue',
+								'value' => 'go',
+								'flags' => [ 'primary', 'progressive' ],
+								'label' => $this->msg( 'electronPdfService-download-button' )->text(),
+							] ),
+						],
+					] )
+				)
+		);
+
+		$out->addHTML( $form );
+	}
+
+	private function getLabeledOptionField( $name, $selected = false ) {
+		$image = ( new OOUI\Tag() )->addClasses( [
+			'mw-electronPdfService-selection-image',
+			'mw-electronPdfService-selection-' . $name . '-column-image'
+		] );
+
+		$field = ( new OOUI\Tag() )->addClasses( [ 'mw-electronPdfService-selection-field' ] );
+		$field->appendContent(
+			new OOUI\RadioInputWidget( [
+				'name' => 'column-type',
+				'value' => $name,
+				'selected' => $selected
+			] ),
+			( new OOUI\Tag( 'b' ) )->addClasses( [ 'mw-electronPdfService-selection-label-text' ] )
+				->appendContent( $this->msg( 'electronPdfService-' . $name . '-column-label' )->text() ),
+			( new OOUI\Tag() )->addClasses( [ 'mw-electronPdfService-selection-label-desc' ] )
+				->appendContent( $this->msg( 'electronPdfService-' . $name . '-column-desc' )->text() )
+		);
+
+		$labelBox = ( new OOUI\Tag( 'label' ) )->appendContent(
+			$image,
+			$field
+		);
+		return $labelBox;
+	}
+
+	public function renderAndShowPdf( Title $title, $page ) {
 		$this->tempFile = tmpfile();
 
 		$request = MWHttpRequest::factory( $this->constructServiceUrl( $title ) );
@@ -59,6 +130,21 @@ class SpecialElectronPdf extends SpecialPage {
 
 	public function writeToTempFile( $res, $content ) {
 		return fwrite( $this->tempFile, $content );
+	}
+
+	public function setHeaders() {
+		parent::setHeaders();
+		$this->addModules();
+	}
+
+	protected function addModules() {
+		$out = $this->getOutput();
+		$rl = $out->getResourceLoader();
+		$specialModuleName = 'ext.ElectronPdfService.special';
+
+		if ( $rl->isModuleRegistered( $specialModuleName ) ) {
+			$out->addModules( $specialModuleName );
+		}
 	}
 
 	private function constructServiceUrl( Title $title ) {

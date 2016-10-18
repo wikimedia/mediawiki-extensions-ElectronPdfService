@@ -1,0 +1,75 @@
+.mw-electronPdfService-selection-header {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+.mw-electronPdfService-selection-body {
+    display: inline-block;
+}
+
+.mw-electronPdfService-selection-image {
+    /* size of the used svgs */
+    width: 85px;
+    height: 101px;
+}
+
+.mw-electronPdfService-selection-label-text {
+    font-size: 13px;
+}
+
+.mw-electronPdfService-selection-label-desc {
+    font-size: 12px;
+}
+
+.mw-electronPdfService-selection-form label {
+    display: table-cell;
+    border: 1px solid #c8ccd1;
+    padding: 15px;
+}
+
+.mw-electronPdfService-selection-form  input[type="radio"]:checked ~ b {
+    border: 1px solid blue;
+}
+
+.mw-electronPdfService-selection-form label {
+    border: 1px solid #c8ccd1;
+    padding: 15px;
+    color: #545454
+}
+
+.mw-electronPdfService-selection-field {
+    padding-left:20px;
+}
+
+.mw-electronPdfService-selection-field, .mw-electronPdfService-selection-image {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.mw-electronPdfService-selection-form .oo-ui-radioInputWidget {
+    margin-bottom: 5px;
+}
+
+/* normally there is no OOUI check icon for the radio box */
+.mw-electronPdfService-selection-form .oo-ui-radioInputWidget [type="radio"]:checked + span {
+    /* Hardcoded this to avoid adding the class with JS. SVG data optimized and taken from:
+    https://doc.wikimedia.org/oojs-ui/master/demos/dist/themes/mediawiki/images/icons/check-invert.svg */
+    /* @embed */
+    background-image:linear-gradient(transparent, transparent),url(../resources/icons/check-invert.svg);
+    background-size: 150%;
+    background-position: center;
+    background-color: #36c;
+    border-color: #36c;
+}
+
+label.mw-electronPdfService-selection-form-selected {
+    background-color: #eaf3ff;
+    border: 1px solid #36c;
+}
+
+.mw-electronPdfService-selection-form .oo-ui-buttonGroupWidget {
+    display: block;
+    margin-top: 15px;
+    text-align: right;
+}
