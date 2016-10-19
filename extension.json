@@ -35,17 +35,6 @@
 		]
 	},
 	"ResourceModules": {
-		"ext.ElectronPdfService.init": {
-			"scripts": [
-				"modules/ext.ElectronPdfService.js",
-				"modules/ext.ElectronPdfService.init.js"
-			],
-			"styles": [
-				"modules/ext.ElectronPdfService.css"
-			],
-			"messages": [],
-			"dependencies": []
-		},
 		"ext.ElectronPdfService.special": {
 			"scripts": [
 				"modules/ext.ElectronPdfService.special.js"
