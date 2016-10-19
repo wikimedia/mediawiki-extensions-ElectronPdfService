@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "Додає браузерну підтримку обробки PDF через сервіс Electron PDF",
+	"electronPdfService-sidebar-portlet-heading": "Друк",
+	"electronPdfService-sidebar-portlet-print-text": "Друк PDF",
+	"electronPdfService-invalid-page-title": "Недійсна сторінка",
+	"electronPdfService-invalid-page-text": "Вказана сторінка недійсна.",
+	"electronPdfService-page-notfound-title": "Служба не змогла знайти сторінку",
+	"electronPdfService-page-notfound-text": "Служба не змогла опрацювати вказане посилання."
+}
