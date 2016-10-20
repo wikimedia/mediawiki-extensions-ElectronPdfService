@@ -27,36 +27,6 @@ class ElectronPdfServiceHooks {
 					[ 'page' => $title->getPrefixedText() ]
 				)
 			];
-
-			// find the element for the print version and override it with the link to our SpecialPage
-			foreach ( $bar['coll-print_export'] as $index => $element ) {
-				if ( $element['id'] === 't-print' ) {
-					$bar['coll-print_export'][$index]['href'] = $specialPageTitle->getLocalURL(
-						[ 'page' => $title->getPrefixedText() ]
-					);
-				}
-			}
-		}
-
-		return true;
-	}
-
-	public static function onBuildNavUrls( Skin $skin, &$navUrls ) {
-		$title = $skin->getTitle();
-		if ( is_null( $title ) || !$title->exists() ) {
-			return false;
-		}
-
-		$specialPageTitle = SpecialPage::getTitleFor( 'ElectronPdf' );
-
-		// if there's an element for a print version, override it with the link to our SpecialPage
-		if ( array_key_exists( 'print', $navUrls ) && $navUrls['print'] !== false ) {
-			$navUrls['print'] = [
-				'text' => $skin->msg( 'printableversion' )->text(),
-				'href' => $specialPageTitle->getLocalURL(
-					[ 'page' => $title->getPrefixedText() ]
-				)
-			];
 		}
 
 		return true;

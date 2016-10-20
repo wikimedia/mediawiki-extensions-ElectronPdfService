@@ -27,9 +27,6 @@
 	"Hooks": {
 	  "SidebarBeforeOutput": [
 		"ElectronPdfServiceHooks::onSidebarBeforeOutput"
-	  ],
-	  "SkinTemplateBuildNavUrlsNav_urlsAfterPermalink": [
-		"ElectronPdfServiceHooks::onBuildNavUrls"
 	  ]
 	},
 	"MessagesDirs": {
