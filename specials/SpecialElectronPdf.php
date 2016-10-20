@@ -19,7 +19,7 @@ class SpecialElectronPdf extends SpecialPage {
 	public $config;
 
 	public function __construct() {
-		parent::__construct( 'ElectronPdf' );
+		parent::__construct( 'ElectronPdf', '', false );
 		$this->config = MediaWikiServices::getInstance()->getMainConfig();
 	}
 
