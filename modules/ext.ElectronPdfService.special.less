@@ -1,3 +1,5 @@
+@import 'mediawiki.mixins';
+
 .mw-electronPdfService-selection-header {
     font-weight: bold;
     font-size: 15px;
@@ -53,10 +55,9 @@
 
 /* normally there is no OOUI check icon for the radio box */
 .mw-electronPdfService-selection-form .oo-ui-radioInputWidget [type="radio"]:checked + span {
-    /* Hardcoded this to avoid adding the class with JS. SVG data optimized and taken from:
-    https://doc.wikimedia.org/oojs-ui/master/demos/dist/themes/mediawiki/images/icons/check-invert.svg */
-    /* @embed */
-    background-image:linear-gradient(transparent, transparent),url(../resources/icons/check-invert.svg);
+    /* Hardcoded this to avoid adding a class with JS. images taken from:
+    https://doc.wikimedia.org/oojs-ui/master/demos/dist/themes/mediawiki/images/icons/ */
+    .background-image-svg( '../resources/icons/check-invert.svg', '../resources/icons/check-invert.png' );
     background-size: 150%;
     background-position: center;
     background-color: #36c;
