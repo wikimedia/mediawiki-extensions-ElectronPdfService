@@ -4,6 +4,11 @@
 			"Chrumps"
 		]
 	},
+	"electronPdfService-single-column-label": "Pojedyncza kolumna",
+	"electronPdfService-two-column-label": "Dwie kolumny",
+	"electronPdfService-single-column-desc": "Zawiera tabele i szablony",
+	"electronPdfService-two-column-desc": "Bez tabel i szablonów",
+	"electronPdfService-download-button": "Pobierz",
 	"electronPdfService-sidebar-portlet-heading": "Drukuj",
 	"electronPdfService-invalid-page-title": "Nieprawidłowa strona",
 	"electronPdfService-invalid-page-text": "Podana strona nie jest poprawna."
