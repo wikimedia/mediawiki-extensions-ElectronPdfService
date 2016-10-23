@@ -1,9 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Macofe"
+			"Macofe",
+			"Fitoschido"
 		]
 	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "Permite mostrar archivos PDF en el navegador mediante el servicio Electron PDF",
+	"electronPdfService-special-page-headline": "Descargar en PDF",
+	"electronPdfService-select-layout-header": "Seleccionar disposición",
+	"electronPdfService-single-column-label": "Columna sencilla",
+	"electronPdfService-two-column-label": "Dos columnas",
+	"electronPdfService-single-column-desc": "Incluye tablas y plantillas",
+	"electronPdfService-two-column-desc": "Sin tablas ni plantillas",
+	"electronPdfService-download-button": "Descargar",
 	"electronPdfService-sidebar-portlet-heading": "Imprimir",
 	"electronPdfService-sidebar-portlet-print-text": "Imprimir PDF",
 	"electronPdfService-invalid-page-title": "Página no válida",
