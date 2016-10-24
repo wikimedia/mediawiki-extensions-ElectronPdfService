@@ -5,8 +5,8 @@
 			"Beta16"
 		]
 	},
-	"electronPdfService-sidebar-portlet-heading": "Stampa",
-	"electronPdfService-sidebar-portlet-print-text": "Stampa PDF",
+	"electronPdfService-sidebar-portlet-heading": "Stampa/esporta",
+	"electronPdfService-sidebar-portlet-print-text": "Scarica in formato PDF",
 	"electronPdfService-invalid-page-title": "Pagina non valida",
 	"electronPdfService-invalid-page-text": "La pagina specificata non è valida.",
 	"electronPdfService-page-notfound-title": "Pagina non trovata dal servizio",

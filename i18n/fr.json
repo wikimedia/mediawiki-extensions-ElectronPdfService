@@ -1,13 +1,21 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Wladek92"
 		]
 	},
 	"electronPdfService": "ElectronPdfService",
 	"electronPdfService-desc": "Ajoute un support de rendu PDF basé sur le navigateur via le service PDF Electron",
-	"electronPdfService-sidebar-portlet-heading": "Imprimer",
-	"electronPdfService-sidebar-portlet-print-text": "Imprimer le PDF",
+	"electronPdfService-special-page-headline": "Télécharger en PDF",
+	"electronPdfService-select-layout-header": "Sélectionner une mise en page",
+	"electronPdfService-single-column-label": "Colonne simple",
+	"electronPdfService-two-column-label": "Deux colonnes",
+	"electronPdfService-single-column-desc": "Inclut les tableaux et les modèles",
+	"electronPdfService-two-column-desc": "Sans tableaux ni modèles",
+	"electronPdfService-download-button": "Télécharger",
+	"electronPdfService-sidebar-portlet-heading": "Imprimer / exporter",
+	"electronPdfService-sidebar-portlet-print-text": "Télécharger en PDF",
 	"electronPdfService-invalid-page-title": "Page non valide",
 	"electronPdfService-invalid-page-text": "La page spécifiée n’est pas valide",
 	"electronPdfService-page-notfound-title": "Page non trouvée par le service",
