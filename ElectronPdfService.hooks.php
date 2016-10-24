@@ -27,7 +27,12 @@ class ElectronPdfServiceHooks {
 			return false;
 		}
 
-		if ( $config->has( 'CollectionFormats' ) ) {
+		$action = Action::getActionName( $skin );
+		if ( $action !== 'view' && $action !== 'purge' ) {
+			return false;
+		}
+
+		if ( $config->has( 'CollectionFormats' ) && array_key_exists( 'coll-print_export', $bar ) ) {
 			$index = self::getIndexOfDownloadPdfSidebarItem(
 				$bar['coll-print_export'],
 				$config->get( 'CollectionFormats' )
