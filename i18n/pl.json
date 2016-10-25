@@ -9,7 +9,7 @@
 	"electronPdfService-single-column-desc": "Zawiera tabele i szablony",
 	"electronPdfService-two-column-desc": "Bez tabel i szablonów",
 	"electronPdfService-download-button": "Pobierz",
-	"electronPdfService-sidebar-portlet-heading": "Drukuj",
+	"electronPdfService-sidebar-portlet-heading": "Drukuj lub eksportuj",
 	"electronPdfService-sidebar-portlet-print-text": "Pobierz jako PDF",
 	"electronPdfService-invalid-page-title": "Nieprawidłowa strona",
 	"electronPdfService-invalid-page-text": "Podana strona nie jest poprawna."
