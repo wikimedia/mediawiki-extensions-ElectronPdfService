@@ -16,7 +16,7 @@
 	"electronPdfService-single-column-desc": "Short description for the single column option.",
 	"electronPdfService-two-column-desc": "Short description for the two column option.",
 	"electronPdfService-download-button": "Label for the download button.\n{{Identical|Download}}",
-	"electronPdfService-sidebar-portlet-heading": "Title of the portlet in which the link is shown.\n{{Identical|Print}}",
+	"electronPdfService-sidebar-portlet-heading": "Title of the portlet in which the link is shown.\n\n{{Identical|Print/Export}}",
 	"electronPdfService-sidebar-portlet-print-text": "Text of print-pdf-link in sidebar.",
 	"electronPdfService-invalid-page-title": "Used as title for the error message when specified page was not a valid article.",
 	"electronPdfService-invalid-page-text": "Used as error message when specified page was not a valid article.",
