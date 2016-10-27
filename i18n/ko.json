@@ -11,8 +11,8 @@
 	"electronPdfService-single-column-desc": "표와 틀을 포함하여",
 	"electronPdfService-two-column-desc": "표와 틀 없이",
 	"electronPdfService-download-button": "다운로드",
-	"electronPdfService-sidebar-portlet-heading": "인쇄",
-	"electronPdfService-sidebar-portlet-print-text": "PDF 인쇄",
+	"electronPdfService-sidebar-portlet-heading": "인쇄/내보내기",
+	"electronPdfService-sidebar-portlet-print-text": "PDF로 다운로드",
 	"electronPdfService-invalid-page-title": "잘못된 페이지",
 	"electronPdfService-invalid-page-text": "지정한 문서가 올바르지 않습니다."
 }
