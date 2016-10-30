@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hex"
+		]
+	},
+	"electronPdfService-special-page-headline": "Als PDF downloaden",
+	"electronPdfService-single-column-label": "Enkele kolom",
+	"electronPdfService-two-column-label": "Twee kolommen",
+	"electronPdfService-sidebar-portlet-heading": "Afdrukken/exporteren",
+	"electronPdfService-sidebar-portlet-print-text": "Als PDF downloaden"
+}
