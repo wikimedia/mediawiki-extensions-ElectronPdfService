@@ -8,9 +8,10 @@
 	"electronPdfService-select-layout-header": "Välj en layout",
 	"electronPdfService-single-column-label": "En kolumn",
 	"electronPdfService-two-column-label": "Två kolumner",
+	"electronPdfService-single-column-desc": "Inkluderar tabeller och mallar",
 	"electronPdfService-two-column-desc": "Utan tabeller och mallar",
 	"electronPdfService-download-button": "Ladda ned",
-	"electronPdfService-sidebar-portlet-heading": "Skriv ut",
-	"electronPdfService-sidebar-portlet-print-text": "Skriv ut PDF",
+	"electronPdfService-sidebar-portlet-heading": "Skriv ut/exportera",
+	"electronPdfService-sidebar-portlet-print-text": "Ladda ned som PDF",
 	"electronPdfService-invalid-page-title": "Ogiltig sida"
 }
