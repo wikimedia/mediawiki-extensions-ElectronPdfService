@@ -94,7 +94,7 @@ class ElectronPdfServiceHooks {
 			[
 				'page' => $title->getPrefixedText(),
 				'action' => 'show-selection-screen',
-				'coll-download-url' => urlencode( $collectionUrl )
+				'coll-download-url' => $collectionUrl
 			]
 		);
 	}
