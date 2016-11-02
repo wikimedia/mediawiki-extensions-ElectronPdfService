@@ -46,6 +46,7 @@ class SpecialElectronPdf extends SpecialPage {
 				return;
 			case 'redirect-to-collection':
 				$this->redirectToCollection( $collectionDownloadUrl );
+				return;
 			default:
 				$this->showRenderModeSelectionPage( $title, $collectionDownloadUrl );
 		}
