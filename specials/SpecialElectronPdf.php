@@ -10,11 +10,11 @@ use MediaWiki\MediaWikiServices;
 
 class SpecialElectronPdf extends SpecialPage {
 	/**
-	 * @var $tempFile
+	 * @var $tempFileHandle
 	 *
 	 * Temporary file the PDF will be written to
 	 */
-	public $tempFile;
+	public $tempFileHandle;
 
 	public $config;
 
@@ -132,7 +132,8 @@ class SpecialElectronPdf extends SpecialPage {
 	}
 
 	public function renderAndShowPdf( Title $title ) {
-		$this->tempFile = tmpfile();
+		$tempFile = TempFSFile::factory( 'electron_', 'pdf' );
+		$this->tempFileHandle = fopen( $tempFile->getPath(), 'w+' );
 
 		$request = MWHttpRequest::factory( $this->constructServiceUrl( $title ) );
 		$request->setCallback( [ $this, 'writeToTempFile' ] );
@@ -146,11 +147,13 @@ class SpecialElectronPdf extends SpecialPage {
 			);
 		}
 
+		fclose( $this->tempFileHandle );
+		$tempFile->purge();
 		return;
 	}
 
 	public function writeToTempFile( $res, $content ) {
-		return fwrite( $this->tempFile, $content );
+		return fwrite( $this->tempFileHandle, $content );
 	}
 
 	public function setHeaders() {
@@ -188,13 +191,13 @@ class SpecialElectronPdf extends SpecialPage {
 	}
 
 	private function sendPdfToOutput( $page ) {
-		$fileMetaData = stream_get_meta_data( $this->tempFile );
+		$fileMetaData = stream_get_meta_data( $this->tempFileHandle );
 		wfResetOutputBuffers();
 		header( 'Content-Type:application/pdf' );
 		header( 'Content-Length: ' . filesize( $fileMetaData['uri'] ) );
 		header( 'Content-Disposition: inline; filename=' . $page . '.pdf' );
-		fseek( $this->tempFile, 0 );
-		fpassthru( $this->tempFile );
+		fseek( $this->tempFileHandle, 0 );
+		fpassthru( $this->tempFileHandle );
 		$this->getOutput()->disable();
 	}
 
