@@ -24,12 +24,12 @@ class ElectronPdfServiceHooks {
 		$config = MediaWikiServices::getInstance()->getMainConfig();
 		$title = $skin->getTitle();
 		if ( is_null( $title ) || !$title->exists() ) {
-			return false;
+			return true;
 		}
 
 		$action = Action::getActionName( $skin );
 		if ( $action !== 'view' && $action !== 'purge' ) {
-			return false;
+			return true;
 		}
 
 		if ( $config->has( 'CollectionFormats' ) && array_key_exists( 'coll-print_export', $bar ) ) {
