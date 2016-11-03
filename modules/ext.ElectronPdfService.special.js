@@ -1,4 +1,4 @@
-( function () {
+$( function () {
 	function setSelected( $element ) {
 		$( '.mw-electronPdfService-selection-form label' ).removeClass( 'mw-electronPdfService-selection-form-selected' );
 		$element.closest( 'label' ).addClass( 'mw-electronPdfService-selection-form-selected' );
