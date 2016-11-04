@@ -133,6 +133,13 @@ class SpecialElectronPdf extends SpecialPage {
 	}
 
 	public function renderAndShowPdf( Title $title ) {
+		if ( !$this->getRequest()->checkUrlExtension() ) {
+			$this->getOutput()->showErrorPage(
+				'electronPdfService-page-notfound-title',
+				'electronPdfService-page-notfound-text'
+			);
+			return;
+		}
 		$tempFile = TempFSFile::factory( 'electron_', 'pdf' );
 		$this->tempFileHandle = fopen( $tempFile->getPath(), 'w+' );
 
