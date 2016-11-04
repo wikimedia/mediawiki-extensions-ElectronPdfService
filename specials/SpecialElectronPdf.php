@@ -147,7 +147,7 @@ class SpecialElectronPdf extends SpecialPage {
 		$request->setCallback( [ $this, 'writeToTempFile' ] );
 
 		if ( $request->execute()->isOK() ) {
-			$this->sendPdfToOutput( $title->getText() );
+			$this->sendPdfToOutput( $title->getPrefixedText() );
 		} else {
 			$this->getOutput()->showErrorPage(
 				'electronPdfService-page-notfound-title',
@@ -200,10 +200,11 @@ class SpecialElectronPdf extends SpecialPage {
 
 	private function sendPdfToOutput( $page ) {
 		$fileMetaData = stream_get_meta_data( $this->tempFileHandle );
+		$contentDisposition = FileBackend::makeContentDisposition( 'inline', $page . '.pdf' );
 		wfResetOutputBuffers();
 		header( 'Content-Type:application/pdf' );
 		header( 'Content-Length: ' . filesize( $fileMetaData['uri'] ) );
-		header( 'Content-Disposition: inline; filename=' . $page . '.pdf' );
+		header( 'Content-Disposition: ' . $contentDisposition );
 		fseek( $this->tempFileHandle, 0 );
 		fpassthru( $this->tempFileHandle );
 		$this->getOutput()->disable();
