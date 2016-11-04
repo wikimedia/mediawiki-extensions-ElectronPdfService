@@ -201,13 +201,14 @@ class SpecialElectronPdf extends SpecialPage {
 	private function sendPdfToOutput( $page ) {
 		$fileMetaData = stream_get_meta_data( $this->tempFileHandle );
 		$contentDisposition = FileBackend::makeContentDisposition( 'inline', $page . '.pdf' );
-		wfResetOutputBuffers();
-		header( 'Content-Type:application/pdf' );
-		header( 'Content-Length: ' . filesize( $fileMetaData['uri'] ) );
-		header( 'Content-Disposition: ' . $contentDisposition );
-		fseek( $this->tempFileHandle, 0 );
-		fpassthru( $this->tempFileHandle );
-		$this->getOutput()->disable();
+
+		$headers = [
+			'Content-Type:application/pdf',
+			'Content-Length: ' . filesize( $fileMetaData['uri'] ),
+			'Content-Disposition: ' . $contentDisposition
+		];
+
+		StreamFile::stream( $fileMetaData['uri'], $headers );
 	}
 
 	private function redirectToCollection( $collectionDownloadUrl ) {
