@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Hamilton Abreu"
 		]
 	},
 	"electronPdfService": "ElectronPdfService",
@@ -10,8 +11,8 @@
 	"electronPdfService-select-layout-header": "Selecione um modelo",
 	"electronPdfService-single-column-label": "Coluna única",
 	"electronPdfService-two-column-label": "Duas colunas",
-	"electronPdfService-single-column-desc": "Inclui tabelas e predefinições",
-	"electronPdfService-two-column-desc": "Sem tabelas e predefinições",
+	"electronPdfService-single-column-desc": "Inclui tabelas e caixas informativas",
+	"electronPdfService-two-column-desc": "Sem tabelas e caixas informativas",
 	"electronPdfService-download-button": "Descarregar",
 	"electronPdfService-sidebar-portlet-heading": "Imprimir/exportar",
 	"electronPdfService-sidebar-portlet-print-text": "Descarregar como PDF",
