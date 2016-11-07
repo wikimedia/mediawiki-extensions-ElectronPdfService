@@ -16,6 +16,13 @@ class SpecialElectronPdf extends SpecialPage {
 	 */
 	public $tempFileHandle;
 
+	/**
+	 * @var int $totalBytesWritten
+	 *
+	 * Variable to keep track of total number of bytes written to the temporary file
+	 */
+	public $totalBytesWritten;
+
 	public $config;
 
 	public function __construct() {
@@ -142,6 +149,7 @@ class SpecialElectronPdf extends SpecialPage {
 		}
 		$tempFile = TempFSFile::factory( 'electron_', 'pdf' );
 		$this->tempFileHandle = fopen( $tempFile->getPath(), 'w+' );
+		$this->totalBytesWritten = 0;
 
 		$request = MWHttpRequest::factory( $this->constructServiceUrl( $title ) );
 		$request->setCallback( [ $this, 'writeToTempFile' ] );
@@ -161,7 +169,20 @@ class SpecialElectronPdf extends SpecialPage {
 	}
 
 	public function writeToTempFile( $res, $content ) {
-		return fwrite( $this->tempFileHandle, $content );
+		$maxDocumentSize = $this->config->get( 'ElectronPdfServiceMaxDocumentSize' );
+		$bytes = fwrite( $this->tempFileHandle, $content, $maxDocumentSize );
+
+		if ( $bytes === false ) {
+			return false;
+		}
+
+		$this->totalBytesWritten += $bytes;
+
+		if ( $this->totalBytesWritten > $maxDocumentSize ) {
+			return false;
+		}
+
+		return $bytes;
 	}
 
 	public function setHeaders() {
