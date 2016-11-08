@@ -8,6 +8,7 @@
 	"electronPdfService-select-layout-header": "Выберите макет",
 	"electronPdfService-single-column-label": "Один столбец",
 	"electronPdfService-two-column-label": "Два столбца",
+	"electronPdfService-single-column-desc": "Включает в себя таблицы и карточки",
 	"electronPdfService-two-column-desc": "Без таблиц и шаблонов",
 	"electronPdfService-download-button": "Скачать",
 	"electronPdfService-sidebar-portlet-heading": "Печать/экспорт",
