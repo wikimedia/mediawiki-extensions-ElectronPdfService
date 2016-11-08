@@ -19,7 +19,8 @@
 			"format":"pdf",
 			"key":"secret",
 			"pageUrl":""
-		}
+		},
+	 	"ElectronPdfServiceMaxDocumentSize": 1024000000
 	},
 	"ExtensionMessagesFiles": {
 		"ElectronPdfServiceAlias": "ElectronPdfService.i18n.alias.php"
