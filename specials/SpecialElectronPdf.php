@@ -23,6 +23,9 @@ class SpecialElectronPdf extends SpecialPage {
 	 */
 	public $totalBytesWritten;
 
+	/**
+	 * @var Config $config
+	 */
 	public $config;
 
 	public function __construct() {
@@ -30,6 +33,9 @@ class SpecialElectronPdf extends SpecialPage {
 		$this->config = MediaWikiServices::getInstance()->getMainConfig();
 	}
 
+	/**
+	 * @param null|string $subPage
+	 */
 	public function execute( $subPage ) {
 		$request = $this->getRequest();
 		$parts = ( $subPage === '' ) ? [] : explode( '/', $subPage, 2 );
@@ -59,6 +65,10 @@ class SpecialElectronPdf extends SpecialPage {
 		}
 	}
 
+	/**
+	 * @param Title $title page to download as PDF
+	 * @param string $collectionDownloadUrl URL to the download page of the Collection extension
+	 */
 	public function showRenderModeSelectionPage( Title $title, $collectionDownloadUrl ) {
 		$this->setHeaders();
 
@@ -100,6 +110,12 @@ class SpecialElectronPdf extends SpecialPage {
 		$out->addHTML( $form );
 	}
 
+	/**
+	 * @param string $action
+	 * @param string $name
+	 * @param boolean $selected
+	 * @return OOUI\Tag
+	 */
 	private function getLabeledOptionField( $action, $name, $selected = false ) {
 		$image = ( new OOUI\Tag() )->addClasses( [
 			'mw-electronPdfService-selection-image',
@@ -126,6 +142,11 @@ class SpecialElectronPdf extends SpecialPage {
 		return $labelBox;
 	}
 
+	/**
+	 * @param string $name
+	 * @param string $value
+	 * @return OOUI\Tag
+	 */
 	private function getHiddenField( $name, $value ) {
 		$element = new OOUI\Tag( 'input' );
 		$element->setAttributes(
@@ -139,6 +160,9 @@ class SpecialElectronPdf extends SpecialPage {
 		return $element;
 	}
 
+	/**
+	 * @param Title $title page to download as PDF
+	 */
 	public function renderAndShowPdf( Title $title ) {
 		if ( !$this->getRequest()->checkUrlExtension() ) {
 			$this->getOutput()->showErrorPage(
@@ -168,18 +192,30 @@ class SpecialElectronPdf extends SpecialPage {
 		return;
 	}
 
+	/**
+	 * Callback used by the MWHttpRequest to the Electron service writing the result into a file
+	 * If writing fails or the $maxDocumentSize is reached it returns -1 to abort the HTTP fetch.
+	 *
+	 * @param resource $res
+	 * @param string $content
+	 * @return int
+	 */
 	public function writeToTempFile( $res, $content ) {
 		$maxDocumentSize = $this->config->get( 'ElectronPdfServiceMaxDocumentSize' );
-		$bytes = fwrite( $this->tempFileHandle, $content, $maxDocumentSize );
+		$bytes = fwrite(
+			$this->tempFileHandle,
+			$content,
+			$maxDocumentSize - $this->totalBytesWritten + 1
+		);
 
 		if ( $bytes === false ) {
-			return false;
+			return -1;
 		}
 
 		$this->totalBytesWritten += $bytes;
 
 		if ( $this->totalBytesWritten > $maxDocumentSize ) {
-			return false;
+			return -1;
 		}
 
 		return $bytes;
@@ -200,6 +236,10 @@ class SpecialElectronPdf extends SpecialPage {
 		}
 	}
 
+	/**
+	 * @param Title $title
+	 * @return string
+	 */
 	private function constructServiceUrl( Title $title ) {
 		$electronPdfService = $this->config->get( 'ElectronPdfService' );
 
@@ -219,6 +259,9 @@ class SpecialElectronPdf extends SpecialPage {
 		return $serviceUrl;
 	}
 
+	/**
+	 * @param string $page
+	 */
 	private function sendPdfToOutput( $page ) {
 		$fileMetaData = stream_get_meta_data( $this->tempFileHandle );
 		$contentDisposition = FileBackend::makeContentDisposition( 'inline', $page . '.pdf' );
@@ -232,6 +275,9 @@ class SpecialElectronPdf extends SpecialPage {
 		StreamFile::stream( $fileMetaData['uri'], $headers );
 	}
 
+	/**
+	 * @param string $collectionDownloadUrl
+	 */
 	private function redirectToCollection( $collectionDownloadUrl ) {
 		$queryString = parse_url(
 			urldecode( $collectionDownloadUrl ),
