@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kareyac"
+			"Kareyac",
+			"Okras"
 		]
 	},
+	"electronPdfService": "ElectronPdfService",
 	"electronPdfService-special-page-headline": "Скачать как PDF",
 	"electronPdfService-select-layout-header": "Выберите макет",
 	"electronPdfService-single-column-label": "Один столбец",
