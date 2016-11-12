@@ -4,6 +4,10 @@
 			"George Animal"
 		]
 	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-special-page-headline": "Wek PDF daxe",
+	"electronPdfService-download-button": "Daxe",
 	"electronPdfService-sidebar-portlet-heading": "Çap bike",
-	"electronPdfService-sidebar-portlet-print-text": "Wek PDF çap bike"
+	"electronPdfService-sidebar-portlet-print-text": "Wek PDF daxe",
+	"electronPdfService-invalid-page-title": "Rûpela nederbasdar"
 }
