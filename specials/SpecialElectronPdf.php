@@ -53,7 +53,11 @@ class SpecialElectronPdf extends SpecialPage {
 			return;
 		}
 
-		switch ( $request->getVal( 'action', '' ) ) {
+		$action = $request->getVal( 'action', 'default' );
+		$stats = MediaWikiServices::getInstance()->getStatsdDataFactory();
+		$stats->increment( 'electronpdf.action.' . $action );
+
+		switch ( $action ) {
 			case 'download-electron-pdf':
 				$this->renderAndShowPdf( $title );
 				return;
