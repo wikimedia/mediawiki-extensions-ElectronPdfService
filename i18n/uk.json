@@ -16,7 +16,5 @@
 	"electronPdfService-sidebar-portlet-heading": "Друк/експорт",
 	"electronPdfService-sidebar-portlet-print-text": "Завантажити як PDF",
 	"electronPdfService-invalid-page-title": "Недійсна сторінка",
-	"electronPdfService-invalid-page-text": "Вказана сторінка недійсна.",
-	"electronPdfService-page-notfound-title": "Служба не змогла знайти сторінку",
-	"electronPdfService-page-notfound-text": "Служба не змогла опрацювати вказане посилання."
+	"electronPdfService-invalid-page-text": "Вказана сторінка недійсна."
 }
