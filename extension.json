@@ -14,13 +14,7 @@
 		"SpecialElectronPdf": "specials/SpecialElectronPdf.php"
 	},
 	"config": {
-		"ElectronPdfService": {
-			"serviceUrl":"https://pdf-electron.wmflabs.org",
-			"format":"pdf",
-			"key":"secret",
-			"pageUrl":""
-		},
-	 	"ElectronPdfServiceMaxDocumentSize": 1073741824
+		"ElectronPdfServiceRESTbaseURL": "/api/rest_v1/page/pdf/"
 	},
 	"ExtensionMessagesFiles": {
 		"ElectronPdfServiceAlias": "ElectronPdfService.i18n.alias.php"

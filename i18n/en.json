@@ -16,7 +16,5 @@
 	"electronPdfService-sidebar-portlet-heading": "Print/export",
 	"electronPdfService-sidebar-portlet-print-text": "Download as PDF",
 	"electronPdfService-invalid-page-title": "Invalid page",
-	"electronPdfService-invalid-page-text": "The specified page is not valid.",
-	"electronPdfService-page-notfound-title": "Page not found by service",
-	"electronPdfService-page-notfound-text": "The service was not able to resolve the specified link."
+	"electronPdfService-invalid-page-text": "The specified page is not valid."
 }

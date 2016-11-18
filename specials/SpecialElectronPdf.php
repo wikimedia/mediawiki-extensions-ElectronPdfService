@@ -9,19 +9,6 @@
 use MediaWiki\MediaWikiServices;
 
 class SpecialElectronPdf extends SpecialPage {
-	/**
-	 * @var $tempFileHandle
-	 *
-	 * Temporary file the PDF will be written to
-	 */
-	public $tempFileHandle;
-
-	/**
-	 * @var int $totalBytesWritten
-	 *
-	 * Variable to keep track of total number of bytes written to the temporary file
-	 */
-	public $totalBytesWritten;
 
 	/**
 	 * @var Config $config
@@ -58,8 +45,8 @@ class SpecialElectronPdf extends SpecialPage {
 		$stats->increment( 'electronpdf.action.' . $action );
 
 		switch ( $action ) {
-			case 'download-electron-pdf':
-				$this->renderAndShowPdf( $title );
+			case 'redirect-to-electron':
+				$this->redirectToElectron( $title );
 				return;
 			case 'redirect-to-collection':
 				$this->redirectToCollection( $collectionDownloadUrl );
@@ -95,7 +82,7 @@ class SpecialElectronPdf extends SpecialPage {
 			( new OOUI\Tag() )
 				->addClasses( [ 'mw-electronPdfService-selection-body' ] )
 				->appendContent(
-					$this->getLabeledOptionField( 'download-electron-pdf', 'single', true ),
+					$this->getLabeledOptionField( 'redirect-to-electron', 'single', true ),
 					$this->getLabeledOptionField( 'redirect-to-collection', 'two' ),
 					$this->getHiddenField( 'page', $title->getText() ),
 					$this->getHiddenField( 'coll-download-url', $collectionDownloadUrl ),
@@ -164,67 +151,6 @@ class SpecialElectronPdf extends SpecialPage {
 		return $element;
 	}
 
-	/**
-	 * @param Title $title page to download as PDF
-	 */
-	public function renderAndShowPdf( Title $title ) {
-		if ( !$this->getRequest()->checkUrlExtension() ) {
-			$this->getOutput()->showErrorPage(
-				'electronPdfService-page-notfound-title',
-				'electronPdfService-page-notfound-text'
-			);
-			return;
-		}
-		$tempFile = TempFSFile::factory( 'electron_', 'pdf' );
-		$this->tempFileHandle = fopen( $tempFile->getPath(), 'w+' );
-		$this->totalBytesWritten = 0;
-
-		$request = MWHttpRequest::factory( $this->constructServiceUrl( $title ) );
-		$request->setCallback( [ $this, 'writeToTempFile' ] );
-
-		if ( $request->execute()->isOK() ) {
-			$this->sendPdfToOutput( $title->getPrefixedText() );
-		} else {
-			$this->getOutput()->showErrorPage(
-				'electronPdfService-page-notfound-title',
-				'electronPdfService-page-notfound-text'
-			);
-		}
-
-		fclose( $this->tempFileHandle );
-		$tempFile->purge();
-		return;
-	}
-
-	/**
-	 * Callback used by the MWHttpRequest to the Electron service writing the result into a file
-	 * If writing fails or the $maxDocumentSize is reached it returns -1 to abort the HTTP fetch.
-	 *
-	 * @param resource $res
-	 * @param string $content
-	 * @return int
-	 */
-	public function writeToTempFile( $res, $content ) {
-		$maxDocumentSize = $this->config->get( 'ElectronPdfServiceMaxDocumentSize' );
-		$bytes = fwrite(
-			$this->tempFileHandle,
-			$content,
-			$maxDocumentSize - $this->totalBytesWritten + 1
-		);
-
-		if ( $bytes === false ) {
-			return -1;
-		}
-
-		$this->totalBytesWritten += $bytes;
-
-		if ( $this->totalBytesWritten > $maxDocumentSize ) {
-			return -1;
-		}
-
-		return $bytes;
-	}
-
 	public function setHeaders() {
 		parent::setHeaders();
 		$this->addModules();
@@ -244,39 +170,19 @@ class SpecialElectronPdf extends SpecialPage {
 	 * @param Title $title
 	 * @return string
 	 */
-	private function constructServiceUrl( Title $title ) {
-		$electronPdfService = $this->config->get( 'ElectronPdfService' );
+	private function getServiceUrl( Title $title ) {
+		$restBaseUrl = $this->config->get( 'ElectronPdfServiceRESTbaseURL' );
 
-		// for testing the functionality on localhost please set
-		// $wgElectronPdfService["pageUrl"] to a publicly accessible URL in your LocalSettings.php!
-		if ( !isset( $electronPdfService["pageUrl"] ) ) {
-			$pageUrl = $title->getCanonicalURL();
-		} else {
-			$pageUrl = $electronPdfService["pageUrl"];
-		}
-		$serviceUrl =
-			$electronPdfService["serviceUrl"] . '/' .
-			$electronPdfService["format"] .
-			'?accessKey=' . $electronPdfService["key"] .
-			'&url=' . urlencode( $pageUrl );
-
-		return $serviceUrl;
+		return $restBaseUrl . urlencode( $title->getPrefixedText() );
 	}
 
 	/**
-	 * @param string $page
+	 * @param Title $title
 	 */
-	private function sendPdfToOutput( $page ) {
-		$fileMetaData = stream_get_meta_data( $this->tempFileHandle );
-		$contentDisposition = FileBackend::makeContentDisposition( 'inline', $page . '.pdf' );
-
-		$headers = [
-			'Content-Type:application/pdf',
-			'Content-Length: ' . filesize( $fileMetaData['uri'] ),
-			'Content-Disposition: ' . $contentDisposition
-		];
-
-		StreamFile::stream( $fileMetaData['uri'], $headers );
+	private function redirectToElectron( Title $title ) {
+		$this->getOutput()->redirect(
+			$this->getServiceUrl( $title )
+		);
 	}
 
 	/**

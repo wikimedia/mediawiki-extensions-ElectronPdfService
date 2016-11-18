@@ -19,7 +19,5 @@
 	"electronPdfService-sidebar-portlet-heading": "Title of the portlet in which the link is shown.\n\n{{Identical|Print/Export}}",
 	"electronPdfService-sidebar-portlet-print-text": "Text of print-pdf-link in sidebar.",
 	"electronPdfService-invalid-page-title": "Used as title for the error message when specified page was not a valid article.",
-	"electronPdfService-invalid-page-text": "Used as error message when specified page was not a valid article.",
-	"electronPdfService-page-notfound-title": "Used as title for the error message when Electron service was not able to resolve the given URL to the article.",
-	"electronPdfService-page-notfound-text": "Used as error message when Electron service was not able to resolve the given URL to the article."
+	"electronPdfService-invalid-page-text": "Used as error message when specified page was not a valid article."
 }
