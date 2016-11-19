@@ -10,13 +10,11 @@
 	"electronPdfService-select-layout-header": "Escoyer disposición",
 	"electronPdfService-single-column-label": "Columna única",
 	"electronPdfService-two-column-label": "Dos columnes",
-	"electronPdfService-single-column-desc": "Inclui tables y plantiyes",
-	"electronPdfService-two-column-desc": "Ensin tables nin plantiyes",
+	"electronPdfService-single-column-desc": "Inclui tables y caxes informatives",
+	"electronPdfService-two-column-desc": "Ensin tables nin caxes informatives",
 	"electronPdfService-download-button": "Descargar",
-	"electronPdfService-sidebar-portlet-heading": "Imprentar",
-	"electronPdfService-sidebar-portlet-print-text": "Imprentar PDF",
+	"electronPdfService-sidebar-portlet-heading": "Imprentar/esportar",
+	"electronPdfService-sidebar-portlet-print-text": "Descargar como PDF",
 	"electronPdfService-invalid-page-title": "Páxina inválida",
-	"electronPdfService-invalid-page-text": "La páxina especificada nun ye válida.",
-	"electronPdfService-page-notfound-title": "El serviciu nun alcontró la páxina",
-	"electronPdfService-page-notfound-text": "El serviciu nun pudo resolver l'enllaz dau."
+	"electronPdfService-invalid-page-text": "La páxina especificada nun ye válida."
 }
