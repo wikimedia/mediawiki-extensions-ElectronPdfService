@@ -10,13 +10,11 @@
 	"electronPdfService-select-layout-header": "Изберете распоред",
 	"electronPdfService-single-column-label": "Една колона",
 	"electronPdfService-two-column-label": "Две колони",
-	"electronPdfService-single-column-desc": "Вклучува табели и шаблони",
-	"electronPdfService-two-column-desc": "Без табели и шаблони",
+	"electronPdfService-single-column-desc": "Со табели и инфокутии",
+	"electronPdfService-two-column-desc": "Без табели и инфокутии",
 	"electronPdfService-download-button": "Преземи",
-	"electronPdfService-sidebar-portlet-heading": "Печати",
-	"electronPdfService-sidebar-portlet-print-text": "Испечати PDF",
+	"electronPdfService-sidebar-portlet-heading": "Печати/извези",
+	"electronPdfService-sidebar-portlet-print-text": "Преземи како PDF",
 	"electronPdfService-invalid-page-title": "Неважечка страница",
-	"electronPdfService-invalid-page-text": "Наведената страница е неважечка.",
-	"electronPdfService-page-notfound-title": "Службата не ја пронајде страницата.",
-	"electronPdfService-page-notfound-text": "Службата не успеа да ја разреши укажаната врска."
+	"electronPdfService-invalid-page-text": "Наведената страница е неважечка."
 }
