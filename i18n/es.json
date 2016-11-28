@@ -11,13 +11,11 @@
 	"electronPdfService-select-layout-header": "Seleccionar disposición",
 	"electronPdfService-single-column-label": "Columna sencilla",
 	"electronPdfService-two-column-label": "Dos columnas",
-	"electronPdfService-single-column-desc": "Incluye tablas y plantillas",
-	"electronPdfService-two-column-desc": "Sin tablas ni plantillas",
+	"electronPdfService-single-column-desc": "Incluye tablas y fichas",
+	"electronPdfService-two-column-desc": "Sin tablas ni fichas",
 	"electronPdfService-download-button": "Descargar",
 	"electronPdfService-sidebar-portlet-heading": "Imprimir/exportar",
 	"electronPdfService-sidebar-portlet-print-text": "Descargar en PDF",
 	"electronPdfService-invalid-page-title": "Página no válida",
-	"electronPdfService-invalid-page-text": "La página especificada no es válida.",
-	"electronPdfService-page-notfound-title": "El servicio no encontró la página",
-	"electronPdfService-page-notfound-text": "El servicio no pudo resolver el enlace especificado."
+	"electronPdfService-invalid-page-text": "La página especificada no es válida."
 }
