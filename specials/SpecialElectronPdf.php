@@ -173,7 +173,7 @@ class SpecialElectronPdf extends SpecialPage {
 	private function getServiceUrl( Title $title ) {
 		$restBaseUrl = $this->config->get( 'ElectronPdfServiceRESTbaseURL' );
 
-		return $restBaseUrl . urlencode( $title->getPrefixedText() );
+		return $restBaseUrl . urlencode( $title->getPrefixedDBkey() );
 	}
 
 	/**
