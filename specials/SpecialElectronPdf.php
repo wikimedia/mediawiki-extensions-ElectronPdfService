@@ -84,7 +84,7 @@ class SpecialElectronPdf extends SpecialPage {
 				->appendContent(
 					$this->getLabeledOptionField( 'redirect-to-electron', 'single', true ),
 					$this->getLabeledOptionField( 'redirect-to-collection', 'two' ),
-					$this->getHiddenField( 'page', $title->getText() ),
+					$this->getHiddenField( 'page', $title->getPrefixedText() ),
 					$this->getHiddenField( 'coll-download-url', $collectionDownloadUrl ),
 					new OOUI\ButtonGroupWidget( [
 						'items' => [
