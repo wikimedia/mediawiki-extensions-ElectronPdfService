@@ -2,9 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Or",
-			"Guycn2"
+			"Guycn2",
+			"Amire80"
 		]
 	},
+	"electronPdfService": "שירות ElectronPdf",
+	"electronPdfService-desc": "הוספת תמיכה בתיצוג PDF דרך שירות Electron PDF",
 	"electronPdfService-special-page-headline": "הורדה כ־PDF",
 	"electronPdfService-select-layout-header": "בחירת מראה",
 	"electronPdfService-single-column-label": "טור אחד",
