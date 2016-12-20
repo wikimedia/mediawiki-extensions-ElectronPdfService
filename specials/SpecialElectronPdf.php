@@ -159,10 +159,13 @@ class SpecialElectronPdf extends SpecialPage {
 	protected function addModules() {
 		$out = $this->getOutput();
 		$rl = $out->getResourceLoader();
-		$specialModuleName = 'ext.ElectronPdfService.special';
 
-		if ( $rl->isModuleRegistered( $specialModuleName ) ) {
-			$out->addModules( $specialModuleName );
+		if (
+			$rl->isModuleRegistered( 'ext.ElectronPdfService.special.styles' )
+			&& $rl->isModuleRegistered( 'ext.ElectronPdfService.special' )
+		) {
+			$out->addModuleStyles( 'ext.ElectronPdfService.special.styles' );
+			$out->addModules( 'ext.ElectronPdfService.special' );
 		}
 	}
 

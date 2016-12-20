@@ -35,10 +35,15 @@
 				"modules/ext.ElectronPdfService.special.js"
 			],
 			"styles": [
-				"modules/ext.ElectronPdfService.special.less"
+				"modules/ext.ElectronPdfService.special.images.less"
 			],
 			"dependencies": [
 				"ext.ElectronPdfService.special.selectionImages"
+			]
+		},
+		"ext.ElectronPdfService.special.styles": {
+			"styles": [
+				"modules/ext.ElectronPdfService.special.css"
 			]
 		},
 		"ext.ElectronPdfService.special.selectionImages": {
