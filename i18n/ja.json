@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"electronPdfService-select-layout-header": "レイアウトの選択",
+	"electronPdfService-single-column-label": "1 カラム",
+	"electronPdfService-two-column-label": "2 カラム",
+	"electronPdfService-single-column-desc": "表や基礎情報ボックスを含める",
+	"electronPdfService-two-column-desc": "表も基礎情報ボックスも含めない",
+	"electronPdfService-download-button": "ダウンロード",
+	"electronPdfService-sidebar-portlet-heading": "印刷/書き出し",
+	"electronPdfService-invalid-page-title": "無効なページ",
+	"electronPdfService-invalid-page-text": "指定されたページは有効ではありません。"
+}
