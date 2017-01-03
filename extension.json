@@ -10,8 +10,8 @@
 	"type": "other",
 	"manifest_version": 1,
 	"AutoloadClasses": {
-		"ElectronPdfServiceHooks": "ElectronPdfService.hooks.php",
-		"SpecialElectronPdf": "specials/SpecialElectronPdf.php"
+		"ElectronPdfServiceHooks": "src/ElectronPdfServiceHooks.php",
+		"SpecialElectronPdf": "src/specials/SpecialElectronPdf.php"
 	},
 	"config": {
 		"ElectronPdfServiceRESTbaseURL": "/api/rest_v1/page/pdf/"
