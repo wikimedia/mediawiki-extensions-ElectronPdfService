@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mormegil"
+		]
+	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "Přidává podporu vykreslování PDF v prohlížeči prostřednictvím služby Electron PDF",
+	"electronPdfService-special-page-headline": "Stáhnout jako PDF",
+	"electronPdfService-select-layout-header": "Vyberte si rozvržení",
+	"electronPdfService-single-column-label": "Jednosloupcové",
+	"electronPdfService-two-column-label": "Dvousloupcové",
+	"electronPdfService-single-column-desc": "Obsahuje tabulky a infoboxy",
+	"electronPdfService-two-column-desc": "Bez tabulek a infoboxů",
+	"electronPdfService-download-button": "Stáhnout",
+	"electronPdfService-sidebar-portlet-heading": "Tisk/export",
+	"electronPdfService-sidebar-portlet-print-text": "Stáhnout jako PDF",
+	"electronPdfService-invalid-page-title": "Neplatná stránka",
+	"electronPdfService-invalid-page-text": "Zadaná stránka není platná."
+}
