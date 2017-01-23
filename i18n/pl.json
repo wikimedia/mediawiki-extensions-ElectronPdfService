@@ -4,6 +4,7 @@
 			"Chrumps"
 		]
 	},
+	"electronPdfService-special-page-headline": "Pobierz jako PDF",
 	"electronPdfService-single-column-label": "Pojedyncza kolumna",
 	"electronPdfService-two-column-label": "Dwie kolumny",
 	"electronPdfService-single-column-desc": "Zawiera tabele i infoboksy",
