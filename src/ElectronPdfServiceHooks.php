@@ -63,6 +63,14 @@ class ElectronPdfServiceHooks {
 		return true;
 	}
 
+	public static function onBeforePageDisplay( OutputPage &$out, Skin &$skin ) {
+		$userAgent = $out->getRequest()->getHeader( 'User-Agent' );
+
+		if ( strstr( $userAgent, 'electron-render-service' ) ) {
+			$out->addModuleStyles( 'ext.ElectronPdfService.print.styles' );
+		}
+	}
+
 	private static function getIndexOfDownloadPdfSidebarItem( $portlet, $collectionFormats ) {
 		$usedPdfLib =  array_search( 'PDF', $collectionFormats );
 		if ( $usedPdfLib !== false ) {

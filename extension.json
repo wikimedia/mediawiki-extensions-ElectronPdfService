@@ -23,9 +23,12 @@
 		"ElectronPdfServiceAlias": "ElectronPdfService.i18n.alias.php"
 	},
 	"Hooks": {
-	  "SidebarBeforeOutput": [
-		"ElectronPdfServiceHooks::onSidebarBeforeOutput"
-	  ]
+		"SidebarBeforeOutput": [
+			"ElectronPdfServiceHooks::onSidebarBeforeOutput"
+		],
+		"BeforePageDisplay": [
+			"ElectronPdfServiceHooks::onBeforePageDisplay"
+		]
 	},
 	"MessagesDirs": {
 		"ElectronPdfService": [
@@ -33,6 +36,11 @@
 		]
 	},
 	"ResourceModules": {
+		"ext.ElectronPdfService.print.styles": {
+			"styles": [
+				"modules/ext.ElectronPdfService.print.css"
+			]
+		},
 		"ext.ElectronPdfService.special": {
 			"scripts": [
 				"modules/ext.ElectronPdfService.special.js"
