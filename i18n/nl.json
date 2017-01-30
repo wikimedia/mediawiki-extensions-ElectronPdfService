@@ -1,12 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hex"
+			"Hex",
+			"Sjoerddebruin"
 		]
 	},
+	"electronPdfService": "ElectronPdfService",
 	"electronPdfService-special-page-headline": "Als PDF downloaden",
+	"electronPdfService-select-layout-header": "Selecteer een indeling",
 	"electronPdfService-single-column-label": "Enkele kolom",
 	"electronPdfService-two-column-label": "Twee kolommen",
+	"electronPdfService-single-column-desc": "Inclusief tabellen en infoboxen",
+	"electronPdfService-two-column-desc": "Zonder tabellen en infoboxen",
+	"electronPdfService-download-button": "Downloaden",
 	"electronPdfService-sidebar-portlet-heading": "Afdrukken/exporteren",
-	"electronPdfService-sidebar-portlet-print-text": "Als PDF downloaden"
+	"electronPdfService-sidebar-portlet-print-text": "Als PDF downloaden",
+	"electronPdfService-invalid-page-title": "Ongeldige pagina",
+	"electronPdfService-invalid-page-text": "De opgegeven pagina is ongeldig."
 }
