@@ -42,16 +42,18 @@ class SpecialElectronPdf extends SpecialPage {
 
 		$action = $request->getVal( 'action', 'default' );
 		$stats = MediaWikiServices::getInstance()->getStatsdDataFactory();
-		$stats->increment( 'electronpdf.action.' . $action );
 
 		switch ( $action ) {
 			case 'redirect-to-electron':
+				$stats->increment( 'electronpdf.action.' . $action );
 				$this->redirectToElectron( $title );
 				return;
 			case 'redirect-to-collection':
+				$stats->increment( 'electronpdf.action.' . $action );
 				$this->redirectToCollection( $collectionDownloadUrl );
 				return;
 			default:
+				$stats->increment( 'electronpdf.action.show-selection-screen' );
 				$this->showRenderModeSelectionPage( $title, $collectionDownloadUrl );
 		}
 	}
