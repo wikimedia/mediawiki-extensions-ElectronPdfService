@@ -1,9 +1,21 @@
 {
 	"@metadata": {
 		"authors": [
-			"محمد أحمد عبد الفتاح"
+			"محمد أحمد عبد الفتاح",
+			"Meno25"
 		]
 	},
-	"electronPdfService-invalid-article-title": "صفحة غير صالحة",
-	"electronPdfService-article-notfound-text": "لم تتمكن الخدمة من التعامل مع الوصلة المحددة."
+	"electronPdfService": "خدمة PDF الإلكترونية",
+	"electronPdfService-desc": "يضيف دعم عرض PDF بالاعتماد على المتصفح من خلال خدمة Electron PDF",
+	"electronPdfService-special-page-headline": "تحميل بصيغة PDF",
+	"electronPdfService-select-layout-header": "اختيار تهيئة",
+	"electronPdfService-single-column-label": "عمود واحد",
+	"electronPdfService-two-column-label": "عمودان",
+	"electronPdfService-single-column-desc": "يتضمن الجداول وصناديق المعلومات",
+	"electronPdfService-two-column-desc": "بدون الجداول وصناديق المعلومات",
+	"electronPdfService-download-button": "تنزيل",
+	"electronPdfService-sidebar-portlet-heading": "طباعة/تصدير",
+	"electronPdfService-sidebar-portlet-print-text": "تحميل بصيغة PDF",
+	"electronPdfService-invalid-page-title": "صفحة غير صالحة",
+	"electronPdfService-invalid-page-text": "الصفحة المحددة غير صحيحة."
 }
