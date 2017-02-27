@@ -5,10 +5,11 @@
 			"Beta16"
 		]
 	},
+	"electronPdfService-single-column-label": "Colonna singola",
+	"electronPdfService-two-column-label": "Due colonne",
+	"electronPdfService-download-button": "Scarica",
 	"electronPdfService-sidebar-portlet-heading": "Stampa/esporta",
 	"electronPdfService-sidebar-portlet-print-text": "Scarica in formato PDF",
 	"electronPdfService-invalid-page-title": "Pagina non valida",
-	"electronPdfService-invalid-page-text": "La pagina specificata non è valida.",
-	"electronPdfService-page-notfound-title": "Pagina non trovata dal servizio",
-	"electronPdfService-page-notfound-text": "Il servizio non è stato in grado di risolvere il collegamento specificato."
+	"electronPdfService-invalid-page-text": "La pagina specificata non è valida."
 }
