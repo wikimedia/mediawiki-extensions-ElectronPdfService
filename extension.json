@@ -2,7 +2,10 @@
 	"name": "ElectronPdfService",
 	"version": "0.0.1",
 	"author": [
-		"WMDE"
+		"TCB team (Wikimedia Deutschland)",
+		"Tobias Gritschacher",
+		"Addshore",
+		"Christoph Jauera"
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:ElectronPdfService",
 	"descriptionmsg": "electronPdfService-desc",
