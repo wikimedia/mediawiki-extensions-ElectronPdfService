@@ -90,7 +90,7 @@ class ElectronPdfServiceHooks {
 		return $specialPageTitle->getLocalURL(
 			[
 				'page' => $title->getPrefixedText(),
-				'action' => 'download-electron-pdf'
+				'action' => 'redirect-to-electron'
 			]
 		);
 	}
