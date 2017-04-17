@@ -1,73 +1,74 @@
 .mw-electronPdfService-selection-header {
-    font-weight: bold;
-    font-size: 15px;
-    margin-bottom: 13px;
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 13px;
 }
 
 .mw-electronPdfService-selection-body {
-    display: inline-block;
+	display: inline-block;
 }
 
 .mw-electronPdfService-selection-image {
-    /* size of the used svgs */
-    width: 85px;
-    height: 101px;
-    background-position: center;
-    background-repeat: no-repeat;
+	/* size of the used svgs */
+	width: 85px;
+	height: 101px;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .mw-electronPdfService-selection-label-text {
-    font-size: 13px;
+	font-size: 13px;
 }
 
 .mw-electronPdfService-selection-label-desc {
-    font-size: 12px;
+	font-size: 12px;
 }
 
 .mw-electronPdfService-selection-form label {
-    display: table-cell;
-    border: 1px solid #c8ccd1;
-    padding: 15px;
+	display: table-cell;
+	border: 1px solid #c8ccd1;
+	padding: 15px;
 }
 
-.mw-electronPdfService-selection-form  input[type="radio"]:checked ~ b {
-    border: 1px solid blue;
+.mw-electronPdfService-selection-form input[type='radio']:checked ~ b {
+	border: 1px solid #00f;
 }
 
 .mw-electronPdfService-selection-form label {
-    border: 1px solid #c8ccd1;
-    padding: 15px;
-    color: #545454
+	border: 1px solid #c8ccd1;
+	padding: 15px;
+	color: #545454;
 }
 
 .mw-electronPdfService-selection-field {
-    padding-left:20px;
+	padding-left: 20px;
 }
 
-.mw-electronPdfService-selection-field, .mw-electronPdfService-selection-image {
-    display: table-cell;
-    vertical-align: middle;
+.mw-electronPdfService-selection-field,
+.mw-electronPdfService-selection-image {
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .mw-electronPdfService-selection-form .oo-ui-radioInputWidget {
-    margin-bottom: 5px;
+	margin-bottom: 5px;
 }
 
 label.mw-electronPdfService-selection-form-selected {
-    background-color: #eaf3ff;
-    border: 1px solid #36c;
+	background-color: #eaf3ff;
+	border: 1px solid #36c;
 }
 
 .mw-electronPdfService-selection-form .oo-ui-buttonGroupWidget {
-    display: block;
-    margin-top: 15px;
-    text-align: right;
+	display: block;
+	margin-top: 15px;
+	text-align: right;
 }
 
 /* normally there is no OOUI check icon for the radio box */
-.mw-electronPdfService-selection-form .oo-ui-radioInputWidget [type="radio"]:checked + span {
-    background-size: 150%;
-    background-position: center;
-    background-color: #36c;
-    border-color: #36c;
+.mw-electronPdfService-selection-form .oo-ui-radioInputWidget [type='radio']:checked + span {
+	background-size: 150%;
+	background-position: center;
+	background-color: #36c;
+	border-color: #36c;
 }

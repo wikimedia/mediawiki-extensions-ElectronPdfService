@@ -15,8 +15,9 @@ module.exports = function ( grunt ) {
 		},
 		stylelint: {
 			all: [
-				'modules/**/*.css',
-				'!node_modules/**'
+				'**/*.css',
+				'!node_modules/**',
+				'!vendor/**'
 			]
 		},
 		banana: {
@@ -25,12 +26,13 @@ module.exports = function ( grunt ) {
 		jsonlint: {
 			all: [
 				'**/*.json',
+				'.stylelintrc',
 				'!node_modules/**',
 				'!vendor/**'
 			]
 		}
 	} );
 
-	grunt.registerTask( 'test', [ 'eslint', 'jsonlint', 'banana' ] );
+	grunt.registerTask( 'test', [ 'eslint', 'jsonlint', 'banana', 'stylelint' ] );
 	grunt.registerTask( 'default', 'test' );
 };
