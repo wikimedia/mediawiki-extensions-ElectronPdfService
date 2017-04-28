@@ -4,5 +4,6 @@
 			"Sfic"
 		]
 	},
-	"electronPdfService-download-button": "डाउनलोड करें"
+	"electronPdfService-download-button": "डाउनलोड करें",
+	"electronPdfService-invalid-page-title": "अमान्य पृष्ठ"
 }
