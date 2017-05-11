@@ -4,6 +4,9 @@
 			"Subi"
 		]
 	},
+	"electronPdfService-special-page-headline": "Jaitsi PDF formatuan",
+	"electronPdfService-single-column-label": "Zutabe bakarra",
+	"electronPdfService-two-column-label": "Bi zutabe",
 	"electronPdfService-two-column-desc": "Taularik eta infotaularik gabe",
 	"electronPdfService-download-button": "Deskargatu",
 	"electronPdfService-sidebar-portlet-heading": "Inprimatu/esportatu",
