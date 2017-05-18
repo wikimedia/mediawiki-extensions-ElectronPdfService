@@ -4,7 +4,16 @@
 			"Sfic"
 		]
 	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "Adds browser based PDF rendering support through Electron PDF service",
+	"electronPdfService-special-page-headline": "Download as PDF",
+	"electronPdfService-select-layout-header": "Select a layout",
+	"electronPdfService-single-column-label": "Single column",
+	"electronPdfService-two-column-label": "Two column",
+	"electronPdfService-single-column-desc": "Includes tables and infoboxes",
+	"electronPdfService-two-column-desc": "Without tables and infoboxes",
 	"electronPdfService-download-button": "डाउनलोड करें",
+	"electronPdfService-sidebar-portlet-heading": "प्रिंट/निर्यात",
 	"electronPdfService-sidebar-portlet-print-text": "पीडीएफ़ के रूप में डाउनलोड करें",
 	"electronPdfService-invalid-page-title": "अमान्य पृष्ठ",
 	"electronPdfService-invalid-page-text": "दिया गया पृष्ठ मान्य नहीं है।"
