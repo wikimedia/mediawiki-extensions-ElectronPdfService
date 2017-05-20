@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Anto",
-			"Beta16"
+			"Beta16",
+			"Kaspo"
 		]
 	},
+	"electronPdfService-special-page-headline": "Scarica in formato PDF",
 	"electronPdfService-single-column-label": "Colonna singola",
 	"electronPdfService-two-column-label": "Due colonne",
 	"electronPdfService-download-button": "Scarica",
