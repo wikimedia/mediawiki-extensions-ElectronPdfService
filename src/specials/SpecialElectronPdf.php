@@ -103,7 +103,7 @@ class SpecialElectronPdf extends SpecialPage {
 					] )
 				)
 		);
-
+		$out->addHTML( $this->createWarningBox()->toString() );
 		$out->addHTML( $form );
 	}
 
@@ -157,6 +157,48 @@ class SpecialElectronPdf extends SpecialPage {
 		return $element;
 	}
 
+	/**
+	 * Creates a warning box
+	 *
+	 * @return OOUI\Tag
+	 */
+	private function createWarningBox() {
+		$warning = new OOUI\Tag();
+		$warning->addClasses( [ 'warningbox' ] );
+
+		$text = new OOUI\Tag( 'p' );
+		$text->appendContent(
+			new OOUI\HtmlSnippet( $this->msg( 'electronPDFService-warning-message' )->parse() )
+		);
+
+		$list = new OOUI\Tag( 'ul' );
+		$list->addClasses( [ 'hlist' ] )
+			->appendContent(
+				( new OOUI\Tag( 'li' ) )
+					->appendContent(
+						( new OOUI\Tag( 'a' ) )
+							->setAttributes( [
+								'href' => 'https://www.mediawiki.org/wiki/Talk:Reading/Web/PDF_Functionality'
+							] )
+							->appendContent( $this->msg( 'electronPDFService-warning-leave-feedback' )->text() )
+					)
+			);
+
+		$list->appendContent(
+			( new OOUI\Tag( 'li' ) )
+				->appendContent(
+					( new OOUI\Tag( 'a' ) )
+						->setAttributes( [
+							'href' => 'https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality'
+						] )
+						->appendContent( $this->msg( 'electronPDFService-warning-read-more' )->text() )
+				)
+		);
+
+		$warning->appendContent( $text, $list );
+		return $warning;
+	}
+
 	public function setHeaders() {
 		parent::setHeaders();
 		$this->addModules();
@@ -170,7 +212,7 @@ class SpecialElectronPdf extends SpecialPage {
 			$rl->isModuleRegistered( 'ext.ElectronPdfService.special.styles' )
 			&& $rl->isModuleRegistered( 'ext.ElectronPdfService.special' )
 		) {
-			$out->addModuleStyles( 'ext.ElectronPdfService.special.styles' );
+			$out->addModuleStyles( [ 'ext.ElectronPdfService.special.styles', 'mediawiki.hlist' ] );
 			$out->addModules( 'ext.ElectronPdfService.special' );
 		}
 	}
