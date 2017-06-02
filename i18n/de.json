@@ -17,6 +17,7 @@
 	"electronPdfService-sidebar-portlet-print-text": "Als PDF herunterladen",
 	"electronPdfService-invalid-page-title": "Ungültige Seite",
 	"electronPdfService-invalid-page-text": "Die angegebene Seite ist nicht gültig.",
-	"electronPdfService-page-notfound-title": "Die Seite wurde vom Dienst nicht gefunden",
-	"electronPdfService-page-notfound-text": "Der Dienst war nicht in der Lage, den angegebenen Link zu lösen."
+	"electronPDFService-warning-message": "Wir haben bedeutende Probleme mit der Funktion, die wir derzeit zur Erstellung von PDF-Dateien verwenden. Wir müssen sie leider ersetzen. Wir testen die neue Version des Dienstes unten (Einzelspaltenlayout). Bitte hilf uns, Softwarefehler oder fehlende Funktionen zu finden. Falls du irgendwelche Softwarefehler findest oder andere Rückmeldungen hinterlassen möchtest, besuche bitte die Projektseite unter: [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality]",
+	"electronPDFService-warning-leave-feedback": "Eine Rückmeldung hinterlassen",
+	"electronPDFService-warning-read-more": "Mehr erfahren"
 }
