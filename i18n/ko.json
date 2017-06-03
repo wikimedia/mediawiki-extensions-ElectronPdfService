@@ -14,5 +14,7 @@
 	"electronPdfService-sidebar-portlet-heading": "인쇄/내보내기",
 	"electronPdfService-sidebar-portlet-print-text": "PDF로 다운로드",
 	"electronPdfService-invalid-page-title": "잘못된 페이지",
-	"electronPdfService-invalid-page-text": "지정한 문서가 올바르지 않습니다."
+	"electronPdfService-invalid-page-text": "지정한 문서가 올바르지 않습니다.",
+	"electronPDFService-warning-leave-feedback": "피드백 남기기",
+	"electronPDFService-warning-read-more": "더 읽어보기"
 }

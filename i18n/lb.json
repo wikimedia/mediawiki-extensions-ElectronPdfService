@@ -15,6 +15,6 @@
 	"electronPdfService-sidebar-portlet-print-text": "Als PDF eroflueden",
 	"electronPdfService-invalid-page-title": "Net valabel Säit",
 	"electronPdfService-invalid-page-text": "Déi spezifizéiert Säit ass net valabel.",
-	"electronPdfService-page-notfound-title": "Säit vum Service net fonnt",
-	"electronPdfService-page-notfound-text": "De Service konnt näischt mam spezifizéierte Link ufänken."
+	"electronPDFService-warning-leave-feedback": "Réckmeldung ginn",
+	"electronPDFService-warning-read-more": "Liest méi"
 }

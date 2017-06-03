@@ -16,5 +16,8 @@
 	"electronPdfService-sidebar-portlet-heading": "Печати/извези",
 	"electronPdfService-sidebar-portlet-print-text": "Преземи како PDF",
 	"electronPdfService-invalid-page-title": "Неважечка страница",
-	"electronPdfService-invalid-page-text": "Наведената страница е неважечка."
+	"electronPdfService-invalid-page-text": "Укажаната страница е неважечка.",
+	"electronPDFService-warning-message": "Се соочуваме со значајни проблеми со функцијата што тековно ја користиме за создавање на PDF. За жал, ќе треба да ја замениме. Подолу ја испробуваме новата верзија на функцината (еднореден распоред). Помогнете ни да ги најдеме грешките во неа. functionality. Ако наидете на грешка или сакате да дадете ваше мислење, појдете на проектната страница: [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality\n PDF Functionality]",
+	"electronPDFService-warning-leave-feedback": "Мислења во живо",
+	"electronPDFService-warning-read-more": "Прочитајте повеќе"
 }
