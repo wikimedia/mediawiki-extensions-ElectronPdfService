@@ -17,6 +17,6 @@
 	"electronPdfService-sidebar-portlet-print-text": "PDF হিসাবে ডাউনলোড করুন",
 	"electronPdfService-invalid-page-title": "পাতা অবৈধ",
 	"electronPdfService-invalid-page-text": "নির্দিষ্টকৃত পাতাটি বৈধ নয়।",
-	"electronPdfService-page-notfound-title": "পরিষেবা কর্তৃক পাতা পাওয়া যায়নি",
-	"electronPdfService-page-notfound-text": "পরিষেবাটি নির্দিষ্টকৃত লিঙ্কটি সমাধান করতে সক্ষম ছিল না।"
+	"electronPDFService-warning-leave-feedback": "প্রতিক্রিয়া জানান",
+	"electronPDFService-warning-read-more": "আরো পড়ুন"
 }
