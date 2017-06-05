@@ -17,6 +17,6 @@
 	"electronPdfService-sidebar-portlet-print-text": "Descargar como PDF",
 	"electronPdfService-invalid-page-title": "Páxina non válida",
 	"electronPdfService-invalid-page-text": "A páxina especificada non é válida.",
-	"electronPdfService-page-notfound-title": "Páxina non atopada polo servizo",
-	"electronPdfService-page-notfound-text": "O servizo non puido resolver a ligazón especificada."
+	"electronPDFService-warning-leave-feedback": "Deixe comentarios",
+	"electronPDFService-warning-read-more": "Ler máis"
 }
