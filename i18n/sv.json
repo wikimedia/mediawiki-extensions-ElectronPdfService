@@ -13,5 +13,7 @@
 	"electronPdfService-download-button": "Ladda ned",
 	"electronPdfService-sidebar-portlet-heading": "Skriv ut/exportera",
 	"electronPdfService-sidebar-portlet-print-text": "Ladda ned som PDF",
-	"electronPdfService-invalid-page-title": "Ogiltig sida"
+	"electronPdfService-invalid-page-title": "Ogiltig sida",
+	"electronPDFService-warning-leave-feedback": "Lämna återkoppling",
+	"electronPDFService-warning-read-more": "Läs mer"
 }

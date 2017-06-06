@@ -16,5 +16,8 @@
 	"electronPdfService-sidebar-portlet-heading": "Imprentar/esportar",
 	"electronPdfService-sidebar-portlet-print-text": "Descargar como PDF",
 	"electronPdfService-invalid-page-title": "Páxina inválida",
-	"electronPdfService-invalid-page-text": "La páxina especificada nun ye válida."
+	"electronPdfService-invalid-page-text": "La páxina especificada nun ye válida.",
+	"electronPDFService-warning-message": "Tamos esperimentando problemes importantes cola ferramienta qu'emplegamos anguaño pa crear PDFs. Desgraciadamente, tenemos de sustituyila. Tamos poniendo a prueba una versión nueva del serviciu que vas atopar más abaxo (disposición en una columna). Ayúdanos a atopar fallos, infórmanos de funciones faltantes, o bien, fainos llegar los tos comentarios. Pa ello, visita la páxina del proyectu equí: [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality]",
+	"electronPDFService-warning-leave-feedback": "Dexar comentarios",
+	"electronPDFService-warning-read-more": "Lleer más"
 }
