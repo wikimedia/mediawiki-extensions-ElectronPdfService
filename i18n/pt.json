@@ -18,6 +18,7 @@
 	"electronPdfService-sidebar-portlet-print-text": "Descarregar como PDF",
 	"electronPdfService-invalid-page-title": "Página inválida",
 	"electronPdfService-invalid-page-text": "A página especificada é inválida.",
-	"electronPdfService-page-notfound-title": "Página não encontrada pelo serviço",
-	"electronPdfService-page-notfound-text": "O serviço não foi capaz de resolver a hiperligação especificada."
+	"electronPDFService-warning-message": "Estamos a ter problemas na função que usamos atualmente para criar ficheiros PDF. Infelizmente, teremos de substituí-la. Estamos a testar a nova versão do serviço abaixo (modelo de coluna única). Ajude-nos a encontrar problemas ou funcionalidade em falta, por favor. Se descobrir defeitos ou quiser deixar qualquer outro comentário, visite a página do projeto aqui: [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality]",
+	"electronPDFService-warning-leave-feedback": "Deixar comentários",
+	"electronPDFService-warning-read-more": "Ler mais"
 }
