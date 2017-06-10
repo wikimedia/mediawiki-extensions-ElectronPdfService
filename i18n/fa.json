@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Reza1615"
+		]
+	},
+	"electronPdfService": "انتخاب سرویس پی‌دی‌اف",
+	"electronPdfService-desc": "افزودن پشتیبانی از موتور رندر پی‌دی‌اف مرورگر به کمک ابزار انتخاب سرویس پی‌دی‌اف",
+	"electronPdfService-special-page-headline": "بارگیری به عنوان پی‌دی‌اف",
+	"electronPdfService-select-layout-header": "انتخاب سبک",
+	"electronPdfService-single-column-label": "تک ستونی",
+	"electronPdfService-two-column-label": "دو ستونی",
+	"electronPdfService-single-column-desc": "شامل جدول‌ها و جعبه‌ها",
+	"electronPdfService-two-column-desc": "بدون جدول‌ها و جعبه‌ها",
+	"electronPdfService-download-button": "بارگیری",
+	"electronPdfService-sidebar-portlet-heading": "چاپ/برون‌بری",
+	"electronPdfService-sidebar-portlet-print-text": "بارگیری به عنوان پی‌دی‌اف",
+	"electronPdfService-invalid-page-title": "صفحهٔ نامعتبر",
+	"electronPdfService-invalid-page-text": "صفحه مشخص شده معتبر نیست.",
+	"electronPDFService-warning-message": "به دلیل وجود مشکلات بسیار در افزونهٔ خروجی پی‌دی‌اف، در حال جایگیزنی و آزمودن افزونهٔ جدید خروجی پی‌دی‌اف هستیم در صورتی که خطایی برای نمایش پی‌دی‌اف به صورت تک‌ستونی مشاهده کردید در [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality اینجا] مطرح کنید.",
+	"electronPDFService-warning-leave-feedback": "بازخوردی بگذارید",
+	"electronPDFService-warning-read-more": "بیشتر بخوانید"
+}
