@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Cwlin0416",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"LNDDYL"
 		]
 	},
 	"electronPdfService-download-button": "下載",
+	"electronPdfService-sidebar-portlet-heading": "列印/匯出",
 	"electronPdfService-sidebar-portlet-print-text": "下載成 PDF"
 }

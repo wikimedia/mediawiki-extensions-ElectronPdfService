@@ -17,7 +17,7 @@
 	"electronPdfService-sidebar-portlet-print-text": "بارگیری به عنوان پی‌دی‌اف",
 	"electronPdfService-invalid-page-title": "صفحهٔ نامعتبر",
 	"electronPdfService-invalid-page-text": "صفحه مشخص شده معتبر نیست.",
-	"electronPDFService-warning-message": "به دلیل وجود مشکلات بسیار در افزونهٔ خروجی پی‌دی‌اف، در حال جایگیزنی و آزمودن افزونهٔ جدید خروجی پی‌دی‌اف هستیم در صورتی که خطایی برای نمایش پی‌دی‌اف به صورت تک‌ستونی مشاهده کردید در [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality اینجا] مطرح کنید.",
+	"electronPDFService-warning-message": "به دلیل وجود مشکلات بسیار در افزونهٔ خروجی پی‌دی‌اف، در حال جایگزینی و آزمودن افزونهٔ جدید خروجی پی‌دی‌اف هستیم. در صورتی که خطایی برای حالت تک‌ستونی مشاهده کردید، در [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality اینجا] مطرح کنید.",
 	"electronPDFService-warning-leave-feedback": "بازخوردی بگذارید",
 	"electronPDFService-warning-read-more": "بیشتر بخوانید"
 }
