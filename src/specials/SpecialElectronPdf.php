@@ -16,6 +16,7 @@ class SpecialElectronPdf extends SpecialPage {
 	public $config;
 
 	public function __construct() {
+		/** @suppress PhanUndeclaredClassMethod TODO: remove it when T167995 gets fixed */
 		parent::__construct( 'ElectronPdf', '', false );
 		$this->config = MediaWikiServices::getInstance()->getMainConfig();
 	}
@@ -126,9 +127,9 @@ class SpecialElectronPdf extends SpecialPage {
 				'value' => $action,
 				'selected' => $selected
 			] ),
-			( new OOUI\Tag( 'b' ) )->addClasses( [ 'mw-electronPdfService-selection-label-text' ] )
+			( new OOUI\Tag( 'div' ) )->addClasses( [ 'mw-electronPdfService-selection-label-text' ] )
 				->appendContent( $this->msg( 'electronPdfService-' . $name . '-column-label' )->text() ),
-			( new OOUI\Tag() )->addClasses( [ 'mw-electronPdfService-selection-label-desc' ] )
+			( new OOUI\Tag( 'div' ) )->addClasses( [ 'mw-electronPdfService-selection-label-desc' ] )
 				->appendContent( $this->msg( 'electronPdfService-' . $name . '-column-desc' )->text() )
 		);
 
@@ -200,6 +201,7 @@ class SpecialElectronPdf extends SpecialPage {
 	}
 
 	public function setHeaders() {
+		/** @suppress PhanUndeclaredClassMethod TODO: remove it when T167995 gets fixed */
 		parent::setHeaders();
 		$this->addModules();
 	}

@@ -18,6 +18,8 @@
 
 .mw-electronPdfService-selection-label-text {
 	font-size: 13px;
+	font-weight: bold;
+	padding-top: 9px;
 }
 
 .mw-electronPdfService-selection-label-desc {
