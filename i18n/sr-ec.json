@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Сербијана"
+			"Сербијана",
+			"Srdjan m"
 		]
 	},
 	"electronPdfService-special-page-headline": "Преузмите као PDF",
+	"electronPdfService-sidebar-portlet-heading": "Штампај/извези",
 	"electronPdfService-sidebar-portlet-print-text": "Преузмите као PDF"
 }

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"NoiX180"
+		]
+	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-special-page-headline": "Undhuh ing PDF",
+	"electronPdfService-select-layout-header": "Pilih tata-rakit",
+	"electronPdfService-single-column-label": "Kolem siji",
+	"electronPdfService-two-column-label": "Kolem loro",
+	"electronPdfService-single-column-desc": "Nglebokaké tabèl lan kothak-info",
+	"electronPdfService-two-column-desc": "Njabakaké tabèl lan kothak-info",
+	"electronPdfService-download-button": "Undhuh",
+	"electronPdfService-sidebar-portlet-heading": "Cithak/èspor",
+	"electronPdfService-sidebar-portlet-print-text": "Undhuh ing PDF",
+	"electronPdfService-invalid-page-title": "Kaca ora trep",
+	"electronPdfService-invalid-page-text": "Kaca sing dikarepaké ora trep.",
+	"electronPDFService-warning-leave-feedback": "Awèh pamrayoga",
+	"electronPDFService-warning-read-more": "Waca candhaké"
+}

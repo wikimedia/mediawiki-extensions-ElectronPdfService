@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Sfic",
-			"हिंदुस्थान वासी"
+			"हिंदुस्थान वासी",
+			"Jayprakash12345"
 		]
 	},
 	"electronPdfService": "इलेक्ट्रॉन पीडीएफ़ सेवा",
@@ -16,5 +17,7 @@
 	"electronPdfService-sidebar-portlet-heading": "प्रिंट/निर्यात",
 	"electronPdfService-sidebar-portlet-print-text": "पीडीएफ़ के रूप में डाउनलोड करें",
 	"electronPdfService-invalid-page-title": "अमान्य पृष्ठ",
-	"electronPdfService-invalid-page-text": "दिया गया पृष्ठ मान्य नहीं है।"
+	"electronPdfService-invalid-page-text": "दिया गया पृष्ठ मान्य नहीं है।",
+	"electronPDFService-warning-leave-feedback": "प्रतिक्रिया छोडे",
+	"electronPDFService-warning-read-more": "अधिक पढ़ें"
 }
