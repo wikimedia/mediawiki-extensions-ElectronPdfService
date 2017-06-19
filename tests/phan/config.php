@@ -52,6 +52,7 @@ return [
 		'./../../includes',
 		'./../../maintenance',
 		'./../../vendor',
+		'./../../languages',
 	],
 
 	/**
@@ -61,7 +62,7 @@ return [
 	 * This is useful for excluding hopelessly unanalyzable
 	 * files that can't be removed for whatever reason.
 	 */
-	'exclude_file_list' => function_exists( 'xcache_get' ) ? [] : [
+	'exclude_file_list' => [
 	],
 
 	/**
@@ -74,6 +75,7 @@ return [
 		'./../../includes',
 		'./../../maintenance',
 		'./../../vendor',
+		'./../../languages',
 	],
 
 	/**
