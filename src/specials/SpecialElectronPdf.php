@@ -16,7 +16,6 @@ class SpecialElectronPdf extends SpecialPage {
 	public $config;
 
 	public function __construct() {
-		/** @suppress PhanUndeclaredClassMethod TODO: remove it when T167995 gets fixed */
 		parent::__construct( 'ElectronPdf', '', false );
 		$this->config = MediaWikiServices::getInstance()->getMainConfig();
 	}
@@ -201,7 +200,6 @@ class SpecialElectronPdf extends SpecialPage {
 	}
 
 	public function setHeaders() {
-		/** @suppress PhanUndeclaredClassMethod TODO: remove it when T167995 gets fixed */
 		parent::setHeaders();
 		$this->addModules();
 	}
