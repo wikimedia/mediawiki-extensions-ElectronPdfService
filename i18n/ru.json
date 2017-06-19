@@ -14,5 +14,7 @@
 	"electronPdfService-two-column-desc": "Без таблиц и шаблонов",
 	"electronPdfService-download-button": "Скачать",
 	"electronPdfService-sidebar-portlet-heading": "Печать/экспорт",
-	"electronPdfService-sidebar-portlet-print-text": "Скачать как PDF"
+	"electronPdfService-sidebar-portlet-print-text": "Скачать как PDF",
+	"electronPDFService-warning-leave-feedback": "Оставить отзыв",
+	"electronPDFService-warning-read-more": "Подробнее"
 }
