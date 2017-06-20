@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Kareyac",
-			"Okras"
+			"Okras",
+			"Facenapalm"
 		]
 	},
 	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "Добавляет поддержку основанного на браузере рендера PDF через сервис Electron PDF",
 	"electronPdfService-special-page-headline": "Скачать как PDF",
 	"electronPdfService-select-layout-header": "Выберите макет",
 	"electronPdfService-single-column-label": "Один столбец",
@@ -15,6 +17,9 @@
 	"electronPdfService-download-button": "Скачать",
 	"electronPdfService-sidebar-portlet-heading": "Печать/экспорт",
 	"electronPdfService-sidebar-portlet-print-text": "Скачать как PDF",
+	"electronPdfService-invalid-page-title": "Некорректная страница",
+	"electronPdfService-invalid-page-text": "Указана неверная страница.",
+	"electronPDFService-warning-message": "Мы испытываем значительные проблемы с функцией, которую мы сейчас используем для создания PDF.  К сожалению, нам придётся её заменить. Мы тестируем новую версию сервиса ниже (при расположении в одну колонку). Пожалуйста, помогите нам обнаружить ошибки и недостающую функциональность. Если вы заметите какие-либо ошибки или захотите оставить любой другой комментарий, пожалуйста, посетите страницу проекта здесь: [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality]",
 	"electronPDFService-warning-leave-feedback": "Оставить отзыв",
 	"electronPDFService-warning-read-more": "Подробнее"
 }
