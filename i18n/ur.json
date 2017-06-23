@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Muhammad Shuaib"
+		]
+	},
+	"electronPdfService": "برقی پی‌ڈی‌ایف خدمت",
+	"electronPdfService-desc": "برقی پی‌ڈی‌ایف خدمت کے ذریعہ براؤزر پر مبنی پی ڈی ایف طباعت کی معاونت کا اضافہ",
+	"electronPdfService-special-page-headline": "ڈاؤنلوڈ بشکل پی‌ڈی‌ایف",
+	"electronPdfService-select-layout-header": "خاکہ منتخب کریں",
+	"electronPdfService-single-column-label": "یک کالمی",
+	"electronPdfService-two-column-label": "دو کالمی",
+	"electronPdfService-single-column-desc": "بشمول جدول و خانہ ہائے معلومات",
+	"electronPdfService-two-column-desc": "جدول اور خانہ ہائے معلومات کے بغیر",
+	"electronPdfService-download-button": "ڈاؤنلوڈ",
+	"electronPdfService-sidebar-portlet-heading": "طباعت/برآمد",
+	"electronPdfService-sidebar-portlet-print-text": "ڈاؤنلوڈ بشکل پی‌ڈی‌ایف",
+	"electronPdfService-invalid-page-title": "نادرست صفحہ",
+	"electronPdfService-invalid-page-text": "درج کردہ صفحہ درست نہیں ہے۔",
+	"electronPDFService-warning-leave-feedback": "تاثرات درج کریں",
+	"electronPDFService-warning-read-more": "مزید پڑھیں"
+}
