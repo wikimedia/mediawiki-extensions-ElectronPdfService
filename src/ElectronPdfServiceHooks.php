@@ -11,13 +11,12 @@ use MediaWiki\MediaWikiServices;
 
 class ElectronPdfServiceHooks {
 
-	/*
+	/**
 	 * If present, make the "Download as PDF" link in the sidebar point to the selection screen,
 	 * add a new link otherwise
 	 *
 	 * @param Skin $skin
-	 * @param array &$bar
-	 *
+	 * @param mixed &$bar
 	 * @return bool
 	 */
 	public static function onSidebarBeforeOutput( Skin $skin, &$bar ) {
@@ -63,6 +62,10 @@ class ElectronPdfServiceHooks {
 		return true;
 	}
 
+	/**
+	 * @param OutputPage &$out
+	 * @param Skin &$skin
+	 */
 	public static function onBeforePageDisplay( OutputPage &$out, Skin &$skin ) {
 		$userAgent = $out->getRequest()->getHeader( 'User-Agent' );
 

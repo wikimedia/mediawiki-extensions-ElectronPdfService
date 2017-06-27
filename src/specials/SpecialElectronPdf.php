@@ -199,11 +199,17 @@ class SpecialElectronPdf extends SpecialPage {
 		return $warning;
 	}
 
+	/**
+	 * Sets headers
+	 */
 	public function setHeaders() {
 		parent::setHeaders();
 		$this->addModules();
 	}
 
+	/**
+	 * Adds JS and CSS modules
+	 */
 	protected function addModules() {
 		$out = $this->getOutput();
 		$rl = $out->getResourceLoader();
