@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Otogi"
+			"Otogi",
+			"David1010"
 		]
 	},
-	"electronPdfService-special-page-headline": "გადმოწერე როგორც PDF",
-	"electronPdfService-sidebar-portlet-heading": "დაბეჭდვა/ექსპორტი"
+	"electronPdfService-special-page-headline": "PDF-ში გადმოწერა",
+	"electronPdfService-sidebar-portlet-heading": "დაბეჭდვა/ექსპორტი",
+	"electronPdfService-sidebar-portlet-print-text": "PDF-ში გადმოწერა"
 }
