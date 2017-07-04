@@ -15,7 +15,7 @@
 	"electronPdfService-download-button": "下載",
 	"electronPdfService-sidebar-portlet-heading": "列印/匯出",
 	"electronPdfService-sidebar-portlet-print-text": "下載成 PDF",
-	"electronPDFService-warning-message": "目前我们用於建立 PDF 的功能出現嚴重問題，很遺憾，我們必須取代此功能。我们正在下方測試此服務的新版本（單欄版面配置）。請協助我们找到 Bug 或遺漏功能。若閣下發現了任何 Bug，或希望留下任何其他回饋，请在這裡造訪計畫頁面：[https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality]",
+	"electronPDFService-warning-message": "目前我们用於建立 PDF 的功能出現嚴重問題，很遺憾，我們必須取代此功能。我们正在下方測試此服務的新版本（單欄版面配置）。請協助我们找到 Bug 或遺漏功能。若閣下發現了任何 Bug，或希望留下任何其他回饋，請在這裡造訪計畫頁面：[https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality]",
 	"electronPDFService-warning-leave-feedback": "提供意見",
 	"electronPDFService-warning-read-more": "延伸閱讀"
 }
