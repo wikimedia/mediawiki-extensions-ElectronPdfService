@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Wladek92"
+			"Wladek92",
+			"Urhixidur"
 		]
 	},
 	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-desc": "Ajoute un support de rendu PDF basé sur le navigateur via le service PDF Electron",
+	"electronPdfService-desc": "Ajoute une prise en charge du rendu PDF basé sur le navigateur via le service PDF Electron",
 	"electronPdfService-special-page-headline": "Télécharger en PDF",
 	"electronPdfService-select-layout-header": "Sélectionner une mise en page",
 	"electronPdfService-single-column-label": "Colonne simple",
