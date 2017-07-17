@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"TheEduGobi",
-			"Eduardo Addad de Oliveira"
+			"Eduardo Addad de Oliveira",
+			"Felipe L. Ewald"
 		]
 	},
 	"electronPdfService": "ElectronPdfService",
@@ -20,5 +21,5 @@
 	"electronPdfService-invalid-page-text": "A página especificada não é valida.",
 	"electronPDFService-warning-message": "Estamos a ter problemas na função que usamos atualmente para criar arquivos PDF. Infelizmente, teremos de substituí-la. Estamos a testar a nova versão do serviço abaixo (modelo de coluna única). Ajude-nos a encontrar problemas ou funcionalidade em falta, por favor. Se descobrir defeitos ou quiser deixar qualquer outro comentário, visite a página do projeto aqui: [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality]",
 	"electronPDFService-warning-leave-feedback": "Deixar um comentário",
-	"electronPDFService-warning-read-more": "Ler mais"
+	"electronPDFService-warning-read-more": "Leia mais"
 }
