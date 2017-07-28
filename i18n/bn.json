@@ -17,6 +17,7 @@
 	"electronPdfService-sidebar-portlet-print-text": "PDF হিসাবে ডাউনলোড করুন",
 	"electronPdfService-invalid-page-title": "পাতা অবৈধ",
 	"electronPdfService-invalid-page-text": "নির্দিষ্টকৃত পাতাটি বৈধ নয়।",
+	"electronPDFService-warning-message": "আমরা বর্তমানে পিডিএফ তৈরি করার জন্য যা ব্যবহার করি সেই ফাংশনে সমস্যা রয়েছে। দুর্ভাগ্যবশত আমাদের এটি প্রতিস্থাপন করতে হবে। আমরা নীচের এই পরিষেবাটির নতুন সংস্করণ পরীক্ষা করছি (একক কলাম)। বাগ বা অনুপস্থিত কার্যকারিতা খুঁজে পেতে দয়া করে আমাদের সাহায্য করুন। আপনি যদি কোনও বাগ লক্ষ্য করেন বা অন্য কোন মতামত দিতে চান, তবে এখানে প্রকল্পের পৃষ্ঠায় যান: [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality]",
 	"electronPDFService-warning-leave-feedback": "প্রতিক্রিয়া জানান",
 	"electronPDFService-warning-read-more": "আরো পড়ুন"
 }
