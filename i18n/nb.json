@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danmichaelo"
+		]
+	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "Legger til mulighet for nettleserbasert PDF-generering gjennom PDF-tjenesten Electron",
+	"electronPdfService-special-page-headline": "Last ned som PDF",
+	"electronPdfService-select-layout-header": "Velg layout",
+	"electronPdfService-single-column-label": "Én kolonne",
+	"electronPdfService-two-column-label": "To kolonner",
+	"electronPdfService-single-column-desc": "Inkluderer tabeller og infobokser",
+	"electronPdfService-two-column-desc": "Uten tabeller og infobokser",
+	"electronPdfService-download-button": "Last ned",
+	"electronPdfService-sidebar-portlet-heading": "Skriv ut/eksporter",
+	"electronPdfService-sidebar-portlet-print-text": "Last ned som PDF",
+	"electronPdfService-invalid-page-title": "Ugyldig side",
+	"electronPdfService-invalid-page-text": "Den angitte siden er ikke gyldig",
+	"electronPDFService-warning-leave-feedback": "Gi tilbakemelding",
+	"electronPDFService-warning-read-more": "Les mer"
+}
