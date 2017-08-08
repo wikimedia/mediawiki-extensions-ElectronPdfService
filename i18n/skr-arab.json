@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saraiki"
+		]
+	},
+	"electronPdfService-special-page-headline": "پی ڈی ایف وچ ڈاؤنلوڈ کرو",
+	"electronPdfService-select-layout-header": "خاکہ چُݨو",
+	"electronPdfService-single-column-label": "ہک کالمی",
+	"electronPdfService-two-column-label": "ݙو کالمی",
+	"electronPdfService-download-button": "ڈاؤن لوڈ ، لہاوݨ",
+	"electronPdfService-sidebar-portlet-heading": "چھاپو/ اڳوں تے بھیجو",
+	"electronPdfService-sidebar-portlet-print-text": "پی ڈی ایف وچ ڈاؤنلوڈ کرو",
+	"electronPdfService-invalid-page-title": "غلط ورقہ",
+	"electronPDFService-warning-leave-feedback": "رائے لکھو",
+	"electronPDFService-warning-read-more": "ٻیا پڑھو"
+}
