@@ -75,7 +75,7 @@ class ElectronPdfServiceHooks {
 	}
 
 	private static function getIndexOfDownloadPdfSidebarItem( $portlet, $collectionFormats ) {
-		$usedPdfLib =  array_search( 'PDF', $collectionFormats );
+		$usedPdfLib = array_search( 'PDF', $collectionFormats );
 		if ( $usedPdfLib !== false ) {
 			foreach ( $portlet as $index => $element ) {
 				if ( $element['id'] === 'coll-download-as-' . $usedPdfLib ) {
