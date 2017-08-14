@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Hex",
-			"Sjoerddebruin"
+			"Sjoerddebruin",
+			"Mainframe98"
 		]
 	},
 	"electronPdfService": "ElectronPdfService",
@@ -16,5 +17,7 @@
 	"electronPdfService-sidebar-portlet-heading": "Afdrukken/exporteren",
 	"electronPdfService-sidebar-portlet-print-text": "Als PDF downloaden",
 	"electronPdfService-invalid-page-title": "Ongeldige pagina",
-	"electronPdfService-invalid-page-text": "De opgegeven pagina is ongeldig."
+	"electronPdfService-invalid-page-text": "De opgegeven pagina is ongeldig.",
+	"electronPDFService-warning-leave-feedback": "Terugkoppeling geven",
+	"electronPDFService-warning-read-more": "Meer lezen"
 }
