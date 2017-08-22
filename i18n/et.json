@@ -4,6 +4,19 @@
 			"Pikne"
 		]
 	},
+	"electronPdfService-desc": "Lisab brauseripõhise PDF-failide viimistluse toe, mis kasutab teenust Electron PDF.",
+	"electronPdfService-special-page-headline": "PDF-faili allalaadimine",
+	"electronPdfService-select-layout-header": "Vali paigutus",
+	"electronPdfService-single-column-label": "Üks veerg",
+	"electronPdfService-two-column-label": "Kaks veergu",
+	"electronPdfService-single-column-desc": "Kaasa arvatud tabelid ja infokastid",
+	"electronPdfService-two-column-desc": "Ilma tabelite ja infokastideta",
+	"electronPdfService-download-button": "Laadi alla",
 	"electronPdfService-sidebar-portlet-heading": "Print ja eksport",
-	"electronPdfService-sidebar-portlet-print-text": "Laadi alla PDF-failina"
+	"electronPdfService-sidebar-portlet-print-text": "Laadi alla PDF-failina",
+	"electronPdfService-invalid-page-title": "Vigane lehekülg",
+	"electronPdfService-invalid-page-text": "Määratud lehekülg pole sobilik.",
+	"electronPDFService-warning-message": "Meil on märkimisväärseid probleeme funktsiooniga, mida praegu PDF-failide koostamisel kasutame. Paraku tuleb see asendada. Allpool katsetame teenuse uut versiooni (üheveeruline paigutus). Palun aita leida vigu ja puuduvat funktsionaalsust. Kui leiad vigu või soovid jätta muud tagasisidet, siis külasta palun projekti lehekülge: https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality",
+	"electronPDFService-warning-leave-feedback": "Jäta tagasisidet",
+	"electronPDFService-warning-read-more": "Lisateave"
 }
