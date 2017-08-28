@@ -4,5 +4,7 @@
 			"MokaAkashiyaPT"
 		]
 	},
-	"electronPdfService-sidebar-portlet-heading": "Amprimir/sportar"
+	"electronPdfService-special-page-headline": "Descargar cumo PDF",
+	"electronPdfService-sidebar-portlet-heading": "Amprimir/sportar",
+	"electronPdfService-sidebar-portlet-print-text": "Descargar cumo PDF"
 }
