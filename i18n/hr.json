@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bugoslav"
+		]
+	},
+	"electronPdfService": "ElectronPdf usluga",
+	"electronPdfService-desc": "Dodaje podršku za iscrtavanje PDF-ova odmah iz preglednika pomoću usluge Electron PDF",
+	"electronPdfService-special-page-headline": "Preuzmi kao PDF",
+	"electronPdfService-select-layout-header": "Izaberite izgled",
+	"electronPdfService-single-column-label": "Jedan stupac",
+	"electronPdfService-two-column-label": "Dva stupca",
+	"electronPdfService-single-column-desc": "S tablicama i infookvirima",
+	"electronPdfService-two-column-desc": "Bez tablica i infookvira",
+	"electronPdfService-download-button": "Preuzmi",
+	"electronPdfService-sidebar-portlet-heading": "Ispis/izvoz",
+	"electronPdfService-sidebar-portlet-print-text": "Preuzmi kao PDF",
+	"electronPdfService-invalid-page-title": "Nevrijedeća stranica",
+	"electronPdfService-invalid-page-text": "Navedena stranica nije valjana.",
+	"electronPDFService-warning-leave-feedback": "Napišite povratnu informaciju",
+	"electronPDFService-warning-read-more": "Pročitajte više"
+}
