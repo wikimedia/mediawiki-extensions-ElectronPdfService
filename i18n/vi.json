@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen"
+		]
+	},
+	"electronPdfService": "Dịch vụ Electron PDF",
+	"electronPdfService-desc": "Kết xuất PDF hoàn toàn trong trình duyệt dùng dịch vụ Electron PDF",
+	"electronPdfService-special-page-headline": "Tải về PDF",
+	"electronPdfService-select-layout-header": "Chọn bố cục",
+	"electronPdfService-single-column-label": "Một cột",
+	"electronPdfService-two-column-label": "Hai cột",
+	"electronPdfService-single-column-desc": "Có bảng và hộp thông tin",
+	"electronPdfService-two-column-desc": "Không có bảng và hộp thông tin",
+	"electronPdfService-download-button": "Tải về",
+	"electronPdfService-sidebar-portlet-heading": "In/xuất ra",
+	"electronPdfService-sidebar-portlet-print-text": "Tải về PDF",
+	"electronPdfService-invalid-page-title": "Trang không hợp lệ",
+	"electronPdfService-invalid-page-text": "Trang đã chỉ định là không hợp lệ.",
+	"electronPDFService-warning-leave-feedback": "Để lại phản hồi",
+	"electronPDFService-warning-read-more": "Đọc thêm"
+}
