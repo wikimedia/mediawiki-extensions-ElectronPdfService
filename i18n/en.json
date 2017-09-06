@@ -18,7 +18,7 @@
 	"electronPdfService-invalid-page-title": "Invalid page",
 	"electronPdfService-invalid-page-text": "The specified page is not valid.",
 
-	"electronPDFService-warning-message": "We're having significant problems with the function we currently use to create PDFs. We unfortunately have to replace it. We are testing the new version of the service below (single-column layout). Please help us find bugs or missing functionality. If you notice any bugs or would like to leave any other feedback, please visit the project page here: [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality]",
+	"electronPDFService-warning-message": "We have technical problems with the function we use to create PDFs. We unfortunately have to replace it. This affects the styling and features of the books function. For more information and feedback, visit the [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality project page].",
 	"electronPDFService-warning-leave-feedback": "Leave feedback",
 	"electronPDFService-warning-read-more": "Read more"
 }
