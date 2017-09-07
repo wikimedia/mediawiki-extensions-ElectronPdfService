@@ -19,7 +19,7 @@
 	"electronPdfService-sidebar-portlet-print-text": "Télécharger en PDF",
 	"electronPdfService-invalid-page-title": "Page non valide",
 	"electronPdfService-invalid-page-text": "La page spécifiée n’est pas valide",
-	"electronPDFService-warning-message": "Nous avons quelques problèmes particuliers avec la fonction que nous utilisons actuellement pour générer les PDF. Malheureusement nous devons la remplacer. Nous testons la nouvelle version du service ci-dessous (affichage sur une seule colonne). Veuillez nous aider à trouver les bogues ou les fonctionalités manquantes. Si vous remarquez un bogue ou si vous voulez laisser tout autre commentaire, veuillez vous reporter à la page du projet : [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality]",
+	"electronPDFService-warning-message": "Nous avons quelques problèmes techniques avec la fonction que nous utilisons pour générer les PDF. Malheureusement nous devons la remplacer. Ceci concerne la mise en forme et les fonctionalités liées à la génération des livres. Pour plus d'informations, ou pour laisser des commentaires, veuillez vous reporter à la [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality page du projet].",
 	"electronPDFService-warning-leave-feedback": "Laisser un commentaire",
 	"electronPDFService-warning-read-more": "En savoir plus"
 }

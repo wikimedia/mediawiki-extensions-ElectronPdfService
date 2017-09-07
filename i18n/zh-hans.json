@@ -18,7 +18,7 @@
 	"electronPdfService-sidebar-portlet-print-text": "下载为PDF",
 	"electronPdfService-invalid-page-title": "无效页面",
 	"electronPdfService-invalid-page-text": "指定的页面无效。",
-	"electronPDFService-warning-message": "目前我们用来创建PDF的功能存在重大问题。很遗憾，我们将不得不替换它。我们正在下方测试该服务的新版本（单列布局）。请帮助我们找到问题或缺少的功能。如果您注意到任何问题，或希望留下任何其他反馈，请访问项目页面：[https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality]",
+	"electronPDFService-warning-message": "我们用于创建PDF的功能存在技术问题。很遗憾，我们不得不要替换它。这影响图书功能的样式和特性。要了解更多信息，并提供反馈，请访问[https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality 项目页面]。",
 	"electronPDFService-warning-leave-feedback": "留下反馈",
 	"electronPDFService-warning-read-more": "阅读更多"
 }
