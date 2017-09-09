@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Bunukwiki",
-			"Tokoabibi"
+			"Tokoabibi",
+			"Benel"
 		]
 	},
 	"electronPdfService-download-button": "patasasa'",
-	"electronPdfService-sidebar-portlet-heading": "insace/patahkal"
+	"electronPdfService-sidebar-portlet-heading": "insace/patahkal",
+	"electronPDFService-warning-read-more": "kayadahan miasip"
 }
