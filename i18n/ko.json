@@ -15,7 +15,7 @@
 	"electronPdfService-sidebar-portlet-print-text": "PDF로 다운로드",
 	"electronPdfService-invalid-page-title": "잘못된 페이지",
 	"electronPdfService-invalid-page-text": "지정한 문서가 올바르지 않습니다.",
-	"electronPDFService-warning-message": "현재 PDF 파일을 만드는 기능에 중대한 문제가 있습니다. 이 기능은 교체할 예정입니다. 아래에 새 버전의 서비스를 테스트하고 있습니다. (단일 컬럼 레이아웃) 버그나 존재하지 않는 기능을 찾는 것을 도와주세요. 버그를 보고하거나 다른 의견을 남기고 싶으시다면 다음의 프로젝트 페이지를 방문해 주세요:\n [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality]",
+	"electronPDFService-warning-message": "PDF 파일을 만드는 기능에 기술적 문제가 있습니다. 이 기능은 교체할 예정입니다. 책 기능의 서식과 기능에 영향이 있습니다. 추가 정보와 피드백에 대해서는 [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality 프로젝트 페이지]를 방문해 주세요.",
 	"electronPDFService-warning-leave-feedback": "피드백 남기기",
 	"electronPDFService-warning-read-more": "더 읽어보기"
 }

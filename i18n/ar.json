@@ -18,7 +18,7 @@
 	"electronPdfService-sidebar-portlet-print-text": "تحميل بصيغة PDF",
 	"electronPdfService-invalid-page-title": "صفحة غير صالحة",
 	"electronPdfService-invalid-page-text": "الصفحة المحددة غير صحيحة.",
-	"electronPDFService-warning-message": "نحن نواجه مشاكل كبيرة مع الأداة التي نستخدمها حاليا لإنشاء الPDF. نحن سنضطر آسفين لاستبدالها. نحن نختبر النسخة الجديدة من الخدمة بالأسفل (تهيئة بعمود وحيد). من فضلك ساعدنا في اكتشاف العلل أو الوظائف المفقودة. لو أنك لاحظت أي علل أو أنك تود ترك أي تعليق آخر، فمن فضلك زر صفحة المشروع هنا: [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality]",
+	"electronPDFService-warning-message": "نحن نواجه مشاكل تقنية مع الأداة التي نستخدمها لإنشاء الPDF. نحن سنضطر آسفين لاستبدالها. هذا يؤثر على تهيئة وخصائص أداة الكتب. للمزيد من المعلومات وترك تعليق، زر [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality صفحة المشروع].",
 	"electronPDFService-warning-leave-feedback": "اترك تعليقا",
 	"electronPDFService-warning-read-more": "قراءة المزيد"
 }
