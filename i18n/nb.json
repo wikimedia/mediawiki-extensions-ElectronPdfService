@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Danmichaelo"
+			"Danmichaelo",
+			"Jon Harald Søby"
 		]
 	},
 	"electronPdfService": "ElectronPdfService",
@@ -17,6 +18,7 @@
 	"electronPdfService-sidebar-portlet-print-text": "Last ned som PDF",
 	"electronPdfService-invalid-page-title": "Ugyldig side",
 	"electronPdfService-invalid-page-text": "Den angitte siden er ikke gyldig",
+	"electronPDFService-warning-message": "Vi har tekniske problemer med funksjonen som brukes til å opprette PDF-er, og den må erstattes. Dette kan påvirke stilingen og funksjonene i bokfunksjonen. For mer informasjon og tilbakemelding, besøk [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality prosjektsiden].",
 	"electronPDFService-warning-leave-feedback": "Gi tilbakemelding",
 	"electronPDFService-warning-read-more": "Les mer"
 }
