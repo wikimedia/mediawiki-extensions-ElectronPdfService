@@ -1,6 +1,6 @@
 {
 	"name": "ElectronPdfService",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"author": [
 		"TCB team (Wikimedia Deutschland)",
 		"Tobias Gritschacher",
@@ -44,17 +44,6 @@
 				"modules/ext.ElectronPdfService.print.css"
 			]
 		},
-		"ext.ElectronPdfService.special": {
-			"scripts": [
-				"modules/ext.ElectronPdfService.special.js"
-			],
-			"styles": [
-				"modules/ext.ElectronPdfService.special.images.less"
-			],
-			"dependencies": [
-				"ext.ElectronPdfService.special.selectionImages"
-			]
-		},
 		"ext.ElectronPdfService.special.styles": {
 			"styles": [
 				"modules/ext.ElectronPdfService.special.css"
@@ -64,16 +53,10 @@
 			"class": "ResourceLoaderImageModule",
 			"selector": ".mw-electronPdfService-selection-{name}",
 			"images": {
-				"single-column-image": {
+				"download-image": {
 					"file": {
-						"ltr": "resources/selection-single-col-ltr.svg",
-						"rtl": "resources/selection-single-col-rtl.svg"
-					}
-				},
-				"two-column-image": {
-					"file": {
-						"ltr": "resources/selection-two-col-ltr.svg",
-						"rtl": "resources/selection-two-col-rtl.svg"
+						"ltr": "resources/download-ltr.svg",
+						"rtl": "resources/download-rtl.svg"
 					}
 				}
 			}

@@ -27,9 +27,6 @@ class SpecialElectronPdf extends SpecialPage {
 		$request = $this->getRequest();
 		$parts = ( $subPage === '' ) ? [] : explode( '/', $subPage, 2 );
 		$page = trim( $request->getVal( 'page', isset( $parts[0] ) ? $parts[0] : '' ) );
-		$collectionDownloadUrl = trim(
-			$request->getVal( 'coll-download-url', isset( $parts[0] ) ? $parts[0] : '' )
-		);
 
 		$title = Title::newFromText( $page );
 		if ( $title === null ) {
@@ -50,23 +47,17 @@ class SpecialElectronPdf extends SpecialPage {
 				$stats->increment( 'electronpdf.actionsPerWiki.' . $dbName . '.' .  $action );
 				$this->redirectToElectron( $title );
 				return;
-			case 'redirect-to-collection':
-				$stats->increment( 'electronpdf.action.' . $action );
-				$stats->increment( 'electronpdf.actionsPerWiki.' . $dbName . '.' .  $action );
-				$this->redirectToCollection( $collectionDownloadUrl );
-				return;
 			default:
-				$stats->increment( 'electronpdf.action.show-selection-screen' );
-				$stats->increment( 'electronpdf.actionsPerWiki.' . $dbName . '.show-selection-screen' );
-				$this->showRenderModeSelectionPage( $title, $collectionDownloadUrl );
+				$stats->increment( 'electronpdf.action.show-download-screen' );
+				$stats->increment( 'electronpdf.actionsPerWiki.' . $dbName . '.show-download-screen' );
+				$this->showRenderModeSelectionPage( $title );
 		}
 	}
 
 	/**
 	 * @param Title $title page to download as PDF
-	 * @param string $collectionDownloadUrl URL to the download page of the Collection extension
 	 */
-	public function showRenderModeSelectionPage( Title $title, $collectionDownloadUrl ) {
+	public function showRenderModeSelectionPage( Title $title ) {
 		$this->setHeaders();
 
 		$out = $this->getOutput();
@@ -83,15 +74,10 @@ class SpecialElectronPdf extends SpecialPage {
 
 		$form->appendContent(
 			( new OOUI\Tag() )
-				->addClasses( [ 'mw-electronPdfService-selection-header' ] )
-				->appendContent( $this->msg( 'electronPdfService-select-layout-header' )->text() ),
-			( new OOUI\Tag() )
 				->addClasses( [ 'mw-electronPdfService-selection-body' ] )
 				->appendContent(
-					$this->getLabeledOptionField( 'redirect-to-electron', 'single', true ),
-					$this->getLabeledOptionField( 'redirect-to-collection', 'two' ),
+					$this->getLabeledHiddenField( 'redirect-to-electron',  $title->getDBKey() ),
 					$this->getHiddenField( 'page', $title->getPrefixedText() ),
-					$this->getHiddenField( 'coll-download-url', $collectionDownloadUrl ),
 					new OOUI\ButtonGroupWidget( [
 						'items' => [
 							new OOUI\ButtonInputWidget( [
@@ -109,27 +95,22 @@ class SpecialElectronPdf extends SpecialPage {
 
 	/**
 	 * @param string $action
-	 * @param string $name
-	 * @param boolean $selected
+	 * @param string $pageTitle
 	 * @return OOUI\Tag
 	 */
-	private function getLabeledOptionField( $action, $name, $selected = false ) {
+	private function getLabeledHiddenField( $action, $pageTitle ) {
 		$image = ( new OOUI\Tag() )->addClasses( [
 			'mw-electronPdfService-selection-image',
-			'mw-electronPdfService-selection-' . $name . '-column-image'
+			'mw-electronPdfService-selection-download-image'
 		] );
 
 		$field = ( new OOUI\Tag() )->addClasses( [ 'mw-electronPdfService-selection-field' ] );
 		$field->appendContent(
-			new OOUI\RadioInputWidget( [
-				'name' => 'action',
-				'value' => $action,
-				'selected' => $selected
-			] ),
+			$this->getHiddenField( 'action', $action ),
 			( new OOUI\Tag( 'div' ) )->addClasses( [ 'mw-electronPdfService-selection-label-text' ] )
-				->appendContent( $this->msg( 'electronPdfService-' . $name . '-column-label' )->text() ),
+				->appendContent( $this->msg( 'electronPdfService-download-label' )->text() ),
 			( new OOUI\Tag( 'div' ) )->addClasses( [ 'mw-electronPdfService-selection-label-desc' ] )
-				->appendContent( $this->msg( 'electronPdfService-' . $name . '-column-desc' )->text() )
+				->appendContent( $pageTitle . ".pdf" )
 		);
 
 		$labelBox = ( new OOUI\Tag( 'label' ) )->appendContent(
@@ -208,19 +189,14 @@ class SpecialElectronPdf extends SpecialPage {
 	}
 
 	/**
-	 * Adds JS and CSS modules
+	 * Adds CSS modules
 	 */
 	protected function addModules() {
-		$out = $this->getOutput();
-		$rl = $out->getResourceLoader();
-
-		if (
-			$rl->isModuleRegistered( 'ext.ElectronPdfService.special.styles' )
-			&& $rl->isModuleRegistered( 'ext.ElectronPdfService.special' )
-		) {
-			$out->addModuleStyles( [ 'ext.ElectronPdfService.special.styles', 'mediawiki.hlist' ] );
-			$out->addModules( 'ext.ElectronPdfService.special' );
-		}
+		$this->getOutput()->addModuleStyles( [
+			'ext.ElectronPdfService.special.styles',
+			'ext.ElectronPdfService.special.selectionImages',
+			'mediawiki.hlist'
+		] );
 	}
 
 	/**
@@ -240,22 +216,5 @@ class SpecialElectronPdf extends SpecialPage {
 		$this->getOutput()->redirect(
 			$this->getServiceUrl( $title )
 		);
-	}
-
-	/**
-	 * @param string $collectionDownloadUrl
-	 */
-	private function redirectToCollection( $collectionDownloadUrl ) {
-		$queryString = parse_url(
-			urldecode( $collectionDownloadUrl ),
-			PHP_URL_QUERY
-		);
-		parse_str( $queryString, $params );
-		unset( $params['title'] );
-
-		$this->getOutput()->redirect( wfAppendQuery(
-			SkinTemplate::makeSpecialUrl( 'Book' ),
-			http_build_query( $params )
-		) );
 	}
 }
