@@ -19,7 +19,7 @@
 	"electronPdfService-sidebar-portlet-print-text": "הורדה כ־PDF",
 	"electronPdfService-invalid-page-title": "דף לא תקין",
 	"electronPdfService-invalid-page-text": "הדף שצוין אינו תקין.",
-	"electronPDFService-warning-message": "יש לנו בעיות מהותיות עם הפונקציה שאנחנו משתמשים בה כעת כדי ליצור PDF־ים. לצערנו נאלצנו להחליף אותה. אנחנו בודקים את הגרסה החדשה של השירות להלן (עיצוב בטור אחד). אנא עזרו לנו למצוא באגים או פעולות חסרות. אם תשימו לב לבאגים כלשהם, או תרצו לשלוח משוב אחר, אנא בקרו בדף המיזם כאן: [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality]",
+	"electronPDFService-warning-message": "יש לנו בעיות טכניות עם הפונקציה שאנחנו משתמשים בה כעת כדי ליצור PDF־ים. לצערנו נאלצנו להחליף אותה. זה משפיע על העיצוב ועל האפשרויות של פונקציית הספרים. למידע נוסף ולשליחת משוב, נא לבקר ב[https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality דף הפרויקט].",
 	"electronPDFService-warning-leave-feedback": "שליחת משוב",
 	"electronPDFService-warning-read-more": "מידע נוסף"
 }
