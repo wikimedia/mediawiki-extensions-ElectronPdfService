@@ -5,4 +5,4 @@ Feature: ElectronPdfService Download Screen
 
   Scenario: Download screen is shown with correct data
     When I click Download as PDF
-    Then I should see the Download button
+    Then I should see a print form with a download button
