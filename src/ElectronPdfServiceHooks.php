@@ -12,8 +12,8 @@ use MediaWiki\MediaWikiServices;
 class ElectronPdfServiceHooks {
 
 	/**
-	 * If present, make the "Download as PDF" link in the sidebar point to the selection screen,
-	 * add a new link otherwise
+	 * If present, make the "Download as PDF" link in the sidebar point to the download screen,
+	 * add a new link otherwise.
 	 *
 	 * @param Skin $skin
 	 * @param mixed &$bar
@@ -31,31 +31,32 @@ class ElectronPdfServiceHooks {
 			return true;
 		}
 
+		// FIXME: remove logic related to Extension:Collection once we decommission it: T176755.
 		if ( $config->has( 'CollectionFormats' ) && array_key_exists( 'coll-print_export', $bar ) ) {
 			$index = self::getIndexOfDownloadPdfSidebarItem(
 				$bar['coll-print_export'],
 				$config->get( 'CollectionFormats' )
 			);
-			// if Collection extension provides a download-as-pdf link, make it point to the selection screen
+			// if Collection extension provides a download-as-pdf link, make it point to the download screen
 			if ( $index !== false ) {
-				$bar['coll-print_export'][$index]['href'] = self::generateSelectionScreenLink(
-					$title,
-					$bar['coll-print_export'][$index]['href']
+				$bar['coll-print_export'][$index]['href'] = self::generateDownloadScreenLink(
+					$title
 				);
-			// if no download-as-pdf link is there, add one and point to the selection screen
+			// if no download-as-pdf link is there, add one and point to the download screen
 			} else {
 				$bar['coll-print_export'][] = [
 					'text' => $skin->msg( 'electronPdfService-sidebar-portlet-print-text' ),
 					'id' => 'electron-print_pdf',
-					'href' => self::generatePdfDownloadLink( $title )
+					'href' => self::generateDownloadScreenLink( $title )
 				];
 			}
 		} else {
-			// in case Collection is not installed, let's add our own portlet with a direct link to the PDF
+			// in case Collection is not installed, let's add our own portlet
+			// with a link to the download screen
 			$bar['electronPdfService-sidebar-portlet-heading'][] = [
 				'text' => $skin->msg( 'electronPdfService-sidebar-portlet-print-text' ),
 				'id' => 'electron-print_pdf',
-				'href' => self::generatePdfDownloadLink( $title )
+				'href' => self::generateDownloadScreenLink( $title )
 			];
 		}
 
@@ -98,14 +99,13 @@ class ElectronPdfServiceHooks {
 		);
 	}
 
-	private static function generateSelectionScreenLink( Title $title, $collectionUrl ) {
+	private static function generateDownloadScreenLink( Title $title ) {
 		$specialPageTitle = SpecialPage::getTitleFor( 'ElectronPdf' );
 
 		return $specialPageTitle->getLocalURL(
 			[
 				'page' => $title->getPrefixedText(),
-				'action' => 'show-selection-screen',
-				'coll-download-url' => $collectionUrl
+				'action' => 'show-download-screen'
 			]
 		);
 	}
