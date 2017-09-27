@@ -3,19 +3,15 @@
 		"authors": [
 			"Cwlin0416",
 			"Liuxinyu970226",
-			"LNDDYL"
+			"LNDDYL",
+			"Wwycheuk"
 		]
 	},
 	"electronPdfService-special-page-headline": "下載成 PDF",
-	"electronPdfService-select-layout-header": "選擇版面配置",
-	"electronPdfService-single-column-label": "單欄",
-	"electronPdfService-two-column-label": "兩欄",
-	"electronPdfService-single-column-desc": "包括表格與資訊框",
-	"electronPdfService-two-column-desc": "不包括表格與資訊框",
 	"electronPdfService-download-button": "下載",
 	"electronPdfService-sidebar-portlet-heading": "列印/匯出",
 	"electronPdfService-sidebar-portlet-print-text": "下載成 PDF",
-	"electronPDFService-warning-message": "目前我们用於建立 PDF 的功能出現嚴重問題，很遺憾，我們必須取代此功能。我们正在下方測試此服務的新版本（單欄版面配置）。請協助我们找到 Bug 或遺漏功能。若閣下發現了任何 Bug，或希望留下任何其他回饋，請在這裡造訪計畫頁面：[https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality]",
+	"electronPDFService-warning-message": "我們用於建立 PDF 的功能出現技術問題。很遺憾，我們必須取代此功能。此舉會影響圖書功能的樣式及特性。要了解詳細資料，請造訪[https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality 專案頁面]。",
 	"electronPDFService-warning-leave-feedback": "提供意見",
 	"electronPDFService-warning-read-more": "延伸閱讀"
 }

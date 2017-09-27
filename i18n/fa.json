@@ -1,17 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Reza1615"
+			"Reza1615",
+			"Ladsgroup"
 		]
 	},
 	"electronPdfService": "انتخاب سرویس پی‌دی‌اف",
 	"electronPdfService-desc": "افزودن پشتیبانی از موتور رندر پی‌دی‌اف مرورگر به کمک ابزار انتخاب سرویس پی‌دی‌اف",
 	"electronPdfService-special-page-headline": "بارگیری به عنوان پی‌دی‌اف",
-	"electronPdfService-select-layout-header": "انتخاب سبک",
-	"electronPdfService-single-column-label": "تک ستونی",
-	"electronPdfService-two-column-label": "دو ستونی",
-	"electronPdfService-single-column-desc": "شامل جدول‌ها و جعبه‌ها",
-	"electronPdfService-two-column-desc": "بدون جدول‌ها و جعبه‌ها",
+	"electronPdfService-download-label": "دریافت به عنوان پی‌دی‌اف",
 	"electronPdfService-download-button": "بارگیری",
 	"electronPdfService-sidebar-portlet-heading": "چاپ/برون‌بری",
 	"electronPdfService-sidebar-portlet-print-text": "بارگیری به عنوان پی‌دی‌اف",

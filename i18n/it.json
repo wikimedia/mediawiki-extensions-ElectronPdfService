@@ -7,8 +7,7 @@
 		]
 	},
 	"electronPdfService-special-page-headline": "Scarica in formato PDF",
-	"electronPdfService-single-column-label": "Colonna singola",
-	"electronPdfService-two-column-label": "Due colonne",
+	"electronPdfService-download-label": "Scarica in formato PDF",
 	"electronPdfService-download-button": "Scarica",
 	"electronPdfService-sidebar-portlet-heading": "Stampa/esporta",
 	"electronPdfService-sidebar-portlet-print-text": "Scarica in formato PDF",

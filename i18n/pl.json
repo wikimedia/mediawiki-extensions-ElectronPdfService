@@ -1,14 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrumps"
+			"Chrumps",
+			"Sebek Adamowicz"
 		]
 	},
 	"electronPdfService-special-page-headline": "Pobierz jako PDF",
-	"electronPdfService-single-column-label": "Pojedyncza kolumna",
-	"electronPdfService-two-column-label": "Dwie kolumny",
-	"electronPdfService-single-column-desc": "Zawiera tabele i infoboksy",
-	"electronPdfService-two-column-desc": "Bez tabel i infoboksów",
+	"electronPdfService-download-label": "Pobierz jako PDF",
 	"electronPdfService-download-button": "Pobierz",
 	"electronPdfService-sidebar-portlet-heading": "Drukuj lub eksportuj",
 	"electronPdfService-sidebar-portlet-print-text": "Pobierz jako PDF",

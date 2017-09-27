@@ -5,11 +5,7 @@
 		]
 	},
 	"electronPdfService-special-page-headline": "Als PDF eroflueden",
-	"electronPdfService-select-layout-header": "Sicht e Layout eraus",
-	"electronPdfService-single-column-label": "Eenzel Kolonn",
-	"electronPdfService-two-column-label": "Zwou Kolonnen",
-	"electronPdfService-single-column-desc": "Inklusiv Tabellen an Infoboxen",
-	"electronPdfService-two-column-desc": "Ouni Tabellen an Infoboxen",
+	"electronPdfService-download-label": "Als PDF eroflueden",
 	"electronPdfService-download-button": "Eroflueden",
 	"electronPdfService-sidebar-portlet-heading": "Drécken/Exportéieren",
 	"electronPdfService-sidebar-portlet-print-text": "Als PDF eroflueden",

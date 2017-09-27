@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"George Animal"
+			"George Animal",
+			"Cûndûllah el-Kurdî"
 		]
 	},
 	"electronPdfService": "ElectronPdfService",
 	"electronPdfService-special-page-headline": "Wek PDF daxe",
+	"electronPdfService-download-label": "Wek PDF daxe",
 	"electronPdfService-download-button": "Daxe",
 	"electronPdfService-sidebar-portlet-heading": "Çap bike",
 	"electronPdfService-sidebar-portlet-print-text": "Wek PDF daxe",
