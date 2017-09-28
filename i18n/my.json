@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ninjastrikers"
+		]
+	},
+	"electronPdfService-special-page-headline": "PDF အနေဖြင့် ရယူရန်",
+	"electronPdfService-download-label": "PDF အနေဖြင့် ရယူရန်",
+	"electronPdfService-download-button": "ဒေါင်းလုပ်ယူရန်",
+	"electronPdfService-sidebar-portlet-print-text": "PDF အနေဖြင့် ရယူရန်",
+	"electronPDFService-warning-message": "PDF ဖိုင်များ ဖန်တီးရန် ကျွန်ုပ်တို့ အသုံးပြုသော လုပ်ငန်းတွင် နည်းပညာဆိုင်ရာ ပြဿနာများ ရှိနေပါသည်။ ကျွန်ုပ်တို့အနေဖြင့် ယင်းကို စိတ်မကောင်းစွာပင် အစားထိုးရမည် ဖြစ်သည်။ စာအုပ်လုပ်ငန်းစဉ်နှင့် ပုံစံချခြင်းတို့တွင် အကျိုးသက်ရောက်မှုရှိမည် ဖြစ်ပါသည်။ နောက်ထပ် အချက်အလက်များနှင့် အကြံပြုလိုသည်များအတွက် [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality ပရောဂျက် စာမျက်နှာ]ကို ဝင်ရောက်ပါ။"
+}
