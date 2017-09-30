@@ -10,7 +10,7 @@
 	"electronPdfService-special-page-headline": "下載成 PDF",
 	"electronPdfService-download-button": "下載",
 	"electronPdfService-sidebar-portlet-heading": "列印/匯出",
-	"electronPdfService-sidebar-portlet-print-text": "下載成 PDF",
+	"electronPdfService-sidebar-portlet-print-text": "下載為 PDF",
 	"electronPDFService-warning-message": "我們用於建立 PDF 的功能出現技術問題。很遺憾，我們必須取代此功能。此舉會影響圖書功能的樣式及特性。要了解詳細資料，請造訪[https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality 專案頁面]。",
 	"electronPDFService-warning-leave-feedback": "提供意見",
 	"electronPDFService-warning-read-more": "延伸閱讀"
