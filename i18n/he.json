@@ -9,6 +9,7 @@
 	"electronPdfService": "שירות ElectronPdf",
 	"electronPdfService-desc": "הוספת תמיכה בתיצוג PDF דרך שירות Electron PDF",
 	"electronPdfService-special-page-headline": "הורדה כ־PDF",
+	"electronPdfService-download-label": "הורדה כ־PDF",
 	"electronPdfService-download-button": "הורדה",
 	"electronPdfService-sidebar-portlet-heading": "הדפסה/ייצוא",
 	"electronPdfService-sidebar-portlet-print-text": "הורדה כ־PDF",
