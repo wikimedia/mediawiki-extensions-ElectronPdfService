@@ -7,6 +7,7 @@
 	"electronPdfService": "ElectronPdfService",
 	"electronPdfService-desc": "Amiesta encontu pa la renderización de PDF nel navegador col serviciu Electron PDF",
 	"electronPdfService-special-page-headline": "Descargar como PDF",
+	"electronPdfService-download-label": "Descargar como PDF",
 	"electronPdfService-download-button": "Descargar",
 	"electronPdfService-sidebar-portlet-heading": "Imprentar/esportar",
 	"electronPdfService-sidebar-portlet-print-text": "Descargar como PDF",

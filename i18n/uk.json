@@ -1,17 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Piramidion"
+			"Piramidion",
+			"SimondR"
 		]
 	},
 	"electronPdfService": "ElectronPdfService",
 	"electronPdfService-desc": "Додає браузерну підтримку обробки PDF через сервіс Electron PDF",
 	"electronPdfService-special-page-headline": "Завантажити як PDF",
-	"electronPdfService-select-layout-header": "Вибрати макет",
-	"electronPdfService-single-column-label": "Один стовпець",
-	"electronPdfService-two-column-label": "Два стовпці",
-	"electronPdfService-single-column-desc": "Включає таблиці і картки",
-	"electronPdfService-two-column-desc": "Без таблиць і карток",
+	"electronPdfService-download-label": "Завантажити як PDF",
 	"electronPdfService-download-button": "Завантажити",
 	"electronPdfService-sidebar-portlet-heading": "Друк/експорт",
 	"electronPdfService-sidebar-portlet-print-text": "Завантажити як PDF",
