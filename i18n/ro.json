@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Strainu"
+		]
+	},
+	"electronPdfService": "ServiciulElectronPdf",
+	"electronPdfService-special-page-headline": "Descărcare în format PDF",
+	"electronPdfService-download-label": "Descărcare în format PDF",
+	"electronPdfService-download-button": "Descărcare",
+	"electronPdfService-sidebar-portlet-heading": "Tipărire/exportare",
+	"electronPdfService-sidebar-portlet-print-text": "Descărcare în format PDF",
+	"electronPdfService-invalid-page-text": "Pagina specificată nu este validă.",
+	"electronPDFService-warning-leave-feedback": "Oferiți-ne impresiile dumneavoastră",
+	"electronPDFService-warning-read-more": "Mai multe"
+}
