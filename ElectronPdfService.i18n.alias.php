@@ -12,3 +12,8 @@ $specialPageAliases = [];
 $specialPageAliases['en'] = [
 	'ElectronPdf' => [ 'ElectronPdf' ],
 ];
+
+/** Urdu (اردو) */
+$specialPageAliases['ur'] = [
+	'ElectronPdf' => [ 'الیکٹران_پی_ڈی_ایف' ],
+];
