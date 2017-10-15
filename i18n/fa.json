@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Reza1615",
-			"Ladsgroup"
+			"Ladsgroup",
+			"Huji"
 		]
 	},
 	"electronPdfService": "انتخاب سرویس پی‌دی‌اف",
@@ -14,7 +15,7 @@
 	"electronPdfService-sidebar-portlet-print-text": "بارگیری به عنوان پی‌دی‌اف",
 	"electronPdfService-invalid-page-title": "صفحهٔ نامعتبر",
 	"electronPdfService-invalid-page-text": "صفحه مشخص شده معتبر نیست.",
-	"electronPDFService-warning-message": "به دلیل وجود مشکلات بسیار در افزونهٔ خروجی پی‌دی‌اف، در حال جایگزینی و آزمودن افزونهٔ جدید خروجی پی‌دی‌اف هستیم. در صورتی که خطایی برای حالت تک‌ستونی مشاهده کردید، در [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality اینجا] مطرح کنید.",
+	"electronPDFService-warning-message": "مشکلات فنی در افزونهٔ خروجی پی‌دی‌اف وجود دارد، و شوربختانه باید آن را جایگزین کنیم. این روی ظاهر و کارایی عملکرد ایجاد کتاب تأثیر می‌گذارد. برای اطلاعات بیشتر، [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality صفحهٔ پروژه] را ببینید.",
 	"electronPDFService-warning-leave-feedback": "بازخوردی بگذارید",
 	"electronPDFService-warning-read-more": "بیشتر بخوانید"
 }
