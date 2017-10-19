@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Snævar"
+		]
+	},
+	"electronPdfService-special-page-headline": "Sækja sem PDF",
+	"electronPdfService-download-label": "Sækja sem PDF",
+	"electronPdfService-download-button": "Hlaða niður",
+	"electronPdfService-sidebar-portlet-heading": "Prenta/flytja út",
+	"electronPdfService-sidebar-portlet-print-text": "Sækja sem PDF",
+	"electronPdfService-invalid-page-title": "Ógild síða",
+	"electronPdfService-invalid-page-text": "Valda síðan er ógild.",
+	"electronPDFService-warning-leave-feedback": "Skilja eftir svörun",
+	"electronPDFService-warning-read-more": "Lesa meira"
+}
