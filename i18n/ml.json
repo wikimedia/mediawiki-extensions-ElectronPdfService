@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Praveenp"
+		]
+	},
+	"electronPdfService-special-page-headline": "പി.ഡി.എഫ്. ഡൗൺലോഡ് ചെയ്യുക",
+	"electronPdfService-download-label": "പി.ഡി.എഫ്. ഡൗൺലോഡ് ചെയ്യുക",
+	"electronPdfService-download-button": "ഡൗൺലോഡ്",
+	"electronPdfService-sidebar-portlet-heading": "അച്ചടി/കയറ്റുമതി",
+	"electronPdfService-sidebar-portlet-print-text": "പി.ഡി.എഫ്. ഡൗൺലോഡ് ചെയ്യുക",
+	"electronPdfService-invalid-page-title": "അസാധുവായ താൾ"
+}
