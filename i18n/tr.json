@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sayginer"
+		]
+	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "ElectronPDFservice aracılığıyla tarayıcı tabanlı PDF oluşturma desteği ekler",
+	"electronPdfService-special-page-headline": "PDF olarak indir",
+	"electronPdfService-download-label": "PDF olarak indir",
+	"electronPdfService-download-button": "İndir",
+	"electronPdfService-sidebar-portlet-heading": "Yazdır/dışa aktar",
+	"electronPdfService-sidebar-portlet-print-text": "PDF olarak indir",
+	"electronPdfService-invalid-page-title": "Geçersiz sayfa",
+	"electronPdfService-invalid-page-text": "Belirtilen sayfa geçerli değil.",
+	"electronPDFService-warning-message": "PDF'leri oluştururken kullandığımız özelliğimizde teknik sorunlar yaşıyoruz. Ne yazık ki sistemi değiştirmek zorundayız. Bu, kitaplar fonksiyonunun biçimlendirmesini ve diğer özelliklerini etkileyecek. Daha fazla bilgi ve geribildirim için [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality proje sayfasını] ziyaret edin.",
+	"electronPDFService-warning-leave-feedback": "Geribildirim bırak",
+	"electronPDFService-warning-read-more": "Daha fazla bilgi"
+}
