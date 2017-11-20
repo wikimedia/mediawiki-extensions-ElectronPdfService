@@ -4,7 +4,16 @@
 			"Умар"
 		]
 	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "Коьртачу браузеран тӀетуху PDF рендеран Electron PDF сервис чухула",
 	"electronPdfService-special-page-headline": "PDF санна схьаэца",
+	"electronPdfService-download-label": "PDF санна схьаэца",
 	"electronPdfService-download-button": "Схьаэца",
-	"electronPdfService-sidebar-portlet-print-text": "PDF санна схьаэца"
+	"electronPdfService-sidebar-portlet-heading": "Зорба/экспорт",
+	"electronPdfService-sidebar-portlet-print-text": "PDF санна схьаэца",
+	"electronPdfService-invalid-page-title": "Нийса йоцу агӀо",
+	"electronPdfService-invalid-page-text": "Билгалйина нийса йоцу агӀо.",
+	"electronPDFService-warning-message": "PDF кхоллуш лелош йолучу функцица тха чогӀа халонаш ю. Цундела иза оха хийца езаш ю. Оха тест еш ю сервисан керла верси лахахьа (цхьана колонка юьллуш). Дехар до, гӀалаташ карадан гӀодар. Шайна муьлха а гӀалаташ карадахь я муьлха коммент йита лаахь, дехар до, хьовса кхуза: [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality]",
+	"electronPDFService-warning-leave-feedback": "Язде хьайна хетарг",
+	"electronPDFService-warning-read-more": "Ма-дарра"
 }
