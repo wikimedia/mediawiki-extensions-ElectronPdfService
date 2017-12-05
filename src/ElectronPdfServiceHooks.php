@@ -31,7 +31,6 @@ class ElectronPdfServiceHooks {
 			return true;
 		}
 
-		// FIXME: remove logic related to Extension:Collection once we decommission it: T176755.
 		if ( $config->has( 'CollectionFormats' ) && array_key_exists( 'coll-print_export', $bar ) ) {
 			$index = self::getIndexOfDownloadPdfSidebarItem(
 				$bar['coll-print_export'],
