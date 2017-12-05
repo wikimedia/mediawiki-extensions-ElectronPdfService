@@ -5,9 +5,6 @@
 		]
 	},
 	"electronPdfService-special-page-headline": "Parsisiųsti kaip PDF",
-	"electronPdfService-select-layout-header": "Pasirinkti išdėstymą",
-	"electronPdfService-single-column-label": "Vieno stulpelio",
-	"electronPdfService-two-column-label": "Dviejų stulpelių",
 	"electronPdfService-download-button": "Atsisiųsti",
 	"electronPdfService-sidebar-portlet-heading": "Spausdinti/eksportuoti",
 	"electronPdfService-sidebar-portlet-print-text": "Parsisiųsti kaip PDF",

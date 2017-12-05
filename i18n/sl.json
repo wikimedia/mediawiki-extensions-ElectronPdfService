@@ -9,7 +9,5 @@
 	"electronPdfService-sidebar-portlet-heading": "Natisni/izvozi",
 	"electronPdfService-sidebar-portlet-print-text": "Prenesi kot PDF",
 	"electronPdfService-invalid-page-title": "Neveljavna stran",
-	"electronPdfService-invalid-page-text": "Ta stran ni veljavna.",
-	"electronPdfService-page-notfound-title": "Strani ni bilo mogoče najti",
-	"electronPdfService-page-notfound-text": "Iskane povezave ni bilo mogoče razrešiti."
+	"electronPdfService-invalid-page-text": "Ta stran ni veljavna."
 }
