@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Liuxinyu970226",
-			"Shizhao"
+			"Shizhao",
+			"LNDDYL"
 		]
 	},
 	"electronPdfService": "电子Pdf服务",
@@ -14,7 +15,7 @@
 	"electronPdfService-sidebar-portlet-print-text": "下载为PDF",
 	"electronPdfService-invalid-page-title": "无效页面",
 	"electronPdfService-invalid-page-text": "指定的页面无效。",
-	"electronPDFService-warning-message": "我们用于创建PDF的功能存在技术问题。很遗憾，我们不得不要替换它。这影响图书功能的样式和特性。要了解更多信息，并提供反馈，请访问[https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality 项目页面]。",
+	"electronPDFService-warning-message": "我们用于创建PDF的功能存在技术问题。很遗憾，我们不得不要替换它。这影响图书功能的样式和特性。要了解更多信息，并提供反馈，请访问[https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality 项目页面]。<br />致简体中文用户：因技术问题，本PDF文件只能以“不转换”模式显示文本，如果出现简繁体混杂，我们深感抱歉。",
 	"electronPDFService-warning-leave-feedback": "留下反馈",
 	"electronPDFService-warning-read-more": "阅读更多"
 }
