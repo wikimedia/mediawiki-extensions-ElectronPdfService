@@ -4,5 +4,12 @@
 			"Fitoschido"
 		]
 	},
+	"electronPdfService-special-page-headline": "Baixa com a PDF",
+	"electronPdfService-download-label": "Baixa com a PDF",
+	"electronPdfService-download-button": "Baixa",
+	"electronPdfService-sidebar-portlet-heading": "Imprimeix/exporta",
+	"electronPdfService-sidebar-portlet-print-text": "Baixa com a PDF",
+	"electronPdfService-invalid-page-title": "Pàgina no vàlida",
+	"electronPdfService-invalid-page-text": "La pàgina especificada no és vàlida.",
 	"electronPDFService-warning-read-more": "Més informació"
 }
