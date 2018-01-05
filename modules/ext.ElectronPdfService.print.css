@@ -4,8 +4,8 @@
 	content: '';
 }
 
-.mediawiki .mw-body a.external.text[href^='//']:after,
-.mediawiki .mw-body a.external.autonumber[href^='//']:after {
+.mediawiki .mw-body a.external.text[ href^='//' ]:after,
+.mediawiki .mw-body a.external.autonumber[ href^='//' ]:after {
 	content: '';
 }
 
@@ -17,7 +17,7 @@
 	word-wrap: break-word;
 }
 
-.mediawiki .mw-body ol.references a.external.text[href^='//']:after,
-.mediawiki .mw-body ol.references a.external.autonumber[href^='//']:after {
+.mediawiki .mw-body ol.references a.external.text[ href^='//' ]:after,
+.mediawiki .mw-body ol.references a.external.autonumber[ href^='//' ]:after {
 	content: ' (https:' attr( href ) ')';
 }
