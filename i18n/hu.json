@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tacsipacsi"
+		]
+	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "Böngészőalapú PDF-feldolgozási támogatás az Electron PDF-szolgáltatás segítségével",
+	"electronPdfService-special-page-headline": "Letöltés PDF-ként",
+	"electronPdfService-download-label": "Letöltés PDF-ként",
+	"electronPdfService-download-button": "Letöltés",
+	"electronPdfService-sidebar-portlet-heading": "Nyomtatás/exportálás",
+	"electronPdfService-sidebar-portlet-print-text": "Letöltés PDF-ként",
+	"electronPdfService-invalid-page-title": "Érvénytelen lap",
+	"electronPdfService-invalid-page-text": "A megadott lap nem érvényes.",
+	"electronPDFService-warning-leave-feedback": "Visszajelzés",
+	"electronPDFService-warning-read-more": "További információk"
+}
