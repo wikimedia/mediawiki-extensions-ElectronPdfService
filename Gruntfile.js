@@ -10,7 +10,8 @@ module.exports = function ( grunt ) {
 	grunt.initConfig( {
 		eslint: {
 			all: [
-				'modules/**/*.js'
+				'modules/**/*.js',
+				'tests/selenium/**/*.js'
 			]
 		},
 		stylelint: {
