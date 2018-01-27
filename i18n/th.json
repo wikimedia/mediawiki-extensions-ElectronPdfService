@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622"
+		]
+	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "เพิ่มการรองรับการแสดงผล PDF ในเบราว์เซอร์ผ่านบริการ Electron PDF",
+	"electronPdfService-special-page-headline": "ดาวน์โหลดเป็น PDF",
+	"electronPdfService-download-label": "ดาวน์โหลดเป็น PDF",
+	"electronPdfService-download-button": "ดาวน์โหลด",
+	"electronPdfService-sidebar-portlet-heading": "พิมพ์/ส่งออก",
+	"electronPdfService-sidebar-portlet-print-text": "ดาวน์โหลดเป็น PDF",
+	"electronPdfService-invalid-page-title": "หน้าไม่ถูกต้อง",
+	"electronPdfService-invalid-page-text": "หน้าที่ระบุไม่ถูกต้อง",
+	"electronPDFService-warning-message": "เรามีปัญหาทางเทคนิคกับฟังก์ชันที่เราใช้สร้างไฟล์ PDF เราจึงจำเป็นต้องแทนที่ฟังก์ชันนี้ การดำเนินการนี้จะส่งผลต่อการจัดรูปแบบและคุณสมบัติของฟังก์ชัน สำหรับข้อมูลเพิ่มเติม หรือต้องการให้คำแนะนำหรือติชม ดูที่ [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality project page]",
+	"electronPDFService-warning-leave-feedback": "ให้คำแนะนำหรือติชม",
+	"electronPDFService-warning-read-more": "อ่านเพิ่มเติม"
+}
