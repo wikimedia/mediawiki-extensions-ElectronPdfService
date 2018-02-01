@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"StanProg"
+			"StanProg",
+			"ShockD"
 		]
 	},
 	"electronPdfService-special-page-headline": "Изтегляне като PDF",
-	"electronPdfService-sidebar-portlet-print-text": "Изтегляне като PDF"
+	"electronPdfService-sidebar-portlet-print-text": "Изтегляне като PDF",
+	"electronPDFService-warning-message": "Изпитваме технически проблеми с функцията за създаване на PDF файлове. За съжаление, трябва да я заменим. Това засяга стила и компонентите на функцията за книги. За повече информация и обратна връзка, посетете [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality страницата на проекта]."
 }
