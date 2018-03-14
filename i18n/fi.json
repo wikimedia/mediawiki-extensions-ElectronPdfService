@@ -5,8 +5,8 @@
 			"Pyscowicz"
 		]
 	},
-	"electronPdfService-special-page-headline": "Lataa PDF:änä",
-	"electronPdfService-download-label": "Lataa PDF:änä",
+	"electronPdfService-special-page-headline": "Lataa PDF-tiedostona",
+	"electronPdfService-download-label": "Lataa PDF-tiedostona",
 	"electronPdfService-download-button": "Lataa",
 	"electronPdfService-sidebar-portlet-heading": "Tulosta/vie",
 	"electronPdfService-sidebar-portlet-print-text": "Lataa PDF-tiedostona",
