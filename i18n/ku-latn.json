@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"George Animal",
-			"Cûndûllah el-Kurdî"
+			"Cûndûllah el-Kurdî",
+			"Bikarhêner"
 		]
 	},
 	"electronPdfService": "ElectronPdfService",
 	"electronPdfService-special-page-headline": "Wek PDF daxe",
 	"electronPdfService-download-label": "Wek PDF daxe",
 	"electronPdfService-download-button": "Daxe",
-	"electronPdfService-sidebar-portlet-heading": "Çap bike",
+	"electronPdfService-sidebar-portlet-heading": "Çap bike/derxîne",
 	"electronPdfService-sidebar-portlet-print-text": "Wek PDF daxe",
 	"electronPdfService-invalid-page-title": "Rûpela nederbasdar"
 }
