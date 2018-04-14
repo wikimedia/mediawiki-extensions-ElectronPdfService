@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"គីមស៊្រុន"
+		]
+	},
+	"electronPdfService-special-page-headline": "ទាញយកជាPDF",
+	"electronPdfService-download-label": "ទាញយកជាPDF",
+	"electronPdfService-download-button": "ទាញយក",
+	"electronPdfService-sidebar-portlet-heading": "បោះពុម្ព​/នាំចេញ​",
+	"electronPdfService-sidebar-portlet-print-text": "ទាញយកជាPDF",
+	"electronPdfService-invalid-page-title": "ទំព័រ​មិនត្រឹមត្រូវ",
+	"electronPdfService-invalid-page-text": "ទំព័រដែលអ្នកបានផ្ដល់មិនត្រឹមត្រូវ។",
+	"electronPDFService-warning-message": "យើងខ្ញុំមានបញ្ហាបច្ចេកទេសជាមួយមុខងារដែលយើងខ្ញុំប្រើប្រាស់សម្រាប់បង្កើតឯកសារ PDF។ យើងខ្ញុំចាំបាច់ត្រូវដូរមុខងារនេះចេញ។ ការធ្វើបែបនេះមានផលប៉ះពាល់ដល់ការរចនានិងមុខងារពិសេសសម្រាប់បង្កើតសៀវភៅ។ សម្រាប់ព័ត៌មានបន្ថែមនិងការបញ្ចេញមតិយោបល់ សូមចូលទៅមើល[https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality ទំព័រគម្រោង]។",
+	"electronPDFService-warning-leave-feedback": "បញ្ចេញមតិយោបល់",
+	"electronPDFService-warning-read-more": "អានបន្ថែម"
+}
