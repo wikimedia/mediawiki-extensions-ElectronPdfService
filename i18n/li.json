@@ -1,10 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pahles"
+			"Pahles",
+			"Ooswesthoesbes"
 		]
 	},
 	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-sidebar-portlet-heading": "Aafdrökke",
-	"electronPdfService-invalid-page-title": "Ongeljige pazjena"
+	"electronPdfService-special-page-headline": "Download es PDF",
+	"electronPdfService-download-label": "Download es PDF",
+	"electronPdfService-download-button": "Download",
+	"electronPdfService-sidebar-portlet-heading": "Drók aaf/exporteer",
+	"electronPdfService-sidebar-portlet-print-text": "Download es PDF",
+	"electronPdfService-invalid-page-title": "Ongeljige pazjena",
+	"electronPdfService-invalid-page-text": "De opgegaove pagina is óngeljig.",
+	"electronPDFService-warning-leave-feedback": "Gaef feedback",
+	"electronPDFService-warning-read-more": "Laes mier"
 }
