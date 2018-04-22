@@ -4,10 +4,15 @@
 			"Сербијана",
 			"Srdjan m",
 			"Obsuser",
-			"BadDog"
+			"BadDog",
+			"Milicevic01"
 		]
 	},
 	"electronPdfService-special-page-headline": "Преузми као PDF",
+	"electronPdfService-download-label": "Преузми као PDF",
+	"electronPdfService-download-button": "Преузми",
 	"electronPdfService-sidebar-portlet-heading": "Штампај/извези",
-	"electronPdfService-sidebar-portlet-print-text": "Преузми као PDF"
+	"electronPdfService-sidebar-portlet-print-text": "Преузми као PDF",
+	"electronPdfService-invalid-page-title": "Неисправна страница",
+	"electronPDFService-warning-read-more": "Прочитајте више"
 }
