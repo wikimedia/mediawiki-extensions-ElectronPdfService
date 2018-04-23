@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Artsiom91"
+		]
+	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "Дадае падтрымку заснаванага на браўзеры PDF з дапамогай сервісу Electron PDF",
+	"electronPdfService-special-page-headline": "Загрузіць як PDF",
+	"electronPdfService-download-label": "Загрузіць як PDF",
+	"electronPdfService-download-button": "Загрузіць",
+	"electronPdfService-sidebar-portlet-heading": "Друк/экспарт",
+	"electronPdfService-sidebar-portlet-print-text": "Загрузіць як PDF",
+	"electronPdfService-invalid-page-title": "Некарэктная старонка",
+	"electronPdfService-invalid-page-text": "Вызначаная старонка некарэктная.",
+	"electronPDFService-warning-message": "Мы маем тэхнічныя праблемы з функцыяй, якая выкарыстоўваецца для стварэння PDF. Нажаль, нам прыйдзецца яе замяніць. Гэта паўплывае на афармленні і функцыянал ствараемых кніг. Для атрымання дадатковай інфармацыі і зваротнай сувязі наведайце [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality старонку праекта].",
+	"electronPDFService-warning-leave-feedback": "Пакінуць водгук",
+	"electronPDFService-warning-read-more": "Даведацца больш"
+}
