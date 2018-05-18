@@ -142,6 +142,7 @@ class SpecialElectronPdf extends SpecialPage {
 	 * Creates a warning box
 	 *
 	 * @return OOUI\Tag
+	 * @suppress SecurityCheck-DoubleEscaped Issue with OOUI, see T193837 for more information
 	 */
 	private function createWarningBox() {
 		$warning = new OOUI\Tag();
