@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lam-ang"
+		]
+	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "Manginayon iti naibatay iti pagbasabasa a suporta ti panangipakita ti PDF babaen ti serbisio ti Electron PDF",
+	"electronPdfService-special-page-headline": "Ikarga a kas PDF",
+	"electronPdfService-download-label": "Ikarga a kas PDF",
+	"electronPdfService-download-button": "Ikarga",
+	"electronPdfService-sidebar-portlet-heading": "Imaldit/eksport",
+	"electronPdfService-sidebar-portlet-print-text": "Ikarga a kas PDF",
+	"electronPdfService-invalid-page-title": "Imbalido a panid",
+	"electronPdfService-invalid-page-text": "Ti nainaganan a panid ket imbalido.",
+	"electronPDFService-warning-message": "Addaankami kadagiti parikut a teknikal iti us-usaremi nga annong iti panagpartuat kadagiti PDF. Daksanggasat a sukatnami datoy. Daytoy ket banagan ti panag-estilo ken dagiti langa dagiti annong ti libro. Para iti adu pay a pakaammo ken feedback, bisitaen ti [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality panid ti proyekto].",
+	"electronPDFService-warning-leave-feedback": "Mangibati ti feedback",
+	"electronPDFService-warning-read-more": "Agbasa pay iti adu"
+}
