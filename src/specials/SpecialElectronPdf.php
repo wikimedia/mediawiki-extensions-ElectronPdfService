@@ -218,4 +218,5 @@ class SpecialElectronPdf extends SpecialPage {
 			$this->getServiceUrl( $title )
 		);
 	}
+
 }
