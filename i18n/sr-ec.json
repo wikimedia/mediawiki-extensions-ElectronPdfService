@@ -8,11 +8,16 @@
 			"Milicevic01"
 		]
 	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "Додаје подршку за рендеровање PDF-ова одмах из прегледача помоћу услуге Electron PDF",
 	"electronPdfService-special-page-headline": "Преузми као PDF",
 	"electronPdfService-download-label": "Преузми као PDF",
 	"electronPdfService-download-button": "Преузми",
 	"electronPdfService-sidebar-portlet-heading": "Штампај/извези",
 	"electronPdfService-sidebar-portlet-print-text": "Преузми као PDF",
 	"electronPdfService-invalid-page-title": "Неисправна страница",
+	"electronPdfService-invalid-page-text": "Наведена страница није ваљана.",
+	"electronPDFService-warning-message": "Имамо техничке проблеме с функцијом коју користимо за прављење PDF-ова. Нажалост морамо да је заменимо. Ово утиче на стил и могућности функције књиге. За више информација и повратне информације, посетите [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality страницу пројекта].",
+	"electronPDFService-warning-leave-feedback": "Оставите повратну информацију",
 	"electronPDFService-warning-read-more": "Прочитајте више"
 }
