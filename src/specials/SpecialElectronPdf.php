@@ -44,7 +44,7 @@ class SpecialElectronPdf extends SpecialPage {
 		switch ( $action ) {
 			case 'redirect-to-electron':
 				$stats->increment( 'electronpdf.action.' . $action );
-				$stats->increment( 'electronpdf.actionsPerWiki.' . $dbName . '.' .  $action );
+				$stats->increment( 'electronpdf.actionsPerWiki.' . $dbName . '.' . $action );
 				$this->redirectToElectron( $title );
 				return;
 			default:
