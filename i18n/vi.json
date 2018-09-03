@@ -7,6 +7,7 @@
 	"electronPdfService": "Dịch vụ Electron PDF",
 	"electronPdfService-desc": "Kết xuất PDF hoàn toàn trong trình duyệt dùng dịch vụ Electron PDF",
 	"electronPdfService-special-page-headline": "Tải về PDF",
+	"electronPdfService-download-label": "Tải về PDF",
 	"electronPdfService-download-button": "Tải về",
 	"electronPdfService-sidebar-portlet-heading": "In/xuất ra",
 	"electronPdfService-sidebar-portlet-print-text": "Tải về PDF",
