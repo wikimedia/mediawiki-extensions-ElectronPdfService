@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "Aggiunge 'u render pu PDF ca se base sus a 'u browser ausanne 'u servizie Electron PDF",
+	"electronPdfService-special-page-headline": "Scareche cumme 'nu PDF",
+	"electronPdfService-download-label": "Scareche cumme 'nu PDF",
+	"electronPdfService-download-button": "Scareche",
+	"electronPdfService-sidebar-portlet-heading": "Stambe/esporte",
+	"electronPdfService-sidebar-portlet-print-text": "Scareche cumme 'nu PDF",
+	"electronPdfService-invalid-page-title": "Pàgene invalide",
+	"electronPdfService-invalid-page-text": "'A pàgene specificate non g'è valide.",
+	"electronPDFService-warning-message": "Tenime probbleme tecnice cu 'a funzione ca ausame peccrejà le PDF. Sfortunatamende l'amma cangià. Quiste ave effette sus a le stile e le funzionalità de le funzione de le libbre. Pe chciù 'mbormaziune e segnalaziune, 'ndruche 'a [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality pàgene d'u proggette].",
+	"electronPDFService-warning-leave-feedback": "Lasse 'nu feedback",
+	"electronPDFService-warning-read-more": "Ligge de cchiù"
+}
