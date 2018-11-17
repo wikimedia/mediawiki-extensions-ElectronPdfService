@@ -5,6 +5,7 @@
 		]
 	},
 	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "Дадае падтрымку браўзэрнай апрацоўкі PDF праз сэрвіс Electron PDF",
 	"electronPdfService-special-page-headline": "Загрузіць як PDF",
 	"electronPdfService-sidebar-portlet-heading": "Друк/экспарт",
 	"electronPdfService-sidebar-portlet-print-text": "Загрузіць як PDF"
