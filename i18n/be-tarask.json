@@ -8,6 +8,9 @@
 	"electronPdfService-desc": "Дадае падтрымку браўзэрнай апрацоўкі PDF праз сэрвіс Electron PDF",
 	"electronPdfService-special-page-headline": "Загрузіць як PDF",
 	"electronPdfService-download-label": "Спампаваць як PDF",
+	"electronPdfService-download-button": "Спампаваць",
 	"electronPdfService-sidebar-portlet-heading": "Друк/экспарт",
-	"electronPdfService-sidebar-portlet-print-text": "Загрузіць як PDF"
+	"electronPdfService-sidebar-portlet-print-text": "Загрузіць як PDF",
+	"electronPdfService-invalid-page-title": "Няслушная старонка",
+	"electronPdfService-invalid-page-text": "Пазначаная няслушная старонка."
 }
