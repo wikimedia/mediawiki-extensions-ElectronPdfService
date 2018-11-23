@@ -13,5 +13,6 @@
 	"electronPdfService-sidebar-portlet-print-text": "Загрузіць як PDF",
 	"electronPdfService-invalid-page-title": "Няслушная старонка",
 	"electronPdfService-invalid-page-text": "Пазначаная няслушная старонка.",
-	"electronPDFService-warning-message": "Мы маем тэхнічныя праблемы з функцыяй, якую мы выкарыстоўваем для стварэньня PDF. На жаль, мы вымушаныя яе замяніць. Гэта ўплывае на стыль і магчымасьці функцыі стварэньня кніг. Дзеля дадатковай інфармацыі і водгукаў наведайце [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality старонку праекту]."
+	"electronPDFService-warning-message": "Мы маем тэхнічныя праблемы з функцыяй, якую мы выкарыстоўваем для стварэньня PDF. На жаль, мы вымушаныя яе замяніць. Гэта ўплывае на стыль і магчымасьці функцыі стварэньня кніг. Дзеля дадатковай інфармацыі і водгукаў наведайце [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality старонку праекту].",
+	"electronPDFService-warning-leave-feedback": "Пакінуць водгук"
 }
