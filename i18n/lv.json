@@ -7,5 +7,6 @@
 	"electronPdfService-download-label": "Lejupielādēt kā PDF",
 	"electronPdfService-sidebar-portlet-heading": "Drukāt/eksportēt",
 	"electronPdfService-sidebar-portlet-print-text": "Lejupielādēt kā PDF",
-	"electronPdfService-invalid-page-title": "Nederīga lapa"
+	"electronPdfService-invalid-page-title": "Nederīga lapa",
+	"electronPDFService-warning-read-more": "Lasīt vairāk"
 }
