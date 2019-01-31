@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toghrul Rahimli"
+		]
+	},
+	"electronPdfService-download-label": "PDF kimi endir",
+	"electronPdfService-sidebar-portlet-print-text": "PDF kimi endir"
+}
