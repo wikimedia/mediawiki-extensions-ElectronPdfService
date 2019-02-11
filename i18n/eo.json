@@ -5,5 +5,8 @@
 			"Psychoslave"
 		]
 	},
-	"electronPdfService-sidebar-portlet-heading": "Presi/elporti"
+	"electronPdfService-special-page-headline": "Elŝuti kiel PDF",
+	"electronPdfService-download-label": "Elŝuti kiel PDF",
+	"electronPdfService-sidebar-portlet-heading": "Presi/elporti",
+	"electronPdfService-sidebar-portlet-print-text": "Elŝuti kiel PDF"
 }
