@@ -26,7 +26,7 @@ class SpecialElectronPdf extends SpecialPage {
 	public function execute( $subPage ) {
 		$request = $this->getRequest();
 		$parts = ( $subPage === '' ) ? [] : explode( '/', $subPage, 2 );
-		$page = trim( $request->getVal( 'page', isset( $parts[0] ) ? $parts[0] : '' ) );
+		$page = trim( $request->getVal( 'page', $parts[0] ?? '' ) );
 
 		$title = Title::newFromText( $page );
 		if ( $title === null ) {
