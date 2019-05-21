@@ -110,7 +110,7 @@ class SpecialElectronPdf extends SpecialPage {
 			( new OOUI\Tag( 'div' ) )->addClasses( [ 'mw-electronPdfService-selection-label-text' ] )
 				->appendContent( $this->msg( 'electronPdfService-download-label' )->text() ),
 			( new OOUI\Tag( 'div' ) )->addClasses( [ 'mw-electronPdfService-selection-label-desc' ] )
-				->appendContent( $pageTitle . ".pdf" )
+				->appendContent( $pageTitle . '.pdf' )
 		);
 
 		$labelBox = ( new OOUI\Tag( 'label' ) )->appendContent(
