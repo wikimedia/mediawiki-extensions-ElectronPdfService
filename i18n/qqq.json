@@ -15,8 +15,5 @@
 	"electronPdfService-sidebar-portlet-heading": "Title of the portlet in which the link is shown.\n\n{{Identical|Print/Export}}",
 	"electronPdfService-sidebar-portlet-print-text": "Text of print-pdf-link in sidebar.",
 	"electronPdfService-invalid-page-title": "Used as title for the error message when specified page was not a valid article.",
-	"electronPdfService-invalid-page-text": "Used as error message when specified page was not a valid article.",
-	"electronPDFService-warning-message": "Text inside warning box that informs users about the new PDF functionality",
-	"electronPDFService-warning-leave-feedback": "Text of the link that points to the new PDF functionality feedback page.",
-	"electronPDFService-warning-read-more": "Text of the link that points to new PDF functionality page.\n{{Identical|Read more}}"
+	"electronPdfService-invalid-page-text": "Used as error message when specified page was not a valid article."
 }
