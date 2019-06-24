@@ -10,7 +10,5 @@
 	"electronPdfService-download-button": "Lataa",
 	"electronPdfService-sidebar-portlet-heading": "Tulosta/vie",
 	"electronPdfService-sidebar-portlet-print-text": "Lataa PDF-tiedostona",
-	"electronPdfService-invalid-page-title": "Virheellinen sivu",
-	"electronPDFService-warning-leave-feedback": "Jätä palautetta",
-	"electronPDFService-warning-read-more": "Lue lisää"
+	"electronPdfService-invalid-page-title": "Virheellinen sivu"
 }

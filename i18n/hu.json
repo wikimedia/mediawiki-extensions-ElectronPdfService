@@ -13,8 +13,5 @@
 	"electronPdfService-sidebar-portlet-heading": "Nyomtatás/exportálás",
 	"electronPdfService-sidebar-portlet-print-text": "Letöltés PDF-ként",
 	"electronPdfService-invalid-page-title": "Érvénytelen lap",
-	"electronPdfService-invalid-page-text": "A megadott lap nem érvényes.",
-	"electronPDFService-warning-message": "Technikai problémáink vannak a PDF-készítő funkcióval és ezért sajnos le kell cserélnünk. Ez befolyásolja a funkció működését és megjelenését. További információért látogass el a [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality projekt oldalára].",
-	"electronPDFService-warning-leave-feedback": "Visszajelzés",
-	"electronPDFService-warning-read-more": "További információk"
+	"electronPdfService-invalid-page-text": "A megadott lap nem érvényes."
 }

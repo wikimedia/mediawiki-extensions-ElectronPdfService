@@ -14,8 +14,5 @@
 	"electronPdfService-sidebar-portlet-heading": "Печать/экспорт",
 	"electronPdfService-sidebar-portlet-print-text": "Скачать как PDF",
 	"electronPdfService-invalid-page-title": "Некорректная страница",
-	"electronPdfService-invalid-page-text": "Указана неверная страница.",
-	"electronPDFService-warning-message": "Мы испытываем технические проблемы с функцией, которую мы используем для создания PDF. К сожалению, нам придётся её заменить. Это повлияет на оформление и функционал создаваемых книг. Для получения дополнительной информации и обратной связи, посетите [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality страницу проекта].",
-	"electronPDFService-warning-leave-feedback": "Оставить отзыв",
-	"electronPDFService-warning-read-more": "Подробнее"
+	"electronPdfService-invalid-page-text": "Указана неверная страница."
 }

@@ -11,7 +11,5 @@
 	"electronPdfService-sidebar-portlet-heading": "Spausdinti/eksportuoti",
 	"electronPdfService-sidebar-portlet-print-text": "Parsisiųsti kaip PDF",
 	"electronPdfService-invalid-page-title": "Negalimas puslapis",
-	"electronPdfService-invalid-page-text": "Nurodytas puslapis negalimas.",
-	"electronPDFService-warning-leave-feedback": "Palikti atsiliepimą",
-	"electronPDFService-warning-read-more": "Skaityti daugiau"
+	"electronPdfService-invalid-page-text": "Nurodytas puslapis negalimas."
 }

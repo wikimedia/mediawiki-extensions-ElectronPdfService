@@ -14,8 +14,5 @@
 	"electronPdfService-sidebar-portlet-heading": "Друк/експорт",
 	"electronPdfService-sidebar-portlet-print-text": "Завантажити як PDF",
 	"electronPdfService-invalid-page-title": "Недійсна сторінка",
-	"electronPdfService-invalid-page-text": "Вказана сторінка недійсна.",
-	"electronPDFService-warning-message": "У нас виникли технічні проблеми з функцією, яку ми зараз використовуємо для створення PDF. На жаль, нам доведеться замінити його. Це вплине на стиль та функції у функції створення книг. Щоб дізнатися більше та залишити відгук, відвідайте [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality сторінку проекту].",
-	"electronPDFService-warning-leave-feedback": "Залишити відгук",
-	"electronPDFService-warning-read-more": "Читати більше"
+	"electronPdfService-invalid-page-text": "Вказана сторінка недійсна."
 }

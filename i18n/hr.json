@@ -11,7 +11,5 @@
 	"electronPdfService-sidebar-portlet-heading": "Ispis/izvoz",
 	"electronPdfService-sidebar-portlet-print-text": "Preuzmi kao PDF",
 	"electronPdfService-invalid-page-title": "Nevrijedeća stranica",
-	"electronPdfService-invalid-page-text": "Navedena stranica nije valjana.",
-	"electronPDFService-warning-leave-feedback": "Napišite povratnu informaciju",
-	"electronPDFService-warning-read-more": "Pročitajte više"
+	"electronPdfService-invalid-page-text": "Navedena stranica nije valjana."
 }

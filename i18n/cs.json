@@ -12,8 +12,5 @@
 	"electronPdfService-sidebar-portlet-heading": "Tisk/export",
 	"electronPdfService-sidebar-portlet-print-text": "Stáhnout jako PDF",
 	"electronPdfService-invalid-page-title": "Neplatná stránka",
-	"electronPdfService-invalid-page-text": "Zadaná stránka není platná.",
-	"electronPDFService-warning-message": "Máme technické potíže s funkcí, kterou používáme pro tvorbu PDF. Museli jsme ji bohužel nahradit. To ovlivňuje vzhled a vlastnosti funkcionality pro tvorbu knih. Více informací se dočtete na [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality stránce projektu], kde nám můžete také zanechat komentář.",
-	"electronPDFService-warning-leave-feedback": "Poslat komentář",
-	"electronPDFService-warning-read-more": "Více informací"
+	"electronPdfService-invalid-page-text": "Zadaná stránka není platná."
 }

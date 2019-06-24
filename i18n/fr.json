@@ -14,8 +14,5 @@
 	"electronPdfService-sidebar-portlet-heading": "Imprimer / exporter",
 	"electronPdfService-sidebar-portlet-print-text": "Télécharger en PDF",
 	"electronPdfService-invalid-page-title": "Page non valide",
-	"electronPdfService-invalid-page-text": "La page spécifiée n’est pas valide",
-	"electronPDFService-warning-message": "Nous avons quelques problèmes techniques avec la fonction que nous utilisons pour générer les PDF. Malheureusement nous devons la remplacer. Ceci concerne la mise en forme et les fonctionalités liées à la génération des livres. Pour plus d'informations, ou pour laisser des commentaires, veuillez vous reporter à la [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality page du projet].",
-	"electronPDFService-warning-leave-feedback": "Laisser un commentaire",
-	"electronPDFService-warning-read-more": "En savoir plus"
+	"electronPdfService-invalid-page-text": "La page spécifiée n’est pas valide"
 }

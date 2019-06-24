@@ -12,7 +12,5 @@
 	"electronPdfService-sidebar-portlet-heading": "Stampa/esporta",
 	"electronPdfService-sidebar-portlet-print-text": "Scarica in formato PDF",
 	"electronPdfService-invalid-page-title": "Pagina non valida",
-	"electronPdfService-invalid-page-text": "La pagina specificata non è valida.",
-	"electronPDFService-warning-leave-feedback": "Lascia un commento",
-	"electronPDFService-warning-read-more": "Per saperne di più"
+	"electronPdfService-invalid-page-text": "La pagina specificata non è valida."
 }

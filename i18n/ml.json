@@ -12,8 +12,5 @@
 	"electronPdfService-sidebar-portlet-heading": "അച്ചടി/കയറ്റുമതി",
 	"electronPdfService-sidebar-portlet-print-text": "പി.ഡി.എഫ്. ഡൗൺലോഡ് ചെയ്യുക",
 	"electronPdfService-invalid-page-title": "അസാധുവായ താൾ",
-	"electronPdfService-invalid-page-text": "നൽകിയിരിക്കുന്ന താൾ അസാധുവാണ്.",
-	"electronPDFService-warning-message": "പി.ഡി.എഫ്. സൃഷ്ടിക്കാൻ ഞങ്ങൾ ഉപയോഗിക്കുന്ന ഫങ്ഷനിൽ സാങ്കേതിക പ്രശ്നങ്ങൾ ഉണ്ട്. നിർഭാഗ്യവശാൽ അത് മാറ്റിച്ചേർക്കേണ്ടതുണ്ട്. ഇത് പുസ്തകങ്ങൾ ഫങ്ഷന്റെ രൂപരീതിയേയും സവിശേഷതകളേയും ബാധിക്കുന്നുണ്ട്. കൂടുതൽ വിവരങ്ങൾക്കും അഭിപ്രായം അറിയിക്കാനും [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality പദ്ധതി താൾ] സന്ദർശിക്കുക",
-	"electronPDFService-warning-leave-feedback": "പ്രതികരണം ചേർക്കുക",
-	"electronPDFService-warning-read-more": "കൂടുതൽ വായിക്കുക"
+	"electronPdfService-invalid-page-text": "നൽകിയിരിക്കുന്ന താൾ അസാധുവാണ്."
 }

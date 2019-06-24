@@ -8,7 +8,5 @@
 	"electronPdfService-download-button": "ڈاؤن لوڈ کرو ، لہاؤ",
 	"electronPdfService-sidebar-portlet-heading": "چھاپو/ اڳوں تے ٻاہر بھیڄو",
 	"electronPdfService-sidebar-portlet-print-text": "پی ڈی ایف وچ ڈاؤنلوڈ کرو",
-	"electronPdfService-invalid-page-title": "غلط ورقہ",
-	"electronPDFService-warning-leave-feedback": "رائے لکھو",
-	"electronPDFService-warning-read-more": "ٻیا پڑھو"
+	"electronPdfService-invalid-page-title": "غلط ورقہ"
 }

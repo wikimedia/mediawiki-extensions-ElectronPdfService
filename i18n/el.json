@@ -12,8 +12,5 @@
 	"electronPdfService-sidebar-portlet-heading": "Εκτύπωση/εξαγωγή",
 	"electronPdfService-sidebar-portlet-print-text": "Κατέβασμα ως PDF",
 	"electronPdfService-invalid-page-title": "Μη έγκυρη σελίδα",
-	"electronPdfService-invalid-page-text": "Η καθορισμένη σελίδα δεν είναι έγκυρη.",
-	"electronPDFService-warning-message": "Έχουμε τεχνικά προβλήματα με τη λειτουργία που χρησιμοποιούμε για τη δημιουργία αρχείων PDF. Πρέπει δυστυχώς να την αντικαταστήσουμε. Αυτό επηρεάζει το στυλ και τις δυνατότητες της λειτουργίας βιβλίων. Για περισσότερες πληροφορίες και σχόλια, επισκεφτείτε τη [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality σελίδα του project].",
-	"electronPDFService-warning-leave-feedback": "Αφήστε σχόλια",
-	"electronPDFService-warning-read-more": "Διαβάστε περισσότερα"
+	"electronPdfService-invalid-page-text": "Η καθορισμένη σελίδα δεν είναι έγκυρη."
 }

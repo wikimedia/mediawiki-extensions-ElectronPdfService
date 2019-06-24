@@ -10,7 +10,5 @@
 	"electronPdfService-sidebar-portlet-heading": "Drécken/Exportéieren",
 	"electronPdfService-sidebar-portlet-print-text": "Als PDF eroflueden",
 	"electronPdfService-invalid-page-title": "Net valabel Säit",
-	"electronPdfService-invalid-page-text": "Déi spezifizéiert Säit ass net valabel.",
-	"electronPDFService-warning-leave-feedback": "Réckmeldung ginn",
-	"electronPDFService-warning-read-more": "Liest méi"
+	"electronPdfService-invalid-page-text": "Déi spezifizéiert Säit ass net valabel."
 }

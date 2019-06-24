@@ -11,8 +11,5 @@
 	"electronPdfService-sidebar-portlet-heading": "Print ja eksport",
 	"electronPdfService-sidebar-portlet-print-text": "Laadi alla PDF-failina",
 	"electronPdfService-invalid-page-title": "Vigane lehekülg",
-	"electronPdfService-invalid-page-text": "Määratud lehekülg pole sobilik.",
-	"electronPDFService-warning-message": "Meil on tehnilisi probleeme funktsiooniga, mida praegu PDF-failide koostamisel kasutame. Paraku tuleb see asendada. Probleem puudutab vormistust ja raamatufunktsiooni suvandeid. Lisalugemise ja tagasiside jaoks külasta [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality projektilehte].",
-	"electronPDFService-warning-leave-feedback": "Jäta tagasisidet",
-	"electronPDFService-warning-read-more": "Lisateave"
+	"electronPdfService-invalid-page-text": "Määratud lehekülg pole sobilik."
 }

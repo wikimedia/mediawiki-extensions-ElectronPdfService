@@ -13,8 +13,5 @@
 	"electronPdfService-sidebar-portlet-heading": "Imprimir/exportar",
 	"electronPdfService-sidebar-portlet-print-text": "Descargar como PDF",
 	"electronPdfService-invalid-page-title": "Páxina non válida",
-	"electronPdfService-invalid-page-text": "A páxina especificada non é válida.",
-	"electronPDFService-warning-message": "Estamos experimentando problemas técnicos coa función que usamos para crear ficheiros PDF. Desafortunadamente temos que substituíla. Isto afecta ó estilo e características da función de libros. Para máis información e comentarios, visita a [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality páxina do proxecto].",
-	"electronPDFService-warning-leave-feedback": "Deixe comentarios",
-	"electronPDFService-warning-read-more": "Ler máis"
+	"electronPdfService-invalid-page-text": "A páxina especificada non é válida."
 }

@@ -14,8 +14,5 @@
 	"electronPdfService-sidebar-portlet-heading": "印刷/書き出し",
 	"electronPdfService-sidebar-portlet-print-text": "PDF形式で書き出す",
 	"electronPdfService-invalid-page-title": "無効なページ",
-	"electronPdfService-invalid-page-text": "指定されたページは有効ではありません。",
-	"electronPDFService-warning-message": " PDF作成の機能に技術的な問題が発生しており、残念ながら削除して入れ替えなければいけません。これによりブック機能の書式と機能面に影響が現れます。詳細ならびにフィードバックは[https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality プロジェクトのページ]をご参照ください。",
-	"electronPDFService-warning-leave-feedback": "フィードバックをどうぞ",
-	"electronPDFService-warning-read-more": "さらに詳しく"
+	"electronPdfService-invalid-page-text": "指定されたページは有効ではありません。"
 }

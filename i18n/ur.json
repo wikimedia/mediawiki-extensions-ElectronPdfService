@@ -13,8 +13,5 @@
 	"electronPdfService-sidebar-portlet-heading": "طباعت/برآمد",
 	"electronPdfService-sidebar-portlet-print-text": "ڈاؤنلوڈ بشکل پی‌ڈی‌ایف",
 	"electronPdfService-invalid-page-title": "نادرست صفحہ",
-	"electronPdfService-invalid-page-text": "درج کردہ صفحہ درست نہیں ہے۔",
-	"electronPDFService-warning-message": "پی ڈی ایف کے تخلیق کار سافٹ ویئر میں کوئی فنی خرابی ہے اور بدقسمتی سے ہمیں اسے تبدیل کرنا ہوگا۔ اس سے کتاب کی تخلیق اور کارکردگی متاثر ہوگی۔ مزید معلومات کے لیے [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality صفحہ منصوبہ] دیکھیں۔",
-	"electronPDFService-warning-leave-feedback": "تاثرات درج کریں",
-	"electronPDFService-warning-read-more": "مزید پڑھیں"
+	"electronPdfService-invalid-page-text": "درج کردہ صفحہ درست نہیں ہے۔"
 }

@@ -12,7 +12,5 @@
 	"electronPdfService-sidebar-portlet-heading": "In/xuất ra",
 	"electronPdfService-sidebar-portlet-print-text": "Tải về PDF",
 	"electronPdfService-invalid-page-title": "Trang không hợp lệ",
-	"electronPdfService-invalid-page-text": "Trang đã chỉ định là không hợp lệ.",
-	"electronPDFService-warning-leave-feedback": "Để lại phản hồi",
-	"electronPDFService-warning-read-more": "Đọc thêm"
+	"electronPdfService-invalid-page-text": "Trang đã chỉ định là không hợp lệ."
 }

@@ -11,8 +11,5 @@
 	"electronPdfService-sidebar-portlet-heading": "打印/匯出",
 	"electronPdfService-sidebar-portlet-print-text": "下載PDF檔",
 	"electronPdfService-invalid-page-title": "錯嘅版面",
-	"electronPdfService-invalid-page-text": "指定嗰版係唔啱嘅。",
-	"electronPDFService-warning-message": "而家個整PDF功能有大問題。我哋換走佢。我哋下面試緊新版服務（單行排版）。麻煩大家幫手睇下有無乜嘢問題。如果搵到問題或者有乜意見，請去呢度：[https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality]",
-	"electronPDFService-warning-leave-feedback": "留意見",
-	"electronPDFService-warning-read-more": "睇多啲"
+	"electronPdfService-invalid-page-text": "指定嗰版係唔啱嘅。"
 }

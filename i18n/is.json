@@ -10,7 +10,5 @@
 	"electronPdfService-sidebar-portlet-heading": "Prenta/flytja út",
 	"electronPdfService-sidebar-portlet-print-text": "Sækja sem PDF",
 	"electronPdfService-invalid-page-title": "Ógild síða",
-	"electronPdfService-invalid-page-text": "Valda síðan er ógild.",
-	"electronPDFService-warning-leave-feedback": "Skilja eftir svörun",
-	"electronPDFService-warning-read-more": "Lesa meira"
+	"electronPdfService-invalid-page-text": "Valda síðan er ógild."
 }

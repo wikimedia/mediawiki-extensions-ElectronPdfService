@@ -13,8 +13,5 @@
 	"electronPdfService-sidebar-portlet-heading": "Drók aaf/exporteer",
 	"electronPdfService-sidebar-portlet-print-text": "Download es PDF",
 	"electronPdfService-invalid-page-title": "Ongeljige pazjena",
-	"electronPdfService-invalid-page-text": "De opgegaove pagina is óngeljig.",
-	"electronPDFService-warning-message": "V'r höbbe technische perbleme mit de functie die v'r gebroeke veur PDF's aan te make. V'r mótte dees leider verplaatse. Dit haet invlood oppe stiel en de óngerdeile van de bookfunctie. Veur mier infermasie en feedback, bezeuk de [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality projekpagina].",
-	"electronPDFService-warning-leave-feedback": "Gaef feedback",
-	"electronPDFService-warning-read-more": "Laes mier"
+	"electronPdfService-invalid-page-text": "De opgegaove pagina is óngeljig."
 }

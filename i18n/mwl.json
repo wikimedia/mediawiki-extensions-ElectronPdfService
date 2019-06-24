@@ -13,8 +13,5 @@
 	"electronPdfService-sidebar-portlet-heading": "Amprimir/sportar",
 	"electronPdfService-sidebar-portlet-print-text": "Çcargar cumo PDF",
 	"electronPdfService-invalid-page-title": "Páigina ambálida",
-	"electronPdfService-invalid-page-text": "La páigina specifecada ye ambálida.",
-	"electronPDFService-warning-message": "Tenemos porblemas na funçon que outelizamos pa criar fexeiros PDF. Anfelizmente, teneremos de sustituir eilha. Esto afeta l stilo i las funcionalidades de la funçon lhibros. Pa mais anformaçones i pa screbir comentairos, bejita la [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality/mwl páigina de l porjeto].",
-	"electronPDFService-warning-leave-feedback": "Screbir un comentairo",
-	"electronPDFService-warning-read-more": "Lher mais"
+	"electronPdfService-invalid-page-text": "La páigina specifecada ye ambálida."
 }

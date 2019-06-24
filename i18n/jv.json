@@ -11,7 +11,5 @@
 	"electronPdfService-sidebar-portlet-heading": "Cithak/èspor",
 	"electronPdfService-sidebar-portlet-print-text": "Undhuh ing PDF",
 	"electronPdfService-invalid-page-title": "Kaca ora trep",
-	"electronPdfService-invalid-page-text": "Kaca sing dikarepaké ora trep.",
-	"electronPDFService-warning-leave-feedback": "Awèh pamrayoga",
-	"electronPDFService-warning-read-more": "Waca candhaké"
+	"electronPdfService-invalid-page-text": "Kaca sing dikarepaké ora trep."
 }
