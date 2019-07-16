@@ -44,7 +44,7 @@ class ElectronPdfServiceHooks {
 			// if no download-as-pdf link is there, add one and point to the download screen
 			} else {
 				$bar['coll-print_export'][] = [
-					'text' => $skin->msg( 'electronPdfService-sidebar-portlet-print-text' ),
+					'text' => $skin->msg( 'electronpdfservice-sidebar-portlet-print-text' ),
 					'id' => 'electron-print_pdf',
 					'href' => self::generateDownloadScreenLink( $title )
 				];
@@ -52,8 +52,8 @@ class ElectronPdfServiceHooks {
 		} else {
 			// in case Collection is not installed, let's add our own portlet
 			// with a link to the download screen
-			$bar['electronPdfService-sidebar-portlet-heading'][] = [
-				'text' => $skin->msg( 'electronPdfService-sidebar-portlet-print-text' ),
+			$bar['electronpdfservice-sidebar-portlet-heading'][] = [
+				'text' => $skin->msg( 'electronpdfservice-sidebar-portlet-print-text' ),
 				'id' => 'electron-print_pdf',
 				'href' => self::generateDownloadScreenLink( $title )
 			];

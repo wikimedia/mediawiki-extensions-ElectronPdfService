@@ -8,7 +8,7 @@
 		"Christoph Jauera"
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:ElectronPdfService",
-	"descriptionmsg": "electronPdfService-desc",
+	"descriptionmsg": "electronpdfservice-desc",
 	"license-name": "GPL-2.0-or-later",
 	"type": "other",
 	"requires": {
@@ -51,7 +51,7 @@
 		},
 		"ext.ElectronPdfService.special.selectionImages": {
 			"class": "ResourceLoaderImageModule",
-			"selector": ".mw-electronPdfService-selection-{name}",
+			"selector": ".mw-electronpdfservice-selection-{name}",
 			"images": {
 				"download-image": {
 					"file": {

@@ -31,8 +31,8 @@ class SpecialElectronPdf extends SpecialPage {
 		$title = Title::newFromText( $page );
 		if ( $title === null ) {
 			$this->getOutput()->showErrorPage(
-				'electronPdfService-invalid-page-title',
-				'electronPdfService-invalid-page-text'
+				'electronpdfservice-invalid-page-title',
+				'electronpdfservice-invalid-page-text'
 			);
 			return;
 		}
@@ -62,7 +62,7 @@ class SpecialElectronPdf extends SpecialPage {
 
 		$out = $this->getOutput();
 		$out->enableOOUI();
-		$out->setPageTitle( $this->msg( 'electronPdfService-special-page-headline' )->text() );
+		$out->setPageTitle( $this->msg( 'electronpdfservice-special-page-headline' )->text() );
 		$out->addSubtitle( $title->getText() );
 
 		$form = new OOUI\FormLayout( [
@@ -70,11 +70,11 @@ class SpecialElectronPdf extends SpecialPage {
 			'action' => $this->getPageTitle()->getLocalURL(),
 		] );
 
-		$form->addClasses( [ 'mw-electronPdfService-selection-form' ] );
+		$form->addClasses( [ 'mw-electronpdfservice-selection-form' ] );
 
 		$form->appendContent(
 			( new OOUI\Tag() )
-				->addClasses( [ 'mw-electronPdfService-selection-body' ] )
+				->addClasses( [ 'mw-electronpdfservice-selection-body' ] )
 				->appendContent(
 					$this->getLabeledHiddenField( 'redirect-to-electron',  $title->getDBKey() ),
 					$this->getHiddenField( 'page', $title->getPrefixedText() ),
@@ -83,7 +83,7 @@ class SpecialElectronPdf extends SpecialPage {
 							new OOUI\ButtonInputWidget( [
 								'type' => 'submit',
 								'flags' => [ 'primary', 'progressive' ],
-								'label' => $this->msg( 'electronPdfService-download-button' )->text(),
+								'label' => $this->msg( 'electronpdfservice-download-button' )->text(),
 							] ),
 						],
 					] )
@@ -99,16 +99,16 @@ class SpecialElectronPdf extends SpecialPage {
 	 */
 	private function getLabeledHiddenField( $action, $pageTitle ) {
 		$image = ( new OOUI\Tag() )->addClasses( [
-			'mw-electronPdfService-selection-image',
-			'mw-electronPdfService-selection-download-image'
+			'mw-electronpdfservice-selection-image',
+			'mw-electronpdfservice-selection-download-image'
 		] );
 
-		$field = ( new OOUI\Tag() )->addClasses( [ 'mw-electronPdfService-selection-field' ] );
+		$field = ( new OOUI\Tag() )->addClasses( [ 'mw-electronpdfservice-selection-field' ] );
 		$field->appendContent(
 			$this->getHiddenField( 'action', $action ),
-			( new OOUI\Tag( 'div' ) )->addClasses( [ 'mw-electronPdfService-selection-label-text' ] )
-				->appendContent( $this->msg( 'electronPdfService-download-label' )->text() ),
-			( new OOUI\Tag( 'div' ) )->addClasses( [ 'mw-electronPdfService-selection-label-desc' ] )
+			( new OOUI\Tag( 'div' ) )->addClasses( [ 'mw-electronpdfservice-selection-label-text' ] )
+				->appendContent( $this->msg( 'electronpdfservice-download-label' )->text() ),
+			( new OOUI\Tag( 'div' ) )->addClasses( [ 'mw-electronpdfservice-selection-label-desc' ] )
 				->appendContent( $pageTitle . '.pdf' )
 		);
 
