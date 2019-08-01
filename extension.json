@@ -16,7 +16,7 @@
 	"manifest_version": 2,
 	"AutoloadClasses": {
 		"ElectronPdfServiceHooks": "src/ElectronPdfServiceHooks.php",
-		"SpecialElectronPdf": "src/specials/SpecialElectronPdf.php"
+		"SpecialDownloadAsPdf": "src/specials/SpecialDownloadAsPdf.php"
 	},
 	"config": {
 		"ElectronPdfServiceRESTbaseURL": {
@@ -64,6 +64,6 @@
 		"remoteExtPath": "ElectronPdfService"
 	},
 	"SpecialPages": {
-		"ElectronPdf": "SpecialElectronPdf"
+		"DownloadAsPdf": "SpecialDownloadAsPdf"
 	}
 }

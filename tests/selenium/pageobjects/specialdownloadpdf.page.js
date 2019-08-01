@@ -2,9 +2,9 @@
 
 const Page = require( 'wdio-mediawiki/Page' );
 
-class SpecialElectronPdfPage extends Page {
+class SpecialDownloadAsPdfPage extends Page {
 
 	get downloadButton() { return $( '.mw-electronpdfservice-selection-form .oo-ui-buttonElement-button' ); }
 
 }
-module.exports = new SpecialElectronPdfPage();
+module.exports = new SpecialDownloadAsPdfPage();

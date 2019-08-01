@@ -96,7 +96,7 @@ class ElectronPdfServiceHooks {
 	}
 
 	private static function generatePdfDownloadLink( Title $title ) {
-		$specialPageTitle = SpecialPage::getTitleFor( 'ElectronPdf' );
+		$specialPageTitle = SpecialPage::getTitleFor( 'DownloadAsPdf' );
 
 		return $specialPageTitle->getLocalURL(
 			[
@@ -107,7 +107,7 @@ class ElectronPdfServiceHooks {
 	}
 
 	private static function generateDownloadScreenLink( Title $title ) {
-		$specialPageTitle = SpecialPage::getTitleFor( 'ElectronPdf' );
+		$specialPageTitle = SpecialPage::getTitleFor( 'DownloadAsPdf' );
 
 		return $specialPageTitle->getLocalURL(
 			[

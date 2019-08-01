@@ -2,7 +2,7 @@
 
 const assert = require( 'assert' ),
 	MainPage = require( '../pageobjects/main.page' ),
-	SpecialElectronPdfPage = require( '../pageobjects/specialelectronpdf.page' );
+	SpecialDownloadAsPdfPage = require( '../pageobjects/specialdownloadpdf.page' );
 
 describe( 'ElectronPdfService', function () {
 
@@ -11,7 +11,7 @@ describe( 'ElectronPdfService', function () {
 		MainPage.open();
 		MainPage.pdflink.click();
 
-		assert( SpecialElectronPdfPage.downloadButton.isDisplayed() );
+		assert( SpecialDownloadAsPdfPage.downloadButton.isDisplayed() );
 
 	} );
 

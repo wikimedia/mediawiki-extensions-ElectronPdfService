@@ -10,10 +10,10 @@ $specialPageAliases = [];
 
 /** English (English) */
 $specialPageAliases['en'] = [
-	'ElectronPdf' => [ 'ElectronPdf' ],
+	'DownloadAsPdf' => [ 'DownloadAsPdf', 'ElectronPdf' ],
 ];
 
 /** Urdu (اردو) */
 $specialPageAliases['ur'] = [
-	'ElectronPdf' => [ 'الیکٹران_پی_ڈی_ایف' ],
+	'DownloadAsPdf' => [ 'الیکٹران_پی_ڈی_ایف' ],
 ];

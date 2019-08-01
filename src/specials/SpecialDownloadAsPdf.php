@@ -8,7 +8,7 @@
 
 use MediaWiki\MediaWikiServices;
 
-class SpecialElectronPdf extends SpecialPage {
+class SpecialDownloadAsPdf extends SpecialPage {
 
 	/**
 	 * @var Config
@@ -16,7 +16,7 @@ class SpecialElectronPdf extends SpecialPage {
 	public $config;
 
 	public function __construct() {
-		parent::__construct( 'ElectronPdf', '', false );
+		parent::__construct( 'DownloadAsPdf', '', false );
 		$this->config = MediaWikiServices::getInstance()->getMainConfig();
 	}
 
