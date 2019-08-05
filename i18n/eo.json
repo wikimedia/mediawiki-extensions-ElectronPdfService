@@ -6,9 +6,13 @@
 			"Mirin"
 		]
 	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "Aldoni TTT-legilan PDF-bildigan subtenon per PDF-servo de Electron",
 	"electronPdfService-special-page-headline": "Elŝuti kiel PDF",
 	"electronPdfService-download-label": "Elŝuti kiel PDF",
 	"electronPdfService-download-button": "Elŝuti",
 	"electronPdfService-sidebar-portlet-heading": "Presi/elporti",
-	"electronPdfService-sidebar-portlet-print-text": "Elŝuti kiel PDF"
+	"electronPdfService-sidebar-portlet-print-text": "Elŝuti kiel PDF",
+	"electronPdfService-invalid-page-title": "Ne valida paĝo",
+	"electronPdfService-invalid-page-text": "La specifita paĝo ne estas valida."
 }
