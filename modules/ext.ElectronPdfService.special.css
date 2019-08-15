@@ -1,8 +1,8 @@
-.mw-electronPdfService-selection-body {
+.mw-electronpdfservice-selection-body {
 	display: inline-block;
 }
 
-.mw-electronPdfService-selection-image {
+.mw-electronpdfservice-selection-image {
 	/* size of the used svgs */
 	width: 85px;
 	height: 101px;
@@ -10,34 +10,34 @@
 	background-repeat: no-repeat;
 }
 
-.mw-electronPdfService-selection-label-text {
+.mw-electronpdfservice-selection-label-text {
 	font-size: 16px;
 	font-weight: bold;
 	padding-top: 9px;
 }
 
-.mw-electronPdfService-selection-label-desc {
+.mw-electronpdfservice-selection-label-desc {
 	font-size: 12px;
 }
 
-.mw-electronPdfService-selection-form label {
+.mw-electronpdfservice-selection-form label {
 	border: 1px solid #c8ccd1;
 	color: #545454;
 	display: table-cell;
 	padding: 15px;
 }
 
-.mw-electronPdfService-selection-field {
+.mw-electronpdfservice-selection-field {
 	padding-left: 20px;
 }
 
-.mw-electronPdfService-selection-field,
-.mw-electronPdfService-selection-image {
+.mw-electronpdfservice-selection-field,
+.mw-electronpdfservice-selection-image {
 	display: table-cell;
 	vertical-align: middle;
 }
 
-.mw-electronPdfService-selection-form .oo-ui-buttonGroupWidget {
+.mw-electronpdfservice-selection-form .oo-ui-buttonGroupWidget {
 	display: block;
 	margin-top: 15px;
 	text-align: right;
