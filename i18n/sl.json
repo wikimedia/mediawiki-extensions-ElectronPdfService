@@ -5,9 +5,9 @@
 			"Dbc334"
 		]
 	},
-	"electronPdfService": "Elektronski PDF program",
-	"electronPdfService-sidebar-portlet-heading": "Natisni/izvozi",
-	"electronPdfService-sidebar-portlet-print-text": "Prenesi kot PDF",
-	"electronPdfService-invalid-page-title": "Neveljavna stran",
-	"electronPdfService-invalid-page-text": "Ta stran ni veljavna."
+	"electronpdfservice": "Elektronski PDF program",
+	"electronpdfservice-sidebar-portlet-heading": "Natisni/izvozi",
+	"electronpdfservice-sidebar-portlet-print-text": "Prenesi kot PDF",
+	"electronpdfservice-invalid-page-title": "Neveljavna stran",
+	"electronpdfservice-invalid-page-text": "Ta stran ni veljavna."
 }

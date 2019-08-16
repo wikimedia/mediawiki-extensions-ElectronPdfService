@@ -8,13 +8,13 @@
 			"Milicevic01"
 		]
 	},
-	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-desc": "Додаје подршку за рендеровање PDF-ова одмах из прегледача помоћу услуге Electron PDF",
-	"electronPdfService-special-page-headline": "Преузимање у PDF формату",
-	"electronPdfService-download-label": "Преузимање у PDF формату",
-	"electronPdfService-download-button": "Преузми",
-	"electronPdfService-sidebar-portlet-heading": "Штампање/извоз",
-	"electronPdfService-sidebar-portlet-print-text": "Преузимање (PDF)",
-	"electronPdfService-invalid-page-title": "Неважећа страница",
-	"electronPdfService-invalid-page-text": "Наведена страница није важећа."
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Додаје подршку за рендеровање PDF-ова одмах из прегледача помоћу услуге Electron PDF",
+	"electronpdfservice-special-page-headline": "Преузимање у PDF формату",
+	"electronpdfservice-download-label": "Преузимање у PDF формату",
+	"electronpdfservice-download-button": "Преузми",
+	"electronpdfservice-sidebar-portlet-heading": "Штампање/извоз",
+	"electronpdfservice-sidebar-portlet-print-text": "Преузимање (PDF)",
+	"electronpdfservice-invalid-page-title": "Неважећа страница",
+	"electronpdfservice-invalid-page-text": "Наведена страница није важећа."
 }

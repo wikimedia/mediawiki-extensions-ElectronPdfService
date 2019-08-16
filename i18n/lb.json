@@ -4,11 +4,11 @@
 			"Robby"
 		]
 	},
-	"electronPdfService-special-page-headline": "Als PDF eroflueden",
-	"electronPdfService-download-label": "Als PDF eroflueden",
-	"electronPdfService-download-button": "Eroflueden",
-	"electronPdfService-sidebar-portlet-heading": "Drécken/Exportéieren",
-	"electronPdfService-sidebar-portlet-print-text": "Als PDF eroflueden",
-	"electronPdfService-invalid-page-title": "Net valabel Säit",
-	"electronPdfService-invalid-page-text": "Déi spezifizéiert Säit ass net valabel."
+	"electronpdfservice-special-page-headline": "Als PDF eroflueden",
+	"electronpdfservice-download-label": "Als PDF eroflueden",
+	"electronpdfservice-download-button": "Eroflueden",
+	"electronpdfservice-sidebar-portlet-heading": "Drécken/Exportéieren",
+	"electronpdfservice-sidebar-portlet-print-text": "Als PDF eroflueden",
+	"electronpdfservice-invalid-page-title": "Net valabel Säit",
+	"electronpdfservice-invalid-page-text": "Déi spezifizéiert Säit ass net valabel."
 }

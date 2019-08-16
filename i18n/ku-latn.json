@@ -6,11 +6,11 @@
 			"Bikarhêner"
 		]
 	},
-	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-special-page-headline": "Wek PDF daxe",
-	"electronPdfService-download-label": "Wek PDF daxe",
-	"electronPdfService-download-button": "Daxe",
-	"electronPdfService-sidebar-portlet-heading": "Çap bike/derxîne",
-	"electronPdfService-sidebar-portlet-print-text": "Wek PDF daxe",
-	"electronPdfService-invalid-page-title": "Rûpela nederbasdar"
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-special-page-headline": "Wek PDF daxe",
+	"electronpdfservice-download-label": "Wek PDF daxe",
+	"electronpdfservice-download-button": "Daxe",
+	"electronpdfservice-sidebar-portlet-heading": "Çap bike/derxîne",
+	"electronpdfservice-sidebar-portlet-print-text": "Wek PDF daxe",
+	"electronpdfservice-invalid-page-title": "Rûpela nederbasdar"
 }

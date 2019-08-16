@@ -4,11 +4,11 @@
 			"គីមស៊្រុន"
 		]
 	},
-	"electronPdfService-special-page-headline": "ទាញយកជាPDF",
-	"electronPdfService-download-label": "ទាញយកជាPDF",
-	"electronPdfService-download-button": "ទាញយក",
-	"electronPdfService-sidebar-portlet-heading": "បោះពុម្ព​/នាំចេញ​",
-	"electronPdfService-sidebar-portlet-print-text": "ទាញយកជាPDF",
-	"electronPdfService-invalid-page-title": "ទំព័រ​មិនត្រឹមត្រូវ",
-	"electronPdfService-invalid-page-text": "ទំព័រដែលអ្នកបានផ្ដល់មិនត្រឹមត្រូវ។"
+	"electronpdfservice-special-page-headline": "ទាញយកជាPDF",
+	"electronpdfservice-download-label": "ទាញយកជាPDF",
+	"electronpdfservice-download-button": "ទាញយក",
+	"electronpdfservice-sidebar-portlet-heading": "បោះពុម្ព​/នាំចេញ​",
+	"electronpdfservice-sidebar-portlet-print-text": "ទាញយកជាPDF",
+	"electronpdfservice-invalid-page-title": "ទំព័រ​មិនត្រឹមត្រូវ",
+	"electronpdfservice-invalid-page-text": "ទំព័រដែលអ្នកបានផ្ដល់មិនត្រឹមត្រូវ។"
 }

@@ -6,13 +6,13 @@
 			"Huji"
 		]
 	},
-	"electronPdfService": "انتخاب سرویس پی‌دی‌اف",
-	"electronPdfService-desc": "افزودن پشتیبانی از موتور رندر پی‌دی‌اف مرورگر به کمک ابزار انتخاب سرویس پی‌دی‌اف",
-	"electronPdfService-special-page-headline": "بارگیری به عنوان پی‌دی‌اف",
-	"electronPdfService-download-label": "دریافت به عنوان پی‌دی‌اف",
-	"electronPdfService-download-button": "بارگیری",
-	"electronPdfService-sidebar-portlet-heading": "چاپ/برون‌بری",
-	"electronPdfService-sidebar-portlet-print-text": "بارگیری به عنوان پی‌دی‌اف",
-	"electronPdfService-invalid-page-title": "صفحهٔ نامعتبر",
-	"electronPdfService-invalid-page-text": "صفحه مشخص شده معتبر نیست."
+	"electronpdfservice": "انتخاب سرویس پی‌دی‌اف",
+	"electronpdfservice-desc": "افزودن پشتیبانی از موتور رندر پی‌دی‌اف مرورگر به کمک ابزار انتخاب سرویس پی‌دی‌اف",
+	"electronpdfservice-special-page-headline": "بارگیری به عنوان پی‌دی‌اف",
+	"electronpdfservice-download-label": "دریافت به عنوان پی‌دی‌اف",
+	"electronpdfservice-download-button": "بارگیری",
+	"electronpdfservice-sidebar-portlet-heading": "چاپ/برون‌بری",
+	"electronpdfservice-sidebar-portlet-print-text": "بارگیری به عنوان پی‌دی‌اف",
+	"electronpdfservice-invalid-page-title": "صفحهٔ نامعتبر",
+	"electronpdfservice-invalid-page-text": "صفحه مشخص شده معتبر نیست."
 }

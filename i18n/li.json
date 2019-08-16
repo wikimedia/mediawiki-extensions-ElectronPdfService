@@ -5,13 +5,13 @@
 			"Ooswesthoesbes"
 		]
 	},
-	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-desc": "Veug stäön veur op browser gegrundje PDF-vertuining toe via Electron PDF service",
-	"electronPdfService-special-page-headline": "Download es PDF",
-	"electronPdfService-download-label": "Download es PDF",
-	"electronPdfService-download-button": "Download",
-	"electronPdfService-sidebar-portlet-heading": "Drók aaf/exporteer",
-	"electronPdfService-sidebar-portlet-print-text": "Download es PDF",
-	"electronPdfService-invalid-page-title": "Ongeljige pazjena",
-	"electronPdfService-invalid-page-text": "De opgegaove pagina is óngeljig."
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Veug stäön veur op browser gegrundje PDF-vertuining toe via Electron PDF service",
+	"electronpdfservice-special-page-headline": "Download es PDF",
+	"electronpdfservice-download-label": "Download es PDF",
+	"electronpdfservice-download-button": "Download",
+	"electronpdfservice-sidebar-portlet-heading": "Drók aaf/exporteer",
+	"electronpdfservice-sidebar-portlet-print-text": "Download es PDF",
+	"electronpdfservice-invalid-page-title": "Ongeljige pazjena",
+	"electronpdfservice-invalid-page-text": "De opgegaove pagina is óngeljig."
 }

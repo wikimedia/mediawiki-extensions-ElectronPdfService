@@ -5,13 +5,13 @@
 			"Banjo"
 		]
 	},
-	"electronPdfService": "Servizo Pdf Electron",
-	"electronPdfService-desc": "Engade ao navegador soporte de renderización PDF a través do servizo Electron PDF",
-	"electronPdfService-special-page-headline": "Descargar como PDF",
-	"electronPdfService-download-label": "Descargar como PDF",
-	"electronPdfService-download-button": "Descargar",
-	"electronPdfService-sidebar-portlet-heading": "Imprimir/exportar",
-	"electronPdfService-sidebar-portlet-print-text": "Descargar como PDF",
-	"electronPdfService-invalid-page-title": "Páxina non válida",
-	"electronPdfService-invalid-page-text": "A páxina especificada non é válida."
+	"electronpdfservice": "Servizo Pdf Electron",
+	"electronpdfservice-desc": "Engade ao navegador soporte de renderización PDF a través do servizo Electron PDF",
+	"electronpdfservice-special-page-headline": "Descargar como PDF",
+	"electronpdfservice-download-label": "Descargar como PDF",
+	"electronpdfservice-download-button": "Descargar",
+	"electronpdfservice-sidebar-portlet-heading": "Imprimir/exportar",
+	"electronpdfservice-sidebar-portlet-print-text": "Descargar como PDF",
+	"electronpdfservice-invalid-page-title": "Páxina non válida",
+	"electronpdfservice-invalid-page-text": "A páxina especificada non é válida."
 }

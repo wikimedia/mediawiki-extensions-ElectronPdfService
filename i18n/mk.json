@@ -4,13 +4,13 @@
 			"Bjankuloski06"
 		]
 	},
-	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-desc": "Додава прелистувачка поддршка за испис на PDF преку службата Electron PDF",
-	"electronPdfService-special-page-headline": "Преземи како PDF",
-	"electronPdfService-download-label": "Преземи како PDF",
-	"electronPdfService-download-button": "Преземи",
-	"electronPdfService-sidebar-portlet-heading": "Печати/извези",
-	"electronPdfService-sidebar-portlet-print-text": "Преземи како PDF",
-	"electronPdfService-invalid-page-title": "Неважечка страница",
-	"electronPdfService-invalid-page-text": "Укажаната страница е неважечка."
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Додава прелистувачка поддршка за испис на PDF преку службата Electron PDF",
+	"electronpdfservice-special-page-headline": "Преземи како PDF",
+	"electronpdfservice-download-label": "Преземи како PDF",
+	"electronpdfservice-download-button": "Преземи",
+	"electronpdfservice-sidebar-portlet-heading": "Печати/извези",
+	"electronpdfservice-sidebar-portlet-print-text": "Преземи како PDF",
+	"electronpdfservice-invalid-page-title": "Неважечка страница",
+	"electronpdfservice-invalid-page-text": "Укажаната страница е неважечка."
 }

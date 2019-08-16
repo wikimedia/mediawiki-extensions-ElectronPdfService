@@ -7,13 +7,13 @@
 			"A2093064"
 		]
 	},
-	"electronPdfService": "电子Pdf服务",
-	"electronPdfService-desc": "通过电子PDF服务，添加基于浏览器的PDF渲染支持",
-	"electronPdfService-special-page-headline": "下载为PDF",
-	"electronPdfService-download-label": "下载为PDF",
-	"electronPdfService-download-button": "下载",
-	"electronPdfService-sidebar-portlet-heading": "打印/导出",
-	"electronPdfService-sidebar-portlet-print-text": "下载为PDF",
-	"electronPdfService-invalid-page-title": "无效页面",
-	"electronPdfService-invalid-page-text": "指定的页面无效。"
+	"electronpdfservice": "电子Pdf服务",
+	"electronpdfservice-desc": "通过电子PDF服务，添加基于浏览器的PDF渲染支持",
+	"electronpdfservice-special-page-headline": "下载为PDF",
+	"electronpdfservice-download-label": "下载为PDF",
+	"electronpdfservice-download-button": "下载",
+	"electronpdfservice-sidebar-portlet-heading": "打印/导出",
+	"electronpdfservice-sidebar-portlet-print-text": "下载为PDF",
+	"electronpdfservice-invalid-page-title": "无效页面",
+	"electronpdfservice-invalid-page-text": "指定的页面无效。"
 }

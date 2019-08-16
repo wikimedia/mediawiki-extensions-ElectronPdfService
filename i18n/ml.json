@@ -4,13 +4,13 @@
 			"Praveenp"
 		]
 	},
-	"electronPdfService": "ഇലക്ട്രോൺ‌പിഡിഎഫ്‌സേവനം",
-	"electronPdfService-desc": "ഇലക്ട്രോൺ പി.ഡി.എഫ്. സേവനം വഴി ബ്രൗസർ അധിഷ്ഠിത പി.ഡി.എഫ്. റെൻഡറിങ് സൗകര്യം കൂട്ടിച്ചേർക്കുന്നു",
-	"electronPdfService-special-page-headline": "പി.ഡി.എഫ്. ഡൗൺലോഡ് ചെയ്യുക",
-	"electronPdfService-download-label": "പി.ഡി.എഫ്. ഡൗൺലോഡ് ചെയ്യുക",
-	"electronPdfService-download-button": "ഡൗൺലോഡ്",
-	"electronPdfService-sidebar-portlet-heading": "അച്ചടി/കയറ്റുമതി",
-	"electronPdfService-sidebar-portlet-print-text": "പി.ഡി.എഫ്. ഡൗൺലോഡ് ചെയ്യുക",
-	"electronPdfService-invalid-page-title": "അസാധുവായ താൾ",
-	"electronPdfService-invalid-page-text": "നൽകിയിരിക്കുന്ന താൾ അസാധുവാണ്."
+	"electronpdfservice": "ഇലക്ട്രോൺ‌പിഡിഎഫ്‌സേവനം",
+	"electronpdfservice-desc": "ഇലക്ട്രോൺ പി.ഡി.എഫ്. സേവനം വഴി ബ്രൗസർ അധിഷ്ഠിത പി.ഡി.എഫ്. റെൻഡറിങ് സൗകര്യം കൂട്ടിച്ചേർക്കുന്നു",
+	"electronpdfservice-special-page-headline": "പി.ഡി.എഫ്. ഡൗൺലോഡ് ചെയ്യുക",
+	"electronpdfservice-download-label": "പി.ഡി.എഫ്. ഡൗൺലോഡ് ചെയ്യുക",
+	"electronpdfservice-download-button": "ഡൗൺലോഡ്",
+	"electronpdfservice-sidebar-portlet-heading": "അച്ചടി/കയറ്റുമതി",
+	"electronpdfservice-sidebar-portlet-print-text": "പി.ഡി.എഫ്. ഡൗൺലോഡ് ചെയ്യുക",
+	"electronpdfservice-invalid-page-title": "അസാധുവായ താൾ",
+	"electronpdfservice-invalid-page-text": "നൽകിയിരിക്കുന്ന താൾ അസാധുവാണ്."
 }

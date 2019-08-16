@@ -4,12 +4,12 @@
 			"Bugoslav"
 		]
 	},
-	"electronPdfService": "ElectronPdf usluga",
-	"electronPdfService-desc": "Dodaje podršku za iscrtavanje PDF-ova odmah iz preglednika pomoću usluge Electron PDF",
-	"electronPdfService-special-page-headline": "Preuzmi kao PDF",
-	"electronPdfService-download-button": "Preuzmi",
-	"electronPdfService-sidebar-portlet-heading": "Ispis/izvoz",
-	"electronPdfService-sidebar-portlet-print-text": "Preuzmi kao PDF",
-	"electronPdfService-invalid-page-title": "Nevrijedeća stranica",
-	"electronPdfService-invalid-page-text": "Navedena stranica nije valjana."
+	"electronpdfservice": "ElectronPdf usluga",
+	"electronpdfservice-desc": "Dodaje podršku za iscrtavanje PDF-ova odmah iz preglednika pomoću usluge Electron PDF",
+	"electronpdfservice-special-page-headline": "Preuzmi kao PDF",
+	"electronpdfservice-download-button": "Preuzmi",
+	"electronpdfservice-sidebar-portlet-heading": "Ispis/izvoz",
+	"electronpdfservice-sidebar-portlet-print-text": "Preuzmi kao PDF",
+	"electronpdfservice-invalid-page-title": "Nevrijedeća stranica",
+	"electronpdfservice-invalid-page-text": "Navedena stranica nije valjana."
 }

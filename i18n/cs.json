@@ -4,13 +4,13 @@
 			"Mormegil"
 		]
 	},
-	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-desc": "Přidává podporu vykreslování PDF v prohlížeči prostřednictvím služby Electron PDF",
-	"electronPdfService-special-page-headline": "Stáhnout jako PDF",
-	"electronPdfService-download-label": "Stáhnout jako PDF",
-	"electronPdfService-download-button": "Stáhnout",
-	"electronPdfService-sidebar-portlet-heading": "Tisk/export",
-	"electronPdfService-sidebar-portlet-print-text": "Stáhnout jako PDF",
-	"electronPdfService-invalid-page-title": "Neplatná stránka",
-	"electronPdfService-invalid-page-text": "Zadaná stránka není platná."
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Přidává podporu vykreslování PDF v prohlížeči prostřednictvím služby Electron PDF",
+	"electronpdfservice-special-page-headline": "Stáhnout jako PDF",
+	"electronpdfservice-download-label": "Stáhnout jako PDF",
+	"electronpdfservice-download-button": "Stáhnout",
+	"electronpdfservice-sidebar-portlet-heading": "Tisk/export",
+	"electronpdfservice-sidebar-portlet-print-text": "Stáhnout jako PDF",
+	"electronpdfservice-invalid-page-title": "Neplatná stránka",
+	"electronpdfservice-invalid-page-text": "Zadaná stránka není platná."
 }

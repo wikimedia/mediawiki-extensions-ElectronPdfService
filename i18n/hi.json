@@ -7,12 +7,12 @@
 			"Rishi.Singh"
 		]
 	},
-	"electronPdfService": "इलेक्ट्रॉन पीडीएफ़ सेवा",
-	"electronPdfService-special-page-headline": "पीडीएफ़ के रूप में डाउनलोड करें",
-	"electronPdfService-download-label": "पीडीएफ़ के रूप में डाउनलोड करें",
-	"electronPdfService-download-button": "डाउनलोड करें",
-	"electronPdfService-sidebar-portlet-heading": "प्रिंट/निर्यात",
-	"electronPdfService-sidebar-portlet-print-text": "पीडीएफ़ के रूप में डाउनलोड करें",
-	"electronPdfService-invalid-page-title": "अमान्य पृष्ठ",
-	"electronPdfService-invalid-page-text": "दिया गया पृष्ठ मान्य नहीं है।"
+	"electronpdfservice": "इलेक्ट्रॉन पीडीएफ़ सेवा",
+	"electronpdfservice-special-page-headline": "पीडीएफ़ के रूप में डाउनलोड करें",
+	"electronpdfservice-download-label": "पीडीएफ़ के रूप में डाउनलोड करें",
+	"electronpdfservice-download-button": "डाउनलोड करें",
+	"electronpdfservice-sidebar-portlet-heading": "प्रिंट/निर्यात",
+	"electronpdfservice-sidebar-portlet-print-text": "पीडीएफ़ के रूप में डाउनलोड करें",
+	"electronpdfservice-invalid-page-title": "अमान्य पृष्ठ",
+	"electronpdfservice-invalid-page-text": "दिया गया पृष्ठ मान्य नहीं है।"
 }

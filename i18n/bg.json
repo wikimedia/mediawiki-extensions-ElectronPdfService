@@ -5,8 +5,8 @@
 			"ShockD"
 		]
 	},
-	"electronPdfService-special-page-headline": "Изтегляне като PDF",
-	"electronPdfService-download-label": "Изтегляне като PDF",
-	"electronPdfService-download-button": "Изтегляне",
-	"electronPdfService-sidebar-portlet-print-text": "Изтегляне като PDF"
+	"electronpdfservice-special-page-headline": "Изтегляне като PDF",
+	"electronpdfservice-download-label": "Изтегляне като PDF",
+	"electronpdfservice-download-button": "Изтегляне",
+	"electronpdfservice-sidebar-portlet-print-text": "Изтегляне като PDF"
 }

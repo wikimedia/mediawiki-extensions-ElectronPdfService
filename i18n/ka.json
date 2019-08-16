@@ -6,8 +6,8 @@
 			"BRUTE"
 		]
 	},
-	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-special-page-headline": "PDF-ში გადმოწერა",
-	"electronPdfService-sidebar-portlet-heading": "დაბეჭდვა/ექსპორტი",
-	"electronPdfService-sidebar-portlet-print-text": "PDF-ში გადმოწერა"
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-special-page-headline": "PDF-ში გადმოწერა",
+	"electronpdfservice-sidebar-portlet-heading": "დაბეჭდვა/ექსპორტი",
+	"electronpdfservice-sidebar-portlet-print-text": "PDF-ში გადმოწერა"
 }

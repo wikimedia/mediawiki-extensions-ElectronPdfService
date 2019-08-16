@@ -6,13 +6,13 @@
 			"Omotecho"
 		]
 	},
-	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-desc": "エレクトロン PDF サービスを介して、ブラウザによるPDFレンダリング支援を付加",
-	"electronPdfService-special-page-headline": "PDF形式で書き出す",
-	"electronPdfService-download-label": "PDFとしてダウンロード",
-	"electronPdfService-download-button": "ダウンロード",
-	"electronPdfService-sidebar-portlet-heading": "印刷/書き出し",
-	"electronPdfService-sidebar-portlet-print-text": "PDF形式で書き出す",
-	"electronPdfService-invalid-page-title": "無効なページ",
-	"electronPdfService-invalid-page-text": "指定されたページは有効ではありません。"
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "エレクトロン PDF サービスを介して、ブラウザによるPDFレンダリング支援を付加",
+	"electronpdfservice-special-page-headline": "PDF形式で書き出す",
+	"electronpdfservice-download-label": "PDFとしてダウンロード",
+	"electronpdfservice-download-button": "ダウンロード",
+	"electronpdfservice-sidebar-portlet-heading": "印刷/書き出し",
+	"electronpdfservice-sidebar-portlet-print-text": "PDF形式で書き出す",
+	"electronpdfservice-invalid-page-title": "無効なページ",
+	"electronpdfservice-invalid-page-text": "指定されたページは有効ではありません。"
 }

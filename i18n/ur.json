@@ -5,13 +5,13 @@
 			"BukhariSaeed"
 		]
 	},
-	"electronPdfService": "برقی پی‌ڈی‌ایف خدمت",
-	"electronPdfService-desc": "برقی پی‌ڈی‌ایف خدمت کے ذریعہ براؤزر پر مبنی پی ڈی ایف طباعت کی معاونت کا اضافہ",
-	"electronPdfService-special-page-headline": "ڈاؤنلوڈ بشکل پی‌ڈی‌ایف",
-	"electronPdfService-download-label": "ڈاؤنلوڈ بشکل پی‌ڈی‌ایف",
-	"electronPdfService-download-button": "ڈاؤنلوڈ",
-	"electronPdfService-sidebar-portlet-heading": "طباعت/برآمد",
-	"electronPdfService-sidebar-portlet-print-text": "ڈاؤنلوڈ بشکل پی‌ڈی‌ایف",
-	"electronPdfService-invalid-page-title": "نادرست صفحہ",
-	"electronPdfService-invalid-page-text": "درج کردہ صفحہ درست نہیں ہے۔"
+	"electronpdfservice": "برقی پی‌ڈی‌ایف خدمت",
+	"electronpdfservice-desc": "برقی پی‌ڈی‌ایف خدمت کے ذریعہ براؤزر پر مبنی پی ڈی ایف طباعت کی معاونت کا اضافہ",
+	"electronpdfservice-special-page-headline": "ڈاؤنلوڈ بشکل پی‌ڈی‌ایف",
+	"electronpdfservice-download-label": "ڈاؤنلوڈ بشکل پی‌ڈی‌ایف",
+	"electronpdfservice-download-button": "ڈاؤنلوڈ",
+	"electronpdfservice-sidebar-portlet-heading": "طباعت/برآمد",
+	"electronpdfservice-sidebar-portlet-print-text": "ڈاؤنلوڈ بشکل پی‌ڈی‌ایف",
+	"electronpdfservice-invalid-page-title": "نادرست صفحہ",
+	"electronpdfservice-invalid-page-text": "درج کردہ صفحہ درست نہیں ہے۔"
 }

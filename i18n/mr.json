@@ -4,8 +4,8 @@
 			"V.narsikar"
 		]
 	},
-	"electronPdfService-sidebar-portlet-heading": "छापा",
-	"electronPdfService-sidebar-portlet-print-text": "PDF छापा",
-	"electronPdfService-invalid-page-title": "अवैध पान",
-	"electronPdfService-invalid-page-text": "नमूद केलेले पान अवैध आहे."
+	"electronpdfservice-sidebar-portlet-heading": "छापा",
+	"electronpdfservice-sidebar-portlet-print-text": "PDF छापा",
+	"electronpdfservice-invalid-page-title": "अवैध पान",
+	"electronpdfservice-invalid-page-text": "नमूद केलेले पान अवैध आहे."
 }

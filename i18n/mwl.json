@@ -5,13 +5,13 @@
 			"Athena in Wonderland"
 		]
 	},
-	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-desc": "Acrecenta al nabegador un suporte de cumposiçon PDF atrabeç de l serbício Electron PDF",
-	"electronPdfService-special-page-headline": "Çcargar cumo PDF",
-	"electronPdfService-download-label": "Çcargar cumo PDF",
-	"electronPdfService-download-button": "Çcargar",
-	"electronPdfService-sidebar-portlet-heading": "Amprimir/sportar",
-	"electronPdfService-sidebar-portlet-print-text": "Çcargar cumo PDF",
-	"electronPdfService-invalid-page-title": "Páigina ambálida",
-	"electronPdfService-invalid-page-text": "La páigina specifecada ye ambálida."
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Acrecenta al nabegador un suporte de cumposiçon PDF atrabeç de l serbício Electron PDF",
+	"electronpdfservice-special-page-headline": "Çcargar cumo PDF",
+	"electronpdfservice-download-label": "Çcargar cumo PDF",
+	"electronpdfservice-download-button": "Çcargar",
+	"electronpdfservice-sidebar-portlet-heading": "Amprimir/sportar",
+	"electronpdfservice-sidebar-portlet-print-text": "Çcargar cumo PDF",
+	"electronpdfservice-invalid-page-title": "Páigina ambálida",
+	"electronpdfservice-invalid-page-text": "La páigina specifecada ye ambálida."
 }

@@ -5,13 +5,13 @@
 			"Fitoschido"
 		]
 	},
-	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-desc": "Permite mostrar archivos PDF en el navegador mediante el servicio Electron PDF",
-	"electronPdfService-special-page-headline": "Descargar en PDF",
-	"electronPdfService-download-label": "Descargar como PDF",
-	"electronPdfService-download-button": "Descargar",
-	"electronPdfService-sidebar-portlet-heading": "Imprimir/exportar",
-	"electronPdfService-sidebar-portlet-print-text": "Descargar en PDF",
-	"electronPdfService-invalid-page-title": "Página no válida",
-	"electronPdfService-invalid-page-text": "La página especificada no es válida."
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Permite mostrar archivos PDF en el navegador mediante el servicio Electron PDF",
+	"electronpdfservice-special-page-headline": "Descargar en PDF",
+	"electronpdfservice-download-label": "Descargar como PDF",
+	"electronpdfservice-download-button": "Descargar",
+	"electronpdfservice-sidebar-portlet-heading": "Imprimir/exportar",
+	"electronpdfservice-sidebar-portlet-print-text": "Descargar en PDF",
+	"electronpdfservice-invalid-page-title": "Página no válida",
+	"electronpdfservice-invalid-page-text": "La página especificada no es válida."
 }

@@ -4,13 +4,13 @@
 			"Metalhead64"
 		]
 	},
-	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-desc": "Ergänzt eine browserbasierte Unterstützung zur Darstellung von PDF-Dateien mithilfe des Electron-PDF-Dienstes",
-	"electronPdfService-special-page-headline": "Als PDF herunterladen",
-	"electronPdfService-download-label": "Als PDF-Datei herunterladen",
-	"electronPdfService-download-button": "Herunterladen",
-	"electronPdfService-sidebar-portlet-heading": "Drucken/Exportieren",
-	"electronPdfService-sidebar-portlet-print-text": "Als PDF herunterladen",
-	"electronPdfService-invalid-page-title": "Ungültige Seite",
-	"electronPdfService-invalid-page-text": "Die angegebene Seite ist nicht gültig."
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Ergänzt eine browserbasierte Unterstützung zur Darstellung von PDF-Dateien mithilfe des Electron-PDF-Dienstes",
+	"electronpdfservice-special-page-headline": "Als PDF herunterladen",
+	"electronpdfservice-download-label": "Als PDF-Datei herunterladen",
+	"electronpdfservice-download-button": "Herunterladen",
+	"electronpdfservice-sidebar-portlet-heading": "Drucken/Exportieren",
+	"electronpdfservice-sidebar-portlet-print-text": "Als PDF herunterladen",
+	"electronpdfservice-invalid-page-title": "Ungültige Seite",
+	"electronpdfservice-invalid-page-text": "Die angegebene Seite ist nicht gültig."
 }

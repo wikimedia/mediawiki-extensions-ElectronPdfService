@@ -4,13 +4,13 @@
 			"Ykhwong"
 		]
 	},
-	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-desc": "Electron PDF 서비스를 통해 브라우저 기반 PDF 렌더링 지원을 추가합니다",
-	"electronPdfService-special-page-headline": "PDF로 다운로드",
-	"electronPdfService-download-label": "PDF로 다운로드",
-	"electronPdfService-download-button": "다운로드",
-	"electronPdfService-sidebar-portlet-heading": "인쇄/내보내기",
-	"electronPdfService-sidebar-portlet-print-text": "PDF로 다운로드",
-	"electronPdfService-invalid-page-title": "잘못된 페이지",
-	"electronPdfService-invalid-page-text": "지정한 문서가 올바르지 않습니다."
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Electron PDF 서비스를 통해 브라우저 기반 PDF 렌더링 지원을 추가합니다",
+	"electronpdfservice-special-page-headline": "PDF로 다운로드",
+	"electronpdfservice-download-label": "PDF로 다운로드",
+	"electronpdfservice-download-button": "다운로드",
+	"electronpdfservice-sidebar-portlet-heading": "인쇄/내보내기",
+	"electronpdfservice-sidebar-portlet-print-text": "PDF로 다운로드",
+	"electronpdfservice-invalid-page-title": "잘못된 페이지",
+	"electronpdfservice-invalid-page-text": "지정한 문서가 올바르지 않습니다."
 }

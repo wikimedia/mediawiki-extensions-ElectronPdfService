@@ -4,13 +4,13 @@
 			"Red Winged Duck"
 		]
 	},
-	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-desc": "Дадае падтрымку браўзэрнай апрацоўкі PDF праз сэрвіс Electron PDF",
-	"electronPdfService-special-page-headline": "Загрузіць як PDF",
-	"electronPdfService-download-label": "Спампаваць як PDF",
-	"electronPdfService-download-button": "Спампаваць",
-	"electronPdfService-sidebar-portlet-heading": "Друк/экспарт",
-	"electronPdfService-sidebar-portlet-print-text": "Загрузіць як PDF",
-	"electronPdfService-invalid-page-title": "Няслушная старонка",
-	"electronPdfService-invalid-page-text": "Пазначаная няслушная старонка."
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Дадае падтрымку браўзэрнай апрацоўкі PDF праз сэрвіс Electron PDF",
+	"electronpdfservice-special-page-headline": "Загрузіць як PDF",
+	"electronpdfservice-download-label": "Спампаваць як PDF",
+	"electronpdfservice-download-button": "Спампаваць",
+	"electronpdfservice-sidebar-portlet-heading": "Друк/экспарт",
+	"electronpdfservice-sidebar-portlet-print-text": "Загрузіць як PDF",
+	"electronpdfservice-invalid-page-title": "Няслушная старонка",
+	"electronpdfservice-invalid-page-text": "Пазначаная няслушная старонка."
 }

@@ -4,13 +4,13 @@
 			"Lam-ang"
 		]
 	},
-	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-desc": "Manginayon iti naibatay iti pagbasabasa a suporta ti panangipakita ti PDF babaen ti serbisio ti Electron PDF",
-	"electronPdfService-special-page-headline": "Ikarga a kas PDF",
-	"electronPdfService-download-label": "Ikarga a kas PDF",
-	"electronPdfService-download-button": "Ikarga",
-	"electronPdfService-sidebar-portlet-heading": "Imaldit/eksport",
-	"electronPdfService-sidebar-portlet-print-text": "Ikarga a kas PDF",
-	"electronPdfService-invalid-page-title": "Imbalido a panid",
-	"electronPdfService-invalid-page-text": "Ti nainaganan a panid ket imbalido."
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Manginayon iti naibatay iti pagbasabasa a suporta ti panangipakita ti PDF babaen ti serbisio ti Electron PDF",
+	"electronpdfservice-special-page-headline": "Ikarga a kas PDF",
+	"electronpdfservice-download-label": "Ikarga a kas PDF",
+	"electronpdfservice-download-button": "Ikarga",
+	"electronpdfservice-sidebar-portlet-heading": "Imaldit/eksport",
+	"electronpdfservice-sidebar-portlet-print-text": "Ikarga a kas PDF",
+	"electronpdfservice-invalid-page-title": "Imbalido a panid",
+	"electronpdfservice-invalid-page-text": "Ti nainaganan a panid ket imbalido."
 }

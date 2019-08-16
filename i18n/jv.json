@@ -4,12 +4,12 @@
 			"NoiX180"
 		]
 	},
-	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-special-page-headline": "Undhuh ing PDF",
-	"electronPdfService-download-label": "Undhuh ing PDF",
-	"electronPdfService-download-button": "Undhuh",
-	"electronPdfService-sidebar-portlet-heading": "Cithak/èspor",
-	"electronPdfService-sidebar-portlet-print-text": "Undhuh ing PDF",
-	"electronPdfService-invalid-page-title": "Kaca ora trep",
-	"electronPdfService-invalid-page-text": "Kaca sing dikarepaké ora trep."
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-special-page-headline": "Undhuh ing PDF",
+	"electronpdfservice-download-label": "Undhuh ing PDF",
+	"electronpdfservice-download-button": "Undhuh",
+	"electronpdfservice-sidebar-portlet-heading": "Cithak/èspor",
+	"electronpdfservice-sidebar-portlet-print-text": "Undhuh ing PDF",
+	"electronpdfservice-invalid-page-title": "Kaca ora trep",
+	"electronpdfservice-invalid-page-text": "Kaca sing dikarepaké ora trep."
 }

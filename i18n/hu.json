@@ -5,13 +5,13 @@
 			"Bencemac"
 		]
 	},
-	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-desc": "Böngészőalapú PDF-feldolgozási támogatás az Electron PDF-szolgáltatás segítségével",
-	"electronPdfService-special-page-headline": "Letöltés PDF-ként",
-	"electronPdfService-download-label": "Letöltés PDF-ként",
-	"electronPdfService-download-button": "Letöltés",
-	"electronPdfService-sidebar-portlet-heading": "Nyomtatás/exportálás",
-	"electronPdfService-sidebar-portlet-print-text": "Letöltés PDF-ként",
-	"electronPdfService-invalid-page-title": "Érvénytelen lap",
-	"electronPdfService-invalid-page-text": "A megadott lap nem érvényes."
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Böngészőalapú PDF-feldolgozási támogatás az Electron PDF-szolgáltatás segítségével",
+	"electronpdfservice-special-page-headline": "Letöltés PDF-ként",
+	"electronpdfservice-download-label": "Letöltés PDF-ként",
+	"electronpdfservice-download-button": "Letöltés",
+	"electronpdfservice-sidebar-portlet-heading": "Nyomtatás/exportálás",
+	"electronpdfservice-sidebar-portlet-print-text": "Letöltés PDF-ként",
+	"electronpdfservice-invalid-page-title": "Érvénytelen lap",
+	"electronpdfservice-invalid-page-text": "A megadott lap nem érvényes."
 }

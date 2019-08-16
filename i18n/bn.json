@@ -5,13 +5,13 @@
 			"আফতাবুজ্জামান"
 		]
 	},
-	"electronPdfService": "ইলেকট্রনপিডিএফসার্ভিস",
-	"electronPdfService-desc": "ইলেকট্রন পিডিএফ পরিসেবার মাধ্যমে ব্রাউজার ভিত্তিক পিডিএফ পরিবেশনার সমর্থন যোগ করে",
-	"electronPdfService-special-page-headline": "PDF হিসাবে ডাউনলোড করুন",
-	"electronPdfService-download-label": "PDF হিসাবে ডাউনলোড করুন",
-	"electronPdfService-download-button": "ডাউনলোড করুন",
-	"electronPdfService-sidebar-portlet-heading": "মুদ্রণ/রপ্তানি",
-	"electronPdfService-sidebar-portlet-print-text": "PDF হিসাবে ডাউনলোড করুন",
-	"electronPdfService-invalid-page-title": "পাতা অবৈধ",
-	"electronPdfService-invalid-page-text": "নির্দিষ্টকৃত পাতাটি বৈধ নয়।"
+	"electronpdfservice": "ইলেকট্রনপিডিএফসার্ভিস",
+	"electronpdfservice-desc": "ইলেকট্রন পিডিএফ পরিসেবার মাধ্যমে ব্রাউজার ভিত্তিক পিডিএফ পরিবেশনার সমর্থন যোগ করে",
+	"electronpdfservice-special-page-headline": "PDF হিসাবে ডাউনলোড করুন",
+	"electronpdfservice-download-label": "PDF হিসাবে ডাউনলোড করুন",
+	"electronpdfservice-download-button": "ডাউনলোড করুন",
+	"electronpdfservice-sidebar-portlet-heading": "মুদ্রণ/রপ্তানি",
+	"electronpdfservice-sidebar-portlet-print-text": "PDF হিসাবে ডাউনলোড করুন",
+	"electronpdfservice-invalid-page-title": "পাতা অবৈধ",
+	"electronpdfservice-invalid-page-text": "নির্দিষ্টকৃত পাতাটি বৈধ নয়।"
 }

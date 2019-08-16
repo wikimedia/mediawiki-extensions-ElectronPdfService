@@ -6,13 +6,13 @@
 			"Urhixidur"
 		]
 	},
-	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-desc": "Ajoute une prise en charge du rendu PDF basé sur le navigateur via le service PDF Electron",
-	"electronPdfService-special-page-headline": "Télécharger en PDF",
-	"electronPdfService-download-label": "Télécharger comme PDF",
-	"electronPdfService-download-button": "Télécharger",
-	"electronPdfService-sidebar-portlet-heading": "Imprimer / exporter",
-	"electronPdfService-sidebar-portlet-print-text": "Télécharger en PDF",
-	"electronPdfService-invalid-page-title": "Page non valide",
-	"electronPdfService-invalid-page-text": "La page spécifiée n’est pas valide"
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Ajoute une prise en charge du rendu PDF basé sur le navigateur via le service PDF Electron",
+	"electronpdfservice-special-page-headline": "Télécharger en PDF",
+	"electronpdfservice-download-label": "Télécharger comme PDF",
+	"electronpdfservice-download-button": "Télécharger",
+	"electronpdfservice-sidebar-portlet-heading": "Imprimer / exporter",
+	"electronpdfservice-sidebar-portlet-print-text": "Télécharger en PDF",
+	"electronpdfservice-invalid-page-title": "Page non valide",
+	"electronpdfservice-invalid-page-text": "La page spécifiée n’est pas valide"
 }

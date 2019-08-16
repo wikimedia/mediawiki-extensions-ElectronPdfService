@@ -6,13 +6,13 @@
 			"Felipe L. Ewald"
 		]
 	},
-	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-desc": "Adiciona compatibilidade de renderização de PDF pelo navegador através do serviço Electron",
-	"electronPdfService-special-page-headline": "Baixar como PDF",
-	"electronPdfService-download-label": "Baixar como PDF",
-	"electronPdfService-download-button": "Baixar",
-	"electronPdfService-sidebar-portlet-heading": "Imprimir/exportar",
-	"electronPdfService-sidebar-portlet-print-text": "Baixar como PDF",
-	"electronPdfService-invalid-page-title": "Página inválida",
-	"electronPdfService-invalid-page-text": "A página especificada não é valida."
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Adiciona compatibilidade de renderização de PDF pelo navegador através do serviço Electron",
+	"electronpdfservice-special-page-headline": "Baixar como PDF",
+	"electronpdfservice-download-label": "Baixar como PDF",
+	"electronpdfservice-download-button": "Baixar",
+	"electronpdfservice-sidebar-portlet-heading": "Imprimir/exportar",
+	"electronpdfservice-sidebar-portlet-print-text": "Baixar como PDF",
+	"electronpdfservice-invalid-page-title": "Página inválida",
+	"electronpdfservice-invalid-page-text": "A página especificada não é valida."
 }

@@ -5,13 +5,13 @@
 			"Jon Harald Søby"
 		]
 	},
-	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-desc": "Legger til mulighet for nettleserbasert PDF-generering gjennom PDF-tjenesten Electron",
-	"electronPdfService-special-page-headline": "Last ned som PDF",
-	"electronPdfService-download-label": "Laste ned som PDF",
-	"electronPdfService-download-button": "Last ned",
-	"electronPdfService-sidebar-portlet-heading": "Skriv ut/eksporter",
-	"electronPdfService-sidebar-portlet-print-text": "Last ned som PDF",
-	"electronPdfService-invalid-page-title": "Ugyldig side",
-	"electronPdfService-invalid-page-text": "Den angitte siden er ikke gyldig"
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Legger til mulighet for nettleserbasert PDF-generering gjennom PDF-tjenesten Electron",
+	"electronpdfservice-special-page-headline": "Last ned som PDF",
+	"electronpdfservice-download-label": "Laste ned som PDF",
+	"electronpdfservice-download-button": "Last ned",
+	"electronpdfservice-sidebar-portlet-heading": "Skriv ut/eksporter",
+	"electronpdfservice-sidebar-portlet-print-text": "Last ned som PDF",
+	"electronpdfservice-invalid-page-title": "Ugyldig side",
+	"electronpdfservice-invalid-page-text": "Den angitte siden er ikke gyldig"
 }

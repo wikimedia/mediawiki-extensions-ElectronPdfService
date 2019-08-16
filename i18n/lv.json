@@ -4,8 +4,8 @@
 			"Papuass"
 		]
 	},
-	"electronPdfService-download-label": "Lejupielādēt kā PDF",
-	"electronPdfService-sidebar-portlet-heading": "Drukāt/eksportēt",
-	"electronPdfService-sidebar-portlet-print-text": "Lejupielādēt kā PDF",
-	"electronPdfService-invalid-page-title": "Nederīga lapa"
+	"electronpdfservice-download-label": "Lejupielādēt kā PDF",
+	"electronpdfservice-sidebar-portlet-heading": "Drukāt/eksportēt",
+	"electronpdfservice-sidebar-portlet-print-text": "Lejupielādēt kā PDF",
+	"electronpdfservice-invalid-page-title": "Nederīga lapa"
 }

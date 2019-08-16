@@ -4,11 +4,11 @@
 			"Snævar"
 		]
 	},
-	"electronPdfService-special-page-headline": "Sækja sem PDF",
-	"electronPdfService-download-label": "Sækja sem PDF",
-	"electronPdfService-download-button": "Hlaða niður",
-	"electronPdfService-sidebar-portlet-heading": "Prenta/flytja út",
-	"electronPdfService-sidebar-portlet-print-text": "Sækja sem PDF",
-	"electronPdfService-invalid-page-title": "Ógild síða",
-	"electronPdfService-invalid-page-text": "Valda síðan er ógild."
+	"electronpdfservice-special-page-headline": "Sækja sem PDF",
+	"electronpdfservice-download-label": "Sækja sem PDF",
+	"electronpdfservice-download-button": "Hlaða niður",
+	"electronpdfservice-sidebar-portlet-heading": "Prenta/flytja út",
+	"electronpdfservice-sidebar-portlet-print-text": "Sækja sem PDF",
+	"electronpdfservice-invalid-page-title": "Ógild síða",
+	"electronpdfservice-invalid-page-text": "Valda síðan er ógild."
 }

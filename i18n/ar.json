@@ -5,13 +5,13 @@
 			"Meno25"
 		]
 	},
-	"electronPdfService": "خدمة PDF الإلكترونية",
-	"electronPdfService-desc": "يضيف دعم عرض PDF بالاعتماد على المتصفح من خلال خدمة Electron PDF",
-	"electronPdfService-special-page-headline": "تحميل بصيغة PDF",
-	"electronPdfService-download-label": "تحميل بصيغة PDF",
-	"electronPdfService-download-button": "تنزيل",
-	"electronPdfService-sidebar-portlet-heading": "طباعة/تصدير",
-	"electronPdfService-sidebar-portlet-print-text": "تحميل بصيغة PDF",
-	"electronPdfService-invalid-page-title": "صفحة غير صالحة",
-	"electronPdfService-invalid-page-text": "الصفحة المحددة غير صحيحة."
+	"electronpdfservice": "خدمة PDF الإلكترونية",
+	"electronpdfservice-desc": "يضيف دعم عرض PDF بالاعتماد على المتصفح من خلال خدمة Electron PDF",
+	"electronpdfservice-special-page-headline": "تحميل بصيغة PDF",
+	"electronpdfservice-download-label": "تحميل بصيغة PDF",
+	"electronpdfservice-download-button": "تنزيل",
+	"electronpdfservice-sidebar-portlet-heading": "طباعة/تصدير",
+	"electronpdfservice-sidebar-portlet-print-text": "تحميل بصيغة PDF",
+	"electronpdfservice-invalid-page-title": "صفحة غير صالحة",
+	"electronpdfservice-invalid-page-text": "الصفحة المحددة غير صحيحة."
 }

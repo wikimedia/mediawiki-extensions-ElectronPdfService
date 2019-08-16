@@ -4,13 +4,13 @@
 			"Sayginer"
 		]
 	},
-	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-desc": "ElectronPDFservice aracılığıyla tarayıcı tabanlı PDF oluşturma desteği ekler",
-	"electronPdfService-special-page-headline": "PDF olarak indir",
-	"electronPdfService-download-label": "PDF olarak indir",
-	"electronPdfService-download-button": "İndir",
-	"electronPdfService-sidebar-portlet-heading": "Yazdır/dışa aktar",
-	"electronPdfService-sidebar-portlet-print-text": "PDF olarak indir",
-	"electronPdfService-invalid-page-title": "Geçersiz sayfa",
-	"electronPdfService-invalid-page-text": "Belirtilen sayfa geçerli değil."
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "ElectronPDFservice aracılığıyla tarayıcı tabanlı PDF oluşturma desteği ekler",
+	"electronpdfservice-special-page-headline": "PDF olarak indir",
+	"electronpdfservice-download-label": "PDF olarak indir",
+	"electronpdfservice-download-button": "İndir",
+	"electronpdfservice-sidebar-portlet-heading": "Yazdır/dışa aktar",
+	"electronpdfservice-sidebar-portlet-print-text": "PDF olarak indir",
+	"electronpdfservice-invalid-page-title": "Geçersiz sayfa",
+	"electronpdfservice-invalid-page-text": "Belirtilen sayfa geçerli değil."
 }

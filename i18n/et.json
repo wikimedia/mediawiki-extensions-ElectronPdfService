@@ -4,12 +4,12 @@
 			"Pikne"
 		]
 	},
-	"electronPdfService-desc": "Lisab brauseripõhise PDF-failide viimistluse toe, mis kasutab teenust Electron PDF.",
-	"electronPdfService-special-page-headline": "PDF-faili allalaadimine",
-	"electronPdfService-download-label": "PDF-faili allalaadimine",
-	"electronPdfService-download-button": "Laadi alla",
-	"electronPdfService-sidebar-portlet-heading": "Print ja eksport",
-	"electronPdfService-sidebar-portlet-print-text": "Laadi alla PDF-failina",
-	"electronPdfService-invalid-page-title": "Vigane lehekülg",
-	"electronPdfService-invalid-page-text": "Määratud lehekülg pole sobilik."
+	"electronpdfservice-desc": "Lisab brauseripõhise PDF-failide viimistluse toe, mis kasutab teenust Electron PDF.",
+	"electronpdfservice-special-page-headline": "PDF-faili allalaadimine",
+	"electronpdfservice-download-label": "PDF-faili allalaadimine",
+	"electronpdfservice-download-button": "Laadi alla",
+	"electronpdfservice-sidebar-portlet-heading": "Print ja eksport",
+	"electronpdfservice-sidebar-portlet-print-text": "Laadi alla PDF-failina",
+	"electronpdfservice-invalid-page-title": "Vigane lehekülg",
+	"electronpdfservice-invalid-page-text": "Määratud lehekülg pole sobilik."
 }

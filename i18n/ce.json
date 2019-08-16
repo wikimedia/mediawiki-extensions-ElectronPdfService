@@ -4,13 +4,13 @@
 			"Умар"
 		]
 	},
-	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-desc": "Коьртачу браузеран тӀетуху PDF рендеран Electron PDF сервис чухула",
-	"electronPdfService-special-page-headline": "PDF санна схьаэца",
-	"electronPdfService-download-label": "PDF санна схьаэца",
-	"electronPdfService-download-button": "Схьаэца",
-	"electronPdfService-sidebar-portlet-heading": "Зорба/экспорт",
-	"electronPdfService-sidebar-portlet-print-text": "PDF санна схьаэца",
-	"electronPdfService-invalid-page-title": "Нийса йоцу агӀо",
-	"electronPdfService-invalid-page-text": "Билгалйина нийса йоцу агӀо."
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Коьртачу браузеран тӀетуху PDF рендеран Electron PDF сервис чухула",
+	"electronpdfservice-special-page-headline": "PDF санна схьаэца",
+	"electronpdfservice-download-label": "PDF санна схьаэца",
+	"electronpdfservice-download-button": "Схьаэца",
+	"electronpdfservice-sidebar-portlet-heading": "Зорба/экспорт",
+	"electronpdfservice-sidebar-portlet-print-text": "PDF санна схьаэца",
+	"electronpdfservice-invalid-page-title": "Нийса йоцу агӀо",
+	"electronpdfservice-invalid-page-text": "Билгалйина нийса йоцу агӀо."
 }

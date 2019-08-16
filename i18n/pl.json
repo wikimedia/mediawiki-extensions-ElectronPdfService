@@ -6,13 +6,13 @@
 			"Railfail536"
 		]
 	},
-	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-desc": "Dodaje oparte na przeglądarce renderowanie plików PDF przy użyciu usługi Electron PDF",
-	"electronPdfService-special-page-headline": "Pobierz jako PDF",
-	"electronPdfService-download-label": "Pobierz jako PDF",
-	"electronPdfService-download-button": "Pobierz",
-	"electronPdfService-sidebar-portlet-heading": "Drukuj lub eksportuj",
-	"electronPdfService-sidebar-portlet-print-text": "Pobierz jako PDF",
-	"electronPdfService-invalid-page-title": "Nieprawidłowa strona",
-	"electronPdfService-invalid-page-text": "Podana strona nie jest poprawna."
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Dodaje oparte na przeglądarce renderowanie plików PDF przy użyciu usługi Electron PDF",
+	"electronpdfservice-special-page-headline": "Pobierz jako PDF",
+	"electronpdfservice-download-label": "Pobierz jako PDF",
+	"electronpdfservice-download-button": "Pobierz",
+	"electronpdfservice-sidebar-portlet-heading": "Drukuj lub eksportuj",
+	"electronpdfservice-sidebar-portlet-print-text": "Pobierz jako PDF",
+	"electronpdfservice-invalid-page-title": "Nieprawidłowa strona",
+	"electronpdfservice-invalid-page-text": "Podana strona nie jest poprawna."
 }

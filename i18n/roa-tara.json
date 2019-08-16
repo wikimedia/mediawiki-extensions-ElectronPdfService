@@ -4,13 +4,13 @@
 			"Joetaras"
 		]
 	},
-	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-desc": "Aggiunge 'u render pu PDF ca se base sus a 'u browser ausanne 'u servizie Electron PDF",
-	"electronPdfService-special-page-headline": "Scareche cumme 'nu PDF",
-	"electronPdfService-download-label": "Scareche cumme 'nu PDF",
-	"electronPdfService-download-button": "Scareche",
-	"electronPdfService-sidebar-portlet-heading": "Stambe/esporte",
-	"electronPdfService-sidebar-portlet-print-text": "Scareche cumme 'nu PDF",
-	"electronPdfService-invalid-page-title": "Pàgene invalide",
-	"electronPdfService-invalid-page-text": "'A pàgene specificate non g'è valide."
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Aggiunge 'u render pu PDF ca se base sus a 'u browser ausanne 'u servizie Electron PDF",
+	"electronpdfservice-special-page-headline": "Scareche cumme 'nu PDF",
+	"electronpdfservice-download-label": "Scareche cumme 'nu PDF",
+	"electronpdfservice-download-button": "Scareche",
+	"electronpdfservice-sidebar-portlet-heading": "Stambe/esporte",
+	"electronpdfservice-sidebar-portlet-print-text": "Scareche cumme 'nu PDF",
+	"electronpdfservice-invalid-page-title": "Pàgene invalide",
+	"electronpdfservice-invalid-page-text": "'A pàgene specificate non g'è valide."
 }

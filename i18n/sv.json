@@ -4,10 +4,10 @@
 			"WikiPhoenix"
 		]
 	},
-	"electronPdfService-special-page-headline": "Ladda ned som PDF",
-	"electronPdfService-download-label": "Ladda ned som PDF",
-	"electronPdfService-download-button": "Ladda ned",
-	"electronPdfService-sidebar-portlet-heading": "Skriv ut/exportera",
-	"electronPdfService-sidebar-portlet-print-text": "Ladda ned som PDF",
-	"electronPdfService-invalid-page-title": "Ogiltig sida"
+	"electronpdfservice-special-page-headline": "Ladda ned som PDF",
+	"electronpdfservice-download-label": "Ladda ned som PDF",
+	"electronpdfservice-download-button": "Ladda ned",
+	"electronpdfservice-sidebar-portlet-heading": "Skriv ut/exportera",
+	"electronpdfservice-sidebar-portlet-print-text": "Ladda ned som PDF",
+	"electronpdfservice-invalid-page-title": "Ogiltig sida"
 }

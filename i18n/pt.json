@@ -5,13 +5,13 @@
 			"Hamilton Abreu"
 		]
 	},
-	"electronPdfService": "ElectronPdfService",
-	"electronPdfService-desc": "Adiciona ao navegador um suporte de renderização PDF através do serviço Electron PDF",
-	"electronPdfService-special-page-headline": "Descarregar como PDF",
-	"electronPdfService-download-label": "Descarregar como PDF",
-	"electronPdfService-download-button": "Descarregar",
-	"electronPdfService-sidebar-portlet-heading": "Imprimir/exportar",
-	"electronPdfService-sidebar-portlet-print-text": "Descarregar como PDF",
-	"electronPdfService-invalid-page-title": "Página inválida",
-	"electronPdfService-invalid-page-text": "A página especificada é inválida."
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Adiciona ao navegador um suporte de renderização PDF através do serviço Electron PDF",
+	"electronpdfservice-special-page-headline": "Descarregar como PDF",
+	"electronpdfservice-download-label": "Descarregar como PDF",
+	"electronpdfservice-download-button": "Descarregar",
+	"electronpdfservice-sidebar-portlet-heading": "Imprimir/exportar",
+	"electronpdfservice-sidebar-portlet-print-text": "Descarregar como PDF",
+	"electronpdfservice-invalid-page-title": "Página inválida",
+	"electronpdfservice-invalid-page-text": "A página especificada é inválida."
 }
