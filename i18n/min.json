@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Iwan Novirion"
+		]
+	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Tambahkan dukuangan rendering PDF babasis paramban malalui layanan Elektron PDF",
+	"electronpdfservice-special-page-headline": "Unduah sabagai PDF",
+	"electronpdfservice-download-label": "Unduah sabagai PDF",
+	"electronpdfservice-download-button": "Unduah",
+	"electronpdfservice-sidebar-portlet-heading": "Cetak/ekspor",
+	"electronpdfservice-sidebar-portlet-print-text": "Unduah sabagai PDF",
+	"electronpdfservice-invalid-page-title": "Laman tak sah",
+	"electronpdfservice-invalid-page-text": "Laman nan dicari indak ado."
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Iwan Novirion"
+		]
+	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Tambahkan dukungan rendering PDF berbasis peramban melalui layanan Elektron PDF",
+	"electronpdfservice-special-page-headline": "Unduh sebagai PDF",
+	"electronpdfservice-download-label": "Unduh sebagai PDF",
+	"electronpdfservice-download-button": "Unduh",
+	"electronpdfservice-sidebar-portlet-heading": "Cetak/ekspor",
+	"electronpdfservice-sidebar-portlet-print-text": "Unduh sebagai PDF"
+}
