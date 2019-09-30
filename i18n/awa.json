@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeetsinghawadh"
+		]
+	},
+	"electronpdfservice-special-page-headline": "पीडीएफ़ के रूप मा डाउनलोड करैं",
+	"electronpdfservice-download-label": "पीडीएफ़ के रूप मा डाउनलोड करैं",
+	"electronpdfservice-download-button": "डाउनलोड",
+	"electronpdfservice-sidebar-portlet-heading": "प्रिंट/निर्यात",
+	"electronpdfservice-sidebar-portlet-print-text": "पीडीएफ़ के रूप मा डाउनलोड करैं",
+	"electronpdfservice-invalid-page-title": "अमान्य पृष्ठ"
+}
