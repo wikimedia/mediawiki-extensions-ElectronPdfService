@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pare Mo"
+		]
+	},
+	"electronpdfservice-special-page-headline": "Deskargaron bilang PDF",
+	"electronpdfservice-download-label": "Deskargaron bilang PDF",
+	"electronpdfservice-download-button": "Deskargaron",
+	"electronpdfservice-sidebar-portlet-heading": "Imprimiron/eksportaron",
+	"electronpdfservice-sidebar-portlet-print-text": "Deskargaron bilang PDF",
+	"electronpdfservice-invalid-page-title": "Imbalidong panid"
+}
