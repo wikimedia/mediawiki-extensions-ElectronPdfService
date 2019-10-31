@@ -5,8 +5,13 @@
 			"ShockD"
 		]
 	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Добавя поддръжка на създаване на PDF от браузъра, чрез услугата Electron PDF",
 	"electronpdfservice-special-page-headline": "Изтегляне като PDF",
 	"electronpdfservice-download-label": "Изтегляне като PDF",
 	"electronpdfservice-download-button": "Изтегляне",
-	"electronpdfservice-sidebar-portlet-print-text": "Изтегляне като PDF"
+	"electronpdfservice-sidebar-portlet-heading": "Отпечатване/изнасяне",
+	"electronpdfservice-sidebar-portlet-print-text": "Изтегляне като PDF",
+	"electronpdfservice-invalid-page-title": "Невалидна страница",
+	"electronpdfservice-invalid-page-text": "Посочената страница е невалидна."
 }
