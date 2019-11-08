@@ -55,8 +55,8 @@
 			"images": {
 				"download-image": {
 					"file": {
-						"ltr": "resources/download-ltr.svg",
-						"rtl": "resources/download-rtl.svg"
+						"ltr": "modules/selectionImages/download-ltr.svg",
+						"rtl": "modules/selectionImages/download-rtl.svg"
 					}
 				}
 			}
