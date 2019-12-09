@@ -1,9 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robert Važan"
+			"Robert Važan",
+			"Luky001"
 		]
 	},
+	"electronpdfservice-special-page-headline": "Stiahnuť ako PDF",
+	"electronpdfservice-download-label": "Stiahnuť ako PDF",
+	"electronpdfservice-download-button": "Stiahnuť",
 	"electronpdfservice-sidebar-portlet-heading": "Tlač/export",
 	"electronpdfservice-sidebar-portlet-print-text": "Stiahnuť ako PDF"
 }
