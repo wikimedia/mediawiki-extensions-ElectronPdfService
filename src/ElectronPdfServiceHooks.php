@@ -22,7 +22,7 @@ class ElectronPdfServiceHooks {
 	public static function onSidebarBeforeOutput( Skin $skin, &$bar ) {
 		$config = MediaWikiServices::getInstance()->getMainConfig();
 		$title = $skin->getTitle();
-		if ( is_null( $title ) || !$title->exists() ) {
+		if ( $title === null || !$title->exists() ) {
 			return true;
 		}
 
