@@ -26,12 +26,8 @@
 		"ElectronPdfServiceAlias": "ElectronPdfService.i18n.alias.php"
 	},
 	"Hooks": {
-		"SidebarBeforeOutput": [
-			"ElectronPdfServiceHooks::onSidebarBeforeOutput"
-		],
-		"BeforePageDisplay": [
-			"ElectronPdfServiceHooks::onBeforePageDisplay"
-		]
+		"SidebarBeforeOutput": "ElectronPdfServiceHooks::onSidebarBeforeOutput",
+		"BeforePageDisplay": "ElectronPdfServiceHooks::onBeforePageDisplay"
 	},
 	"MessagesDirs": {
 		"ElectronPdfService": [
