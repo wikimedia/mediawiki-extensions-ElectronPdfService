@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Artsiom91"
+			"Artsiom91",
+			"Maksim L."
 		]
 	},
 	"electronpdfservice": "ElectronPdfService",
@@ -11,6 +12,6 @@
 	"electronpdfservice-download-button": "Загрузіць",
 	"electronpdfservice-sidebar-portlet-heading": "Друк/экспарт",
 	"electronpdfservice-sidebar-portlet-print-text": "Загрузіць як PDF",
-	"electronpdfservice-invalid-page-title": "Некарэктная старонка",
-	"electronpdfservice-invalid-page-text": "Вызначаная старонка некарэктная."
+	"electronpdfservice-invalid-page-title": "Недапушчальная старонка",
+	"electronpdfservice-invalid-page-text": "Вызначана недапушчальная старонка."
 }
