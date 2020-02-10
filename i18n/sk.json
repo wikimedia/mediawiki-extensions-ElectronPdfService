@@ -5,6 +5,7 @@
 			"Luky001"
 		]
 	},
+	"electronpdfservice-desc": "Pridáva podporu vykresľovania PDF v prehliadači prostredníctvom služby Electron PDF",
 	"electronpdfservice-special-page-headline": "Stiahnuť ako PDF",
 	"electronpdfservice-download-label": "Stiahnuť ako PDF",
 	"electronpdfservice-download-button": "Stiahnuť",
