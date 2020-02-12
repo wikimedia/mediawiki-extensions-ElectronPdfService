@@ -11,7 +11,7 @@ use MediaWiki\MediaWikiServices;
 class SpecialElectronPdf extends SpecialPage {
 
 	/**
-	 * @var Config $config
+	 * @var Config
 	 */
 	public $config;
 
