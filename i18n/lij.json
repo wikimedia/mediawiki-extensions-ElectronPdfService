@@ -7,6 +7,7 @@
 	"electronpdfservice": "ElectronPdfService",
 	"electronpdfservice-desc": "Azonzi o suporto de Electron PDF service pe-a compoxission in PDF pe navegatô",
 	"electronpdfservice-special-page-headline": "Scarrega comme PDF",
+	"electronpdfservice-download-label": "Scarrega comme PDF",
 	"electronpdfservice-download-button": "Scarrega",
 	"electronpdfservice-sidebar-portlet-heading": "Stampa/esporta",
 	"electronpdfservice-sidebar-portlet-print-text": "Scarrega comme PDF",
