@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"TheEduGobi",
 			"Eduardo Addad de Oliveira",
-			"Felipe L. Ewald"
+			"Felipe L. Ewald",
+			"TheEduGobi"
 		]
 	},
 	"electronpdfservice": "ElectronPdfService",

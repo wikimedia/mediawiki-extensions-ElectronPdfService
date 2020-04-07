@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Base",
 			"Piramidion",
-			"SimondR",
-			"Base"
+			"SimondR"
 		]
 	},
 	"electronpdfservice": "ElectronPdfService",

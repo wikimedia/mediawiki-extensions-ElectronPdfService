@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robert Važan",
-			"Luky001"
+			"Luky001",
+			"Robert Važan"
 		]
 	},
 	"electronpdfservice-desc": "Pridáva podporu vykresľovania PDF v prehliadači prostredníctvom služby Electron PDF",

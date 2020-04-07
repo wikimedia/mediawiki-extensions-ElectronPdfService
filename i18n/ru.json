@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Facenapalm",
 			"Kareyac",
-			"Okras",
-			"Facenapalm"
+			"Okras"
 		]
 	},
 	"electronpdfservice": "ElectronPdfService",

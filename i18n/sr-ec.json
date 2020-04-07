@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Сербијана",
-			"Srdjan m",
-			"Obsuser",
 			"BadDog",
-			"Milicevic01"
+			"Milicevic01",
+			"Obsuser",
+			"Srdjan m",
+			"Сербијана"
 		]
 	},
 	"electronpdfservice": "ElectronPdfService",
