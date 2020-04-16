@@ -1,15 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
+			"1917 Ekim Devrimi",
 			"Mirzali",
 			"Orbot707"
 		]
 	},
 	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Terefê ElectronPDFservice ya zeminê browseriya pheştiya vıraştışê PDF keno cı",
 	"electronpdfservice-special-page-headline": "Zê PDF biya war",
 	"electronpdfservice-download-label": "Zê PDF biya war",
 	"electronpdfservice-download-button": "Biya war",
 	"electronpdfservice-sidebar-portlet-heading": "Çap/teber kerê",
 	"electronpdfservice-sidebar-portlet-print-text": "Zê PDF biya war",
-	"electronpdfservice-invalid-page-title": "Pela nêraverdi"
+	"electronpdfservice-invalid-page-title": "Pela nêraverdi",
+	"electronpdfservice-invalid-page-text": "Nışanyaye pela ravêrde niya"
 }
