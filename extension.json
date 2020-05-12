@@ -13,13 +13,15 @@
 	"requires": {
 		"MediaWiki": ">= 1.31.0"
 	},
-	"manifest_version": 1,
+	"manifest_version": 2,
 	"AutoloadClasses": {
 		"ElectronPdfServiceHooks": "src/ElectronPdfServiceHooks.php",
 		"SpecialElectronPdf": "src/specials/SpecialElectronPdf.php"
 	},
 	"config": {
-		"ElectronPdfServiceRESTbaseURL": "/api/rest_v1/page/pdf/"
+		"ElectronPdfServiceRESTbaseURL": {
+			"value": "/api/rest_v1/page/pdf/"
+		}
 	},
 	"ExtensionMessagesFiles": {
 		"ElectronPdfServiceAlias": "ElectronPdfService.i18n.alias.php"
