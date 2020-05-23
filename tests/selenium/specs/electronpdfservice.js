@@ -11,7 +11,7 @@ describe( 'ElectronPdfService', function () {
 		MainPage.open();
 		MainPage.pdflink.click();
 
-		assert( SpecialElectronPdfPage.downloadButton.isVisible() );
+		assert( SpecialElectronPdfPage.downloadButton.isDisplayed() );
 
 	} );
 
