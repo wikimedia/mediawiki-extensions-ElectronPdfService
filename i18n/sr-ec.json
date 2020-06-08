@@ -14,7 +14,7 @@
 	"electronpdfservice-download-label": "Преузимање у PDF формату",
 	"electronpdfservice-download-button": "Преузми",
 	"electronpdfservice-sidebar-portlet-heading": "Штампање/извоз",
-	"electronpdfservice-sidebar-portlet-print-text": "Преузимање (PDF)",
+	"electronpdfservice-sidebar-portlet-print-text": "Преузмите (PDF)",
 	"electronpdfservice-invalid-page-title": "Неважећа страница",
 	"electronpdfservice-invalid-page-text": "Наведена страница није важећа."
 }
