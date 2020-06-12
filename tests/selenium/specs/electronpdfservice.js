@@ -1,6 +1,6 @@
 'use strict';
 
-var assert = require( 'assert' ),
+const assert = require( 'assert' ),
 	MainPage = require( '../pageobjects/main.page' ),
 	SpecialElectronPdfPage = require( '../pageobjects/specialelectronpdf.page' );
 

@@ -1,4 +1,5 @@
 'use strict';
+
 const Page = require( 'wdio-mediawiki/Page' );
 
 class MainPage extends Page {

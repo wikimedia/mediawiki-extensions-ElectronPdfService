@@ -1,4 +1,5 @@
 'use strict';
+
 const Page = require( 'wdio-mediawiki/Page' );
 
 class SpecialElectronPdfPage extends Page {
