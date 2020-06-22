@@ -17,18 +17,17 @@ class ElectronPdfServiceHooks {
 	 *
 	 * @param Skin $skin
 	 * @param mixed &$bar
-	 * @return bool
 	 */
 	public static function onSidebarBeforeOutput( Skin $skin, &$bar ) {
 		$config = MediaWikiServices::getInstance()->getMainConfig();
 		$title = $skin->getTitle();
 		if ( $title === null || !$title->exists() ) {
-			return true;
+			return;
 		}
 
 		$action = Action::getActionName( $skin );
 		if ( $action !== 'view' && $action !== 'purge' ) {
-			return true;
+			return;
 		}
 
 		if ( $config->has( 'CollectionFormats' ) && array_key_exists( 'coll-print_export', $bar ) ) {
@@ -44,7 +43,7 @@ class ElectronPdfServiceHooks {
 			// if no download-as-pdf link is there, add one and point to the download screen
 			} else {
 				$bar['coll-print_export'][] = [
-					'text' => $skin->msg( 'electronpdfservice-sidebar-portlet-print-text' ),
+					'text' => $skin->msg( 'electronpdfservice-sidebar-portlet-print-text' )->text(),
 					'id' => 'electron-print_pdf',
 					'href' => self::generateDownloadScreenLink( $title )
 				];
@@ -52,14 +51,23 @@ class ElectronPdfServiceHooks {
 		} else {
 			// in case Collection is not installed, let's add our own portlet
 			// with a link to the download screen
-			$bar['electronpdfservice-sidebar-portlet-heading'][] = [
-				'text' => $skin->msg( 'electronpdfservice-sidebar-portlet-print-text' ),
+			$out = [];
+			$out[] = [
+				'text' => $skin->msg( 'electronpdfservice-sidebar-portlet-print-text' )->text(),
 				'id' => 'electron-print_pdf',
 				'href' => self::generateDownloadScreenLink( $title )
 			];
-		}
 
-		return true;
+			if ( !$skin->getOutput()->isPrintable() ) {
+				$printItem = $bar['TOOLBOX']['print'];
+
+				// Unset 'print' item and move it to our section
+				unset( $bar['TOOLBOX']['print'] );
+				$out[] = $printItem;
+			}
+
+			$bar['electronpdfservice-sidebar-portlet-heading'] = $out;
+		}
 	}
 
 	/**
