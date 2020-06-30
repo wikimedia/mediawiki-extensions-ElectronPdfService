@@ -58,7 +58,7 @@ class ElectronPdfServiceHooks {
 				'href' => self::generateDownloadScreenLink( $title )
 			];
 
-			if ( !$skin->getOutput()->isPrintable() ) {
+			if ( !$skin->getOutput()->isPrintable() && isset( $bar['TOOLBOX']['print'] ) ) {
 				$printItem = $bar['TOOLBOX']['print'];
 
 				// Unset 'print' item and move it to our section
