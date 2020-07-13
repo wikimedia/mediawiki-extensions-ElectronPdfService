@@ -1,8 +1,6 @@
 {
 	"@metadata": {
-		"authors": [
-			"Aefgh39622"
-		]
+		"authors": []
 	},
 	"electronpdfservice": "ElectronPdfService",
 	"electronpdfservice-desc": "เพิ่มการรองรับการแสดงผล PDF ในเบราว์เซอร์ผ่านบริการ Electron PDF",
