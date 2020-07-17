@@ -7,6 +7,7 @@
 	"electronpdfservice": "ElectronPdfService",
 	"electronpdfservice-desc": "Dodaje podršku za iscrtavanje PDF-ova odmah iz preglednika pomoću usluge Electron PDF",
 	"electronpdfservice-special-page-headline": "Preuzmi kao PDF",
+	"electronpdfservice-download-label": "Preuzmi kao PDF",
 	"electronpdfservice-download-button": "Preuzmi",
 	"electronpdfservice-sidebar-portlet-heading": "Štampaj/izvezi",
 	"electronpdfservice-sidebar-portlet-print-text": "Preuzmi kao PDF",
