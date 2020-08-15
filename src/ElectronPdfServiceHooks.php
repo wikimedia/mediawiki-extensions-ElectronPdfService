@@ -100,7 +100,7 @@ class ElectronPdfServiceHooks {
 
 		return $specialPageTitle->getLocalURL(
 			[
-				'page' => $title->getPrefixedText(),
+				'page' => $title->getPrefixedDBkey(),
 				'action' => 'redirect-to-electron'
 			]
 		);
@@ -111,7 +111,7 @@ class ElectronPdfServiceHooks {
 
 		return $specialPageTitle->getLocalURL(
 			[
-				'page' => $title->getPrefixedText(),
+				'page' => $title->getPrefixedDBkey(),
 				'action' => 'show-download-screen'
 			]
 		);
