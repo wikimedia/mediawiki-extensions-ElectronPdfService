@@ -2,15 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Moon0319",
+			"Roy17",
 			"Yueman"
 		]
 	},
 	"electronpdfservice": "電子PDF服務",
 	"electronpdfservice-desc": "透過電子PDF服務為瀏覽器加PDF轉換功能",
-	"electronpdfservice-special-page-headline": "單撈PDF檔",
+	"electronpdfservice-special-page-headline": "下載PDF",
 	"electronpdfservice-download-button": "下載",
 	"electronpdfservice-sidebar-portlet-heading": "打印/匯出",
-	"electronpdfservice-sidebar-portlet-print-text": "單撈PDF檔",
+	"electronpdfservice-sidebar-portlet-print-text": "下載PDF",
 	"electronpdfservice-invalid-page-title": "錯嘅版面",
 	"electronpdfservice-invalid-page-text": "指定嗰版係唔啱嘅。"
 }
