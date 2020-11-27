@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Daud I.F. Argana",
 			"Iwan Novirion"
 		]
 	},
@@ -10,5 +11,7 @@
 	"electronpdfservice-download-label": "Unduh sebagai PDF",
 	"electronpdfservice-download-button": "Unduh",
 	"electronpdfservice-sidebar-portlet-heading": "Cetak/ekspor",
-	"electronpdfservice-sidebar-portlet-print-text": "Unduh sebagai PDF"
+	"electronpdfservice-sidebar-portlet-print-text": "Unduh sebagai PDF",
+	"electronpdfservice-invalid-page-title": "Halaman tidak valid",
+	"electronpdfservice-invalid-page-text": "Halaman yang diberikan tidak valid."
 }
