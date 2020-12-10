@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Abbas dhothar",
 			"Saraiki"
 		]
 	},
-	"electronpdfservice-download-button": "ڈاؤنلوڈ"
+	"electronpdfservice-download-label": "پی ڈی ایف ڈاؤنلوڈ",
+	"electronpdfservice-download-button": "ڈاؤنلوڈ",
+	"electronpdfservice-sidebar-portlet-print-text": "پی ڈی ایف ڈاؤنلوڈ"
 }
