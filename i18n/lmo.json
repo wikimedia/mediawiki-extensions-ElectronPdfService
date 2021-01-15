@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Salvemm el lombard"
+		]
+	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Sgionta on programa de navigazzion fondad sora el suport de realizzazion di PDF per via de l'Electron PDF service",
+	"electronpdfservice-special-page-headline": "Descarega come PDF",
+	"electronpdfservice-download-label": "Descarega come PDF",
+	"electronpdfservice-download-button": "Descarega",
+	"electronpdfservice-sidebar-portlet-heading": "Stampa/esporta",
+	"electronpdfservice-sidebar-portlet-print-text": "Descarega come PDF",
+	"electronpdfservice-invalid-page-title": "Pagina minga valida",
+	"electronpdfservice-invalid-page-text": "La pagina specificada a l'è minga valida"
+}
