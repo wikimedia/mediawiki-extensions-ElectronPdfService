@@ -5,5 +5,7 @@
 		]
 	},
 	"electronpdfservice-special-page-headline": "PDF ৰূপে ডাউনল'ড কৰক",
-	"electronpdfservice-sidebar-portlet-heading": "মুদ্ৰণ/ৰপ্তানী"
+	"electronpdfservice-download-label": "PDF ৰূপে ডাউনল'ড কৰক",
+	"electronpdfservice-sidebar-portlet-heading": "মুদ্ৰণ/ৰপ্তানী",
+	"electronpdfservice-sidebar-portlet-print-text": "PDF ৰূপে ডাউনল'ড কৰক"
 }
