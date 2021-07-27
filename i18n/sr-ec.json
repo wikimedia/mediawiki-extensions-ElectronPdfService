@@ -10,11 +10,11 @@
 	},
 	"electronpdfservice": "ElectronPdfService",
 	"electronpdfservice-desc": "Додаје подршку за рендеровање PDF-ова одмах из прегледача помоћу услуге Electron PDF",
-	"electronpdfservice-special-page-headline": "Преузимање у PDF формату",
-	"electronpdfservice-download-label": "Преузимање у PDF формату",
+	"electronpdfservice-special-page-headline": "Преузимање у PDF-у",
+	"electronpdfservice-download-label": "Преузимање у PDF-у",
 	"electronpdfservice-download-button": "Преузми",
 	"electronpdfservice-sidebar-portlet-heading": "Штампање/извоз",
-	"electronpdfservice-sidebar-portlet-print-text": "Преузми (PDF)",
+	"electronpdfservice-sidebar-portlet-print-text": "Преузми у PDF-у",
 	"electronpdfservice-invalid-page-title": "Неважећа страница",
 	"electronpdfservice-invalid-page-text": "Наведена страница није важећа."
 }
