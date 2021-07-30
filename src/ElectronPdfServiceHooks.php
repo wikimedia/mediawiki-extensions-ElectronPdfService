@@ -30,7 +30,13 @@ class ElectronPdfServiceHooks {
 			return;
 		}
 
-		if ( $config->has( 'CollectionFormats' ) && array_key_exists( 'coll-print_export', $bar ) ) {
+		$output = $skin->getOutput();
+
+		if (
+			$output->isRevisionCurrent() &&
+			$config->has( 'CollectionFormats' ) &&
+			array_key_exists( 'coll-print_export', $bar )
+		) {
 			$index = self::getIndexOfDownloadPdfSidebarItem(
 				$bar['coll-print_export'],
 				$config->get( 'CollectionFormats' )
@@ -52,11 +58,13 @@ class ElectronPdfServiceHooks {
 			// in case Collection is not installed, let's add our own portlet
 			// with a link to the download screen
 			$out = [];
-			$out[] = [
-				'text' => $skin->msg( 'electronpdfservice-sidebar-portlet-print-text' )->text(),
-				'id' => 'electron-print_pdf',
-				'href' => self::generateDownloadScreenLink( $title )
-			];
+			if ( $output->isRevisionCurrent() ) {
+				$out[] = [
+					'text' => $skin->msg( 'electronpdfservice-sidebar-portlet-print-text' )->text(),
+					'id' => 'electron-print_pdf',
+					'href' => self::generateDownloadScreenLink( $title )
+				];
+			}
 
 			if ( !$skin->getOutput()->isPrintable() && isset( $bar['TOOLBOX']['print'] ) ) {
 				$printItem = $bar['TOOLBOX']['print'];
