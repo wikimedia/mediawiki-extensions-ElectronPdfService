@@ -1,6 +1,7 @@
 {
 	"extends": "stylelint-config-wikimedia",
 	"rules": {
-		"no-duplicate-selectors": null
+		"no-duplicate-selectors": null,
+		"declaration-property-unit-disallowed-list": null
 	}
 }
