@@ -1,13 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Felba"
 		]
 	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Lägger till webbläsarbaserad PDF-generering genom Electron PDF-tjänsten",
 	"electronpdfservice-special-page-headline": "Ladda ned som PDF",
 	"electronpdfservice-download-label": "Ladda ned som PDF",
 	"electronpdfservice-download-button": "Ladda ned",
 	"electronpdfservice-sidebar-portlet-heading": "Skriv ut/exportera",
 	"electronpdfservice-sidebar-portlet-print-text": "Ladda ned som PDF",
-	"electronpdfservice-invalid-page-title": "Ogiltig sida"
+	"electronpdfservice-invalid-page-title": "Ogiltig sida",
+	"electronpdfservice-invalid-page-text": "Den angivna sidan är inte giltig."
 }
