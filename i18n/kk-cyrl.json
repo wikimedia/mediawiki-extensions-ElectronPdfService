@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fontan 030"
+		]
+	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-special-page-headline": "PDF ретінде жүктеп алу",
+	"electronpdfservice-download-label": "PDF ретінде жүктеп алу",
+	"electronpdfservice-download-button": "Жүктеп алу",
+	"electronpdfservice-sidebar-portlet-heading": "Баспа/экспорт",
+	"electronpdfservice-sidebar-portlet-print-text": "PDF ретінде жүктеп алу"
+}

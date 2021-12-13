@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chinamoonroll"
+		]
+	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Wewehin wantuan pangadegan PDF mabasis paramban saking layanan Éléktron PDF",
+	"electronpdfservice-special-page-headline": "Unduh dados PDF",
+	"electronpdfservice-download-label": "Unduh dados PDF",
+	"electronpdfservice-download-button": "Unduh",
+	"electronpdfservice-sidebar-portlet-heading": "Cétak/ékspor",
+	"electronpdfservice-sidebar-portlet-print-text": "Unduh dados PDF",
+	"electronpdfservice-invalid-page-title": "Kaca tan patut",
+	"electronpdfservice-invalid-page-text": "Kaca sané kanikayang tan patut"
+}

@@ -1,11 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ninjastrikers"
+			"Ninjastrikers",
+			"Dr Lotus Black"
 		]
 	},
 	"electronpdfservice-special-page-headline": "PDF အနေဖြင့် ရယူရန်",
 	"electronpdfservice-download-label": "PDF အနေဖြင့် ရယူရန်",
 	"electronpdfservice-download-button": "ဒေါင်းလုပ်ယူရန်",
-	"electronpdfservice-sidebar-portlet-print-text": "PDF အနေဖြင့် ရယူရန်"
+	"electronpdfservice-sidebar-portlet-heading": "ပရင့်/ပို့လွှတ်",
+	"electronpdfservice-sidebar-portlet-print-text": "PDF အနေဖြင့် ရယူရန်",
+	"electronpdfservice-invalid-page-title": "အကျုံးမဝင်သောစာမျက်နှာ"
 }

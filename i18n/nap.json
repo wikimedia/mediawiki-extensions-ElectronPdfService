@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ruthven"
+		]
+	},
+	"electronpdfservice-special-page-headline": "Scarreca 'o PDF",
+	"electronpdfservice-download-label": "Scarreca 'o PDF",
+	"electronpdfservice-download-button": "Scarreca",
+	"electronpdfservice-sidebar-portlet-print-text": "Scarreca 'o PDF",
+	"electronpdfservice-invalid-page-title": "Paggena nun valida",
+	"electronpdfservice-invalid-page-text": "'A paggena specificata nun è valida."
+}

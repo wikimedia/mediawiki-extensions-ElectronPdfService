@@ -4,5 +4,13 @@
 			"McDutchie"
 		]
 	},
-	"electronpdfservice-download-label": "Discargar como PDF"
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Permitte visualisar files PDF in le navigator per medio del servicio Electron PDF",
+	"electronpdfservice-special-page-headline": "Discargar como PDF",
+	"electronpdfservice-download-label": "Discargar como PDF",
+	"electronpdfservice-download-button": "Discargar",
+	"electronpdfservice-sidebar-portlet-heading": "Imprimer/exportar",
+	"electronpdfservice-sidebar-portlet-print-text": "Discargar como PDF",
+	"electronpdfservice-invalid-page-title": "Pagina invalide",
+	"electronpdfservice-invalid-page-text": "Le pagina specificate non es valide."
 }

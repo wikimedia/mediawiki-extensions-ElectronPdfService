@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tofeiku"
+		]
+	},
+	"electronpdfservice": "KhidmatPdfElektron",
+	"electronpdfservice-desc": "Menambahkan sokongan kemas gabung PDF berasaskan pelayan melalui khidmat PDF Elektron",
+	"electronpdfservice-special-page-headline": "Muat turun sebagai PDF",
+	"electronpdfservice-download-label": "Muat turun sebagai PDF",
+	"electronpdfservice-download-button": "Muat turun",
+	"electronpdfservice-sidebar-portlet-heading": "Cetak/eksport",
+	"electronpdfservice-sidebar-portlet-print-text": "Muat turun sebagai PDF",
+	"electronpdfservice-invalid-page-title": "Laman tidak sah",
+	"electronpdfservice-invalid-page-text": "Laman tertentu tidak disahkan."
+}

@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sayginer"
+			"Sayginer",
+			"MuratTheTurkish"
 		]
 	},
 	"electronpdfservice": "ElectronPdfService",
-	"electronpdfservice-desc": "ElectronPDFservice aracılığıyla tarayıcı tabanlı PDF oluşturma desteği ekler",
+	"electronpdfservice-desc": "ElectronPDFservice üzerinden tarayıcı tabanlı PDF oluşturma desteği ekler",
 	"electronpdfservice-special-page-headline": "PDF olarak indir",
 	"electronpdfservice-download-label": "PDF olarak indir",
 	"electronpdfservice-download-button": "İndir",
