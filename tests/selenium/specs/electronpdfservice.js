@@ -6,10 +6,10 @@ const assert = require( 'assert' ),
 
 describe( 'ElectronPdfService', function () {
 
-	it( 'pdf download button is visible', function () {
+	it( 'pdf download button is visible', async function () {
 
-		MainPage.open();
-		MainPage.pdflink.click();
+		await MainPage.open();
+		await MainPage.pdflink.click();
 
 		assert( SpecialDownloadAsPdfPage.downloadButton.isDisplayed() );
 
