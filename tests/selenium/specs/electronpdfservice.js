@@ -11,7 +11,7 @@ describe( 'ElectronPdfService', function () {
 		await MainPage.open();
 		await MainPage.pdflink.click();
 
-		assert( SpecialDownloadAsPdfPage.downloadButton.isDisplayed() );
+		assert( await SpecialDownloadAsPdfPage.downloadButton.isDisplayed() );
 
 	} );
 
