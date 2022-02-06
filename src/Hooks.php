@@ -7,9 +7,16 @@
  * @license GPL-2.0-or-later
  */
 
-use MediaWiki\MediaWikiServices;
+namespace MediaWiki\Extension\ElectronPdfService;
 
-class ElectronPdfServiceHooks {
+use Action;
+use MediaWiki\MediaWikiServices;
+use OutputPage;
+use Skin;
+use SpecialPage;
+use Title;
+
+class Hooks {
 
 	/**
 	 * If present, make the "Download as PDF" link in the sidebar point to the download screen,
@@ -79,10 +86,10 @@ class ElectronPdfServiceHooks {
 	}
 
 	/**
-	 * @param OutputPage &$out
-	 * @param Skin &$skin
+	 * @param OutputPage $out
+	 * @param Skin $skin
 	 */
-	public static function onBeforePageDisplay( OutputPage &$out, Skin &$skin ) {
+	public static function onBeforePageDisplay( OutputPage $out, Skin $skin ) {
 		$userAgent = $out->getRequest()->getHeader( 'User-Agent' );
 
 		if ( strstr( $userAgent, 'electron-render-service' ) ) {
@@ -104,9 +111,7 @@ class ElectronPdfServiceHooks {
 	}
 
 	private static function generatePdfDownloadLink( Title $title ) {
-		$specialPageTitle = SpecialPage::getTitleFor( 'DownloadAsPdf' );
-
-		return $specialPageTitle->getLocalURL(
+		return SpecialPage::getTitleFor( 'DownloadAsPdf' )->getLocalURL(
 			[
 				'page' => $title->getPrefixedDBkey(),
 				'action' => 'redirect-to-electron'
@@ -115,9 +120,7 @@ class ElectronPdfServiceHooks {
 	}
 
 	private static function generateDownloadScreenLink( Title $title ) {
-		$specialPageTitle = SpecialPage::getTitleFor( 'DownloadAsPdf' );
-
-		return $specialPageTitle->getLocalURL(
+		return SpecialPage::getTitleFor( 'DownloadAsPdf' )->getLocalURL(
 			[
 				'page' => $title->getPrefixedDBkey(),
 				'action' => 'show-download-screen'
