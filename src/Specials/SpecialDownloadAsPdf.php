@@ -6,7 +6,16 @@
  * @ingroup Extensions
  */
 
+namespace MediaWiki\Extension\ElectronPdfService\Specials;
+
+use Config;
 use MediaWiki\MediaWikiServices;
+use OOUI\ButtonGroupWidget;
+use OOUI\ButtonInputWidget;
+use OOUI\FormLayout;
+use OOUI\Tag;
+use SpecialPage;
+use Title;
 
 class SpecialDownloadAsPdf extends SpecialPage {
 
@@ -65,7 +74,7 @@ class SpecialDownloadAsPdf extends SpecialPage {
 		$out->setPageTitle( $this->msg( 'electronpdfservice-special-page-headline' )->text() );
 		$out->addSubtitle( $title->getText() );
 
-		$form = new OOUI\FormLayout( [
+		$form = new FormLayout( [
 			'method' => 'POST',
 			'action' => $this->getPageTitle()->getLocalURL(),
 		] );
@@ -73,14 +82,14 @@ class SpecialDownloadAsPdf extends SpecialPage {
 		$form->addClasses( [ 'mw-electronpdfservice-selection-form' ] );
 
 		$form->appendContent(
-			( new OOUI\Tag() )
+			( new Tag() )
 				->addClasses( [ 'mw-electronpdfservice-selection-body' ] )
 				->appendContent(
 					$this->getLabeledHiddenField( 'redirect-to-electron',  $title->getDBKey() ),
 					$this->getHiddenField( 'page', $title->getPrefixedText() ),
-					new OOUI\ButtonGroupWidget( [
+					new ButtonGroupWidget( [
 						'items' => [
-							new OOUI\ButtonInputWidget( [
+							new ButtonInputWidget( [
 								'type' => 'submit',
 								'flags' => [ 'primary', 'progressive' ],
 								'label' => $this->msg( 'electronpdfservice-download-button' )->text(),
@@ -95,37 +104,36 @@ class SpecialDownloadAsPdf extends SpecialPage {
 	/**
 	 * @param string $action
 	 * @param string $pageTitle
-	 * @return OOUI\Tag
+	 * @return Tag
 	 */
 	private function getLabeledHiddenField( $action, $pageTitle ) {
-		$image = ( new OOUI\Tag() )->addClasses( [
+		$image = ( new Tag() )->addClasses( [
 			'mw-electronpdfservice-selection-image',
 			'mw-electronpdfservice-selection-download-image'
 		] );
 
-		$field = ( new OOUI\Tag() )->addClasses( [ 'mw-electronpdfservice-selection-field' ] );
+		$field = ( new Tag() )->addClasses( [ 'mw-electronpdfservice-selection-field' ] );
 		$field->appendContent(
 			$this->getHiddenField( 'action', $action ),
-			( new OOUI\Tag( 'div' ) )->addClasses( [ 'mw-electronpdfservice-selection-label-text' ] )
+			( new Tag( 'div' ) )->addClasses( [ 'mw-electronpdfservice-selection-label-text' ] )
 				->appendContent( $this->msg( 'electronpdfservice-download-label' )->text() ),
-			( new OOUI\Tag( 'div' ) )->addClasses( [ 'mw-electronpdfservice-selection-label-desc' ] )
+			( new Tag( 'div' ) )->addClasses( [ 'mw-electronpdfservice-selection-label-desc' ] )
 				->appendContent( $pageTitle . '.pdf' )
 		);
 
-		$labelBox = ( new OOUI\Tag( 'label' ) )->appendContent(
+		return ( new Tag( 'label' ) )->appendContent(
 			$image,
 			$field
 		);
-		return $labelBox;
 	}
 
 	/**
 	 * @param string $name
 	 * @param string $value
-	 * @return OOUI\Tag
+	 * @return Tag
 	 */
 	private function getHiddenField( $name, $value ) {
-		$element = new OOUI\Tag( 'input' );
+		$element = new Tag( 'input' );
 		$element->setAttributes(
 			[
 				'type' => 'hidden',

@@ -14,9 +14,8 @@
 		"MediaWiki": ">= 1.31.0"
 	},
 	"manifest_version": 2,
-	"AutoloadClasses": {
-		"ElectronPdfServiceHooks": "src/ElectronPdfServiceHooks.php",
-		"SpecialDownloadAsPdf": "src/specials/SpecialDownloadAsPdf.php"
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\ElectronPdfService\\": "src/"
 	},
 	"config": {
 		"ElectronPdfServiceRESTbaseURL": {
@@ -27,8 +26,8 @@
 		"ElectronPdfServiceAlias": "ElectronPdfService.i18n.alias.php"
 	},
 	"Hooks": {
-		"SidebarBeforeOutput": "ElectronPdfServiceHooks::onSidebarBeforeOutput",
-		"BeforePageDisplay": "ElectronPdfServiceHooks::onBeforePageDisplay"
+		"SidebarBeforeOutput": "MediaWiki\\Extension\\ElectronPdfService\\Hooks::onSidebarBeforeOutput",
+		"BeforePageDisplay": "MediaWiki\\Extension\\ElectronPdfService\\Hooks::onBeforePageDisplay"
 	},
 	"MessagesDirs": {
 		"ElectronPdfService": [
@@ -64,6 +63,6 @@
 		"remoteExtPath": "ElectronPdfService"
 	},
 	"SpecialPages": {
-		"DownloadAsPdf": "SpecialDownloadAsPdf"
+		"DownloadAsPdf": "MediaWiki\\Extension\\ElectronPdfService\\Specials\\SpecialDownloadAsPdf"
 	}
 }
