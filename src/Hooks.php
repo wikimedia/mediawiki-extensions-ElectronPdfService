@@ -9,7 +9,6 @@
 
 namespace MediaWiki\Extension\ElectronPdfService;
 
-use Action;
 use MediaWiki\MediaWikiServices;
 use OutputPage;
 use Skin;
@@ -32,7 +31,7 @@ class Hooks {
 			return;
 		}
 
-		$action = Action::getActionName( $skin );
+		$action = $skin->getActionName();
 		if ( $action !== 'view' && $action !== 'purge' ) {
 			return;
 		}
