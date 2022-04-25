@@ -7,7 +7,7 @@
 		]
 	},
 	"electronpdfservice": "ElectronPdfService",
-	"electronpdfservice-desc": "エレクトロン PDF サービスを介して、ブラウザによるPDFレンダリング支援を付加",
+	"electronpdfservice-desc": "エレクトロン PDF サービスを介して、ブラウザーによる PDF レンダリング支援を付加する",
 	"electronpdfservice-special-page-headline": "PDF形式で書き出す",
 	"electronpdfservice-download-label": "PDFとしてダウンロード",
 	"electronpdfservice-download-button": "ダウンロード",
