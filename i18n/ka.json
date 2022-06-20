@@ -3,11 +3,12 @@
 		"authors": [
 			"BRUTE",
 			"David1010",
-			"Otogi"
+			"Otogi",
+			"Გიო ოქრო"
 		]
 	},
 	"electronpdfservice": "ElectronPdfService",
-	"electronpdfservice-special-page-headline": "PDF-ში გადმოწერა",
+	"electronpdfservice-special-page-headline": "PDF-ად ჩამოტვირთვა",
 	"electronpdfservice-sidebar-portlet-heading": "დაბეჭდვა/ექსპორტი",
-	"electronpdfservice-sidebar-portlet-print-text": "PDF-ში გადმოწერა"
+	"electronpdfservice-sidebar-portlet-print-text": "PDF-ად ჩამოტვირთვა"
 }
