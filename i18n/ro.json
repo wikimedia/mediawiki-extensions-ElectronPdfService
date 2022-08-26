@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"NGC 54",
 			"Strainu"
 		]
 	},
 	"electronpdfservice": "ServiciulElectronPdf",
-	"electronpdfservice-special-page-headline": "Descărcare în format PDF",
-	"electronpdfservice-download-label": "Descărcare în format PDF",
+	"electronpdfservice-special-page-headline": "Descărcare ca PDF",
+	"electronpdfservice-download-label": "Descărcare ca PDF",
 	"electronpdfservice-download-button": "Descărcare",
 	"electronpdfservice-sidebar-portlet-heading": "Tipărire/exportare",
-	"electronpdfservice-sidebar-portlet-print-text": "Descărcare în format PDF",
+	"electronpdfservice-sidebar-portlet-print-text": "Descărcare ca PDF",
 	"electronpdfservice-invalid-page-text": "Pagina specificată nu este validă."
 }
