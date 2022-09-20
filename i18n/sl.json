@@ -2,10 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Dbc334",
-			"Pickle12"
+			"Pickle12",
+			"Eleassar"
 		]
 	},
-	"electronpdfservice": "Elektronski PDF program",
+	"electronpdfservice": "Storitev Electron PDF",
+	"electronpdfservice-desc": "S storitvijo Electron PDF doda podporo za brskalniški PDF-prikaz",
+	"electronpdfservice-special-page-headline": "Prenesi kot PDF",
+	"electronpdfservice-download-label": "Prenesi kot PDF",
+	"electronpdfservice-download-button": "Prenesi",
 	"electronpdfservice-sidebar-portlet-heading": "Natisni/izvozi",
 	"electronpdfservice-sidebar-portlet-print-text": "Prenesi kot PDF",
 	"electronpdfservice-invalid-page-title": "Neveljavna stran",
