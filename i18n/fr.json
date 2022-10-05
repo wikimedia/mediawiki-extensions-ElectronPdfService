@@ -3,15 +3,16 @@
 		"authors": [
 			"Gomoko",
 			"Urhixidur",
+			"Verdy p",
 			"Wladek92"
 		]
 	},
 	"electronpdfservice": "ElectronPdfService",
 	"electronpdfservice-desc": "Ajoute une prise en charge du rendu PDF basé sur le navigateur via le service PDF Electron",
 	"electronpdfservice-special-page-headline": "Télécharger en PDF",
-	"electronpdfservice-download-label": "Télécharger comme PDF",
+	"electronpdfservice-download-label": "Télécharger en PDF",
 	"electronpdfservice-download-button": "Télécharger",
-	"electronpdfservice-sidebar-portlet-heading": "Imprimer / exporter",
+	"electronpdfservice-sidebar-portlet-heading": "Imprimer / exporter",
 	"electronpdfservice-sidebar-portlet-print-text": "Télécharger en PDF",
 	"electronpdfservice-invalid-page-title": "Page non valide",
 	"electronpdfservice-invalid-page-text": "La page spécifiée n’est pas valide."
