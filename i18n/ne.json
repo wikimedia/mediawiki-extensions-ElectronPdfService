@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"हिमाल सुबेदी"
+			"हिमाल सुबेदी",
+			"बडा काजी"
 		]
 	},
 	"electronpdfservice-special-page-headline": "पिडिएफकाे रूपमा डाउनलोड गरिएकाे",
 	"electronpdfservice-download-label": "पिडिएफकाे रूपमा डाउनलोड गरिएकाे",
 	"electronpdfservice-download-button": "डाउनलोड गरिएकाे",
+	"electronpdfservice-sidebar-portlet-heading": "छाप्नुहोस्/निर्यात गर्नुहोस्",
 	"electronpdfservice-sidebar-portlet-print-text": "पिडिएफकाे रूपमा डाउनलोड गरिएकाे"
 }
