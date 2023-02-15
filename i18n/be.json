@@ -3,16 +3,17 @@
 		"authors": [
 			"Artsiom91",
 			"Maksim L.",
-			"ZlyiLev"
+			"ZlyiLev",
+			"Plaga med"
 		]
 	},
 	"electronpdfservice": "ElectronPdfService",
 	"electronpdfservice-desc": "Дадае падтрымку заснаванага на браўзеры PDF з дапамогай сэрвісу Electron PDF",
-	"electronpdfservice-special-page-headline": "Загрузіць як PDF",
-	"electronpdfservice-download-label": "Загрузіць як PDF",
-	"electronpdfservice-download-button": "Загрузіць",
+	"electronpdfservice-special-page-headline": "Спампаваць як PDF",
+	"electronpdfservice-download-label": "Спампаваць як PDF",
+	"electronpdfservice-download-button": "Спампаваць",
 	"electronpdfservice-sidebar-portlet-heading": "Друк/экспарт",
-	"electronpdfservice-sidebar-portlet-print-text": "Загрузіць як PDF",
+	"electronpdfservice-sidebar-portlet-print-text": "Спампаваць як PDF",
 	"electronpdfservice-invalid-page-title": "Недапушчальная старонка",
 	"electronpdfservice-invalid-page-text": "Вызначана недапушчальная старонка."
 }
