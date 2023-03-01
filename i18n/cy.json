@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Afalau"
+		]
+	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Yn ychwanegu cefnogaeth rendro PDF yn eich porwr trwy wasanaeth Electron PDF",
+	"electronpdfservice-special-page-headline": "Lawrlwytho fel PDF",
+	"electronpdfservice-download-label": "Lawrlwytho fel PDF",
+	"electronpdfservice-download-button": "Lawrlwytho",
+	"electronpdfservice-sidebar-portlet-heading": "Argraffu / allforio",
+	"electronpdfservice-sidebar-portlet-print-text": "Lawrlwytho fel PDF",
+	"electronpdfservice-invalid-page-title": "Tudalen annilys",
+	"electronpdfservice-invalid-page-text": "Nid yw'r dudalen hon yn ddilys."
+}
