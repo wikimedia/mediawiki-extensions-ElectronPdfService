@@ -1,6 +1,6 @@
 /* Don't print most external links */
-.mediawiki .mw-body a.external.text:after,
-.mediawiki .mw-body a.external.autonumber:after {
+.mediawiki .mw-body a.external.text::after,
+.mediawiki .mw-body a.external.autonumber::after {
 	content: '';
 }
 
@@ -10,8 +10,8 @@
 }
 
 /* But do print external links in references */
-.mediawiki .mw-body ol.references a.external.text:after,
-.mediawiki .mw-body ol.references a.external.autonumber:after {
+.mediawiki .mw-body ol.references a.external.text::after,
+.mediawiki .mw-body ol.references a.external.autonumber::after {
 	content: ' (' attr( href ) ')';
 	word-break: break-all;
 	word-wrap: break-word;
