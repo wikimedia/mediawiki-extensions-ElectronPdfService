@@ -2,9 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Eitvys200",
-			"Vogone"
+			"Vogone",
+			"Nokeoo"
 		]
 	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Prideda naršyklės PDF atvaizdavimo palaikymą per Electron PDF paslaugą",
 	"electronpdfservice-special-page-headline": "Parsisiųsti kaip PDF",
 	"electronpdfservice-download-label": "Parsisiųsti kaip PDF",
 	"electronpdfservice-download-button": "Atsisiųsti",
