@@ -1,13 +1,22 @@
 'use strict';
 
-const Page = require( 'wdio-mediawiki/Page' );
+const Page = require( 'wdio-mediawiki/Page' ),
+	Util = require( 'wdio-mediawiki/Util' );
 
 class MainPage extends Page {
 
-	get pdflink() { return $( '[id^=coll-download-as-r]' ); }
+	get expandToolsLink() { return $( '#vector-page-tools-dropdown' ); }
+	get downloadAsPdfLink() { return $( '[id^=coll-download-as-r]' ); }
 
 	open() {
 		super.openTitle( 'Main_Page' );
+	}
+
+	async usesVector2022() {
+		await Util.waitForModuleState( 'mediawiki.base' );
+		return await browser.execute( () => {
+			return mw.config.get( 'skin' ) === 'vector-2022';
+		} );
 	}
 
 }
