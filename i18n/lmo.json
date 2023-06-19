@@ -5,7 +5,7 @@
 		]
 	},
 	"electronpdfservice": "ElectronPdfService",
-	"electronpdfservice-desc": "Sgionta on programa de navigazzion fondad sora el suport de realizzazion di PDF per via de l'Electron PDF service",
+	"electronpdfservice-desc": "Sgionta on curiosador fondad sora el suport de realizzazion di PDF per via de l'Electron PDF service",
 	"electronpdfservice-special-page-headline": "Descarega come PDF",
 	"electronpdfservice-download-label": "Descarega come PDF",
 	"electronpdfservice-download-button": "Descarega",
