@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajiniyaz Nurniyazov",
 			"Nurlan"
 		]
 	},
-	"electronpdfservice-sidebar-portlet-heading": "Baspa/eksport"
+	"electronpdfservice-special-page-headline": "PDF kórinisinde júklep alıw",
+	"electronpdfservice-download-label": "PDF kórinisinde júklep alıw",
+	"electronpdfservice-sidebar-portlet-heading": "Baspa/eksport",
+	"electronpdfservice-sidebar-portlet-print-text": "PDF kórinisinde júklep alıw"
 }
