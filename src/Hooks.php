@@ -10,10 +10,10 @@
 namespace MediaWiki\Extension\ElectronPdfService;
 
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 use OutputPage;
 use Skin;
 use SpecialPage;
-use Title;
 
 class Hooks {
 

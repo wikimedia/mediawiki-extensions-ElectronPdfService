@@ -10,12 +10,12 @@ namespace MediaWiki\Extension\ElectronPdfService\Specials;
 
 use Config;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 use OOUI\ButtonGroupWidget;
 use OOUI\ButtonInputWidget;
 use OOUI\FormLayout;
 use OOUI\Tag;
 use SpecialPage;
-use Title;
 
 class SpecialDownloadAsPdf extends SpecialPage {
 
