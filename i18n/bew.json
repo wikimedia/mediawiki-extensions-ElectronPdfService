@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bangrapip"
+		]
+	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Tambahin dukungan pembikinan PDF berales pengorag liwat ladènan Electron PDF",
+	"electronpdfservice-special-page-headline": "Comot sebagé PDF",
+	"electronpdfservice-download-label": "Comot sebagé PDF",
+	"electronpdfservice-download-button": "Comot",
+	"electronpdfservice-sidebar-portlet-heading": "Apdrek/èkspor",
+	"electronpdfservice-sidebar-portlet-print-text": "Comot sebagé PDF",
+	"electronpdfservice-invalid-page-title": "Halaman kaga' aci",
+	"electronpdfservice-invalid-page-text": "Halaman nyang ditentuin kaga' aci."
+}
