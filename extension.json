@@ -26,8 +26,13 @@
 		"ElectronPdfServiceAlias": "ElectronPdfService.i18n.alias.php"
 	},
 	"Hooks": {
-		"SidebarBeforeOutput": "MediaWiki\\Extension\\ElectronPdfService\\Hooks::onSidebarBeforeOutput",
-		"BeforePageDisplay": "MediaWiki\\Extension\\ElectronPdfService\\Hooks::onBeforePageDisplay"
+		"SidebarBeforeOutput": "main",
+		"BeforePageDisplay": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\ElectronPdfService\\Hooks"
+		}
 	},
 	"MessagesDirs": {
 		"ElectronPdfService": [
