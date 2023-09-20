@@ -11,7 +11,6 @@ namespace MediaWiki\Extension\ElectronPdfService;
 
 use MediaWiki\Hook\BeforePageDisplayHook;
 use MediaWiki\Hook\SidebarBeforeOutputHook;
-use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
 use OutputPage;
 use Skin;
@@ -30,7 +29,6 @@ class Hooks implements
 	 * @param array &$bar
 	 */
 	public function onSidebarBeforeOutput( $skin, &$bar ): void {
-		$config = MediaWikiServices::getInstance()->getMainConfig();
 		$title = $skin->getTitle();
 		if ( $title === null || !$title->exists() ) {
 			return;
@@ -42,6 +40,7 @@ class Hooks implements
 		}
 
 		$output = $skin->getOutput();
+		$config = $skin->getConfig();
 
 		if (
 			$output->isRevisionCurrent() &&
