@@ -3,10 +3,12 @@
 		"authors": [
 			"Hex",
 			"Mainframe98",
+			"McDutchie",
 			"Sjoerddebruin"
 		]
 	},
 	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Voegt ondersteuning toe voor het weergeven van PDF-bestanden in de browser via de Electron PDF-service",
 	"electronpdfservice-special-page-headline": "Als PDF downloaden",
 	"electronpdfservice-download-label": "Als PDF downloaden",
 	"electronpdfservice-download-button": "Downloaden",
