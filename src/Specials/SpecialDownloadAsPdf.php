@@ -8,14 +8,14 @@
 
 namespace MediaWiki\Extension\ElectronPdfService\Specials;
 
-use Config;
+use MediaWiki\Config\Config;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
 use OOUI\ButtonGroupWidget;
 use OOUI\ButtonInputWidget;
 use OOUI\FormLayout;
 use OOUI\Tag;
-use SpecialPage;
 
 class SpecialDownloadAsPdf extends SpecialPage {
 

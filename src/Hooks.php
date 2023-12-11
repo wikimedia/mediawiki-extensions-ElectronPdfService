@@ -11,10 +11,10 @@ namespace MediaWiki\Extension\ElectronPdfService;
 
 use MediaWiki\Hook\BeforePageDisplayHook;
 use MediaWiki\Hook\SidebarBeforeOutputHook;
+use MediaWiki\Output\OutputPage;
+use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
-use OutputPage;
 use Skin;
-use SpecialPage;
 
 class Hooks implements
 	SidebarBeforeOutputHook,

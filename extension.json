@@ -51,7 +51,7 @@
 			]
 		},
 		"ext.ElectronPdfService.special.selectionImages": {
-			"class": "ResourceLoaderImageModule",
+			"class": "MediaWiki\\ResourceLoader\\ImageModule",
 			"selector": ".mw-electronpdfservice-selection-{name}",
 			"images": {
 				"download-image": {
