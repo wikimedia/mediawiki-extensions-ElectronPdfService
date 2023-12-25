@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Soumaya"
+			"Soumaya",
+			"Raizkgh"
 		]
 	},
 	"electronpdfservice": "Yel-bũndã",
 	"electronpdfservice-desc": "Adds browser based PDF rendering support through Electron PDF service",
-	"electronpdfservice-special-page-headline": "Moke n $1",
+	"electronpdfservice-special-page-headline": "Moke n PDF",
 	"electronpdfservice-download-label": "Moke n PDF",
 	"electronpdfservice-download-button": "D sẽn na n dɩk",
 	"electronpdfservice-sidebar-portlet-heading": "Maan-seba/tuola",
