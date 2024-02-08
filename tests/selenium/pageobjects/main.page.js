@@ -5,8 +5,13 @@ const Page = require( 'wdio-mediawiki/Page' ),
 
 class MainPage extends Page {
 
-	get expandToolsLink() { return $( '#vector-page-tools-dropdown' ); }
-	get downloadAsPdfLink() { return $( '[id^=coll-download-as-r]' ); }
+	get expandToolsLink() {
+		return $( '#vector-page-tools-dropdown' );
+	}
+
+	get downloadAsPdfLink() {
+		return $( '[id^=coll-download-as-r]' );
+	}
 
 	open() {
 		super.openTitle( 'Main_Page' );
