@@ -145,18 +145,8 @@ class SpecialDownloadAsPdf extends SpecialPage {
 		return $element;
 	}
 
-	/**
-	 * Sets headers
-	 */
 	public function setHeaders() {
 		parent::setHeaders();
-		$this->addModules();
-	}
-
-	/**
-	 * Adds CSS modules
-	 */
-	protected function addModules() {
 		$this->getOutput()->addModuleStyles( [
 			'ext.ElectronPdfService.special.styles',
 			'ext.ElectronPdfService.special.selectionImages',
@@ -173,9 +163,6 @@ class SpecialDownloadAsPdf extends SpecialPage {
 		return $restBaseUrl . urlencode( $title->getPrefixedDBkey() );
 	}
 
-	/**
-	 * @param Title $title
-	 */
 	private function redirectToElectron( Title $title ) {
 		$this->getOutput()->redirect(
 			$this->getServiceUrl( $title )

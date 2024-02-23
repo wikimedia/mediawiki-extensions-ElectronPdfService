@@ -113,15 +113,6 @@ class Hooks implements
 		return false;
 	}
 
-	private static function generatePdfDownloadLink( Title $title ) {
-		return SpecialPage::getTitleFor( 'DownloadAsPdf' )->getLocalURL(
-			[
-				'page' => $title->getPrefixedDBkey(),
-				'action' => 'redirect-to-electron'
-			]
-		);
-	}
-
 	private static function generateDownloadScreenLink( Title $title ) {
 		return SpecialPage::getTitleFor( 'DownloadAsPdf' )->getLocalURL(
 			[
