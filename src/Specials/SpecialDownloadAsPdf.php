@@ -85,7 +85,7 @@ class SpecialDownloadAsPdf extends SpecialPage {
 			( new Tag() )
 				->addClasses( [ 'mw-electronpdfservice-selection-body' ] )
 				->appendContent(
-					$this->getLabeledHiddenField( 'redirect-to-electron',  $title->getDBKey() ),
+					$this->getLabeledHiddenField( 'redirect-to-electron', $title->getDBKey() ),
 					$this->getHiddenField( 'page', $title->getPrefixedText() ),
 					new ButtonGroupWidget( [
 						'items' => [
