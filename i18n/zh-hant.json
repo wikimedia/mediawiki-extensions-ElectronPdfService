@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"A2093064",
+			"Cookai1205",
 			"Cwlin0416",
 			"Kly",
 			"LNDDYL",
@@ -15,7 +16,7 @@
 	"electronpdfservice-download-label": "下載成 PDF",
 	"electronpdfservice-download-button": "下載",
 	"electronpdfservice-sidebar-portlet-heading": "列印/匯出",
-	"electronpdfservice-sidebar-portlet-print-text": "下載為 PDF",
+	"electronpdfservice-sidebar-portlet-print-text": "下載為PDF",
 	"electronpdfservice-invalid-page-title": "無效頁面",
 	"electronpdfservice-invalid-page-text": "指定的頁面無效。"
 }
