@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Astahar"
+		]
+	},
+	"electronpdfservice-special-page-headline": "PDF пек уҫласа ил",
+	"electronpdfservice-download-label": "PDF пек уҫласа ил",
+	"electronpdfservice-download-button": "Уҫласа ил",
+	"electronpdfservice-sidebar-portlet-heading": "Пичет/экспорт",
+	"electronpdfservice-sidebar-portlet-print-text": "PDF пек уҫласа ил",
+	"electronpdfservice-invalid-page-title": "Йӑнӑш страница"
+}
