@@ -34,7 +34,7 @@ class SpecialDownloadAsPdf extends SpecialPage {
 	 */
 	public function execute( $subPage ) {
 		$request = $this->getRequest();
-		$parts = ( $subPage === '' ) ? [] : explode( '/', $subPage, 2 );
+		$parts = ( $subPage === '' || $subPage === null ) ? [] : explode( '/', $subPage, 2 );
 		$page = trim( $request->getVal( 'page', $parts[0] ?? '' ) );
 
 		$title = Title::newFromText( $page );
