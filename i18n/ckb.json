@@ -1,9 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aram",
 			"Épine"
 		]
 	},
+	"electronpdfservice": "خزمەتگوزاریی ئەلیکتڕۆن PDF",
 	"electronpdfservice-special-page-headline": "داگرتن بە PDF",
-	"electronpdfservice-sidebar-portlet-heading": "چاپ/ھەناردن"
+	"electronpdfservice-download-label": "داگرتن بە PDF",
+	"electronpdfservice-download-button": "داگرتن",
+	"electronpdfservice-sidebar-portlet-heading": "چاپ/ھەناردن",
+	"electronpdfservice-sidebar-portlet-print-text": "داگرتن بە PDF",
+	"electronpdfservice-invalid-page-title": "پەڕەی نادروست",
+	"electronpdfservice-invalid-page-text": "پەڕەی دیاریکراو دروست نییە."
 }
