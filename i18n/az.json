@@ -1,10 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toghrul Rahimli"
+			"Toghrul Rahimli",
+			"Nemoralis"
 		]
 	},
+	"electronpdfservice-desc": "Electron PDF xidməti vasitəsilə brauzer əsaslı PDF göstərmə dəstəyi əlavə edir",
 	"electronpdfservice-special-page-headline": "PDF kimi yüklə",
 	"electronpdfservice-download-label": "PDF kimi yüklə",
-	"electronpdfservice-sidebar-portlet-print-text": "PDF kimi yüklə"
+	"electronpdfservice-download-button": "Yüklə",
+	"electronpdfservice-sidebar-portlet-heading": "Çap et/ixrac et",
+	"electronpdfservice-sidebar-portlet-print-text": "PDF kimi yüklə",
+	"electronpdfservice-invalid-page-title": "Yanlış səhifə",
+	"electronpdfservice-invalid-page-text": "Göstərilən səhifə etibarlı deyil."
 }
