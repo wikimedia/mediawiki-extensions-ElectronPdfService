@@ -71,7 +71,7 @@ class SpecialDownloadAsPdf extends SpecialPage {
 
 		$out = $this->getOutput();
 		$out->enableOOUI();
-		$out->setPageTitle( $this->msg( 'electronpdfservice-special-page-headline' )->text() );
+		$out->setPageTitleMsg( $this->msg( 'electronpdfservice-special-page-headline' ) );
 		$out->addSubtitle( $title->getText() );
 
 		$form = new FormLayout( [
