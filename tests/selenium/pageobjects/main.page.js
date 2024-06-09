@@ -19,9 +19,7 @@ class MainPage extends Page {
 
 	async usesVector2022() {
 		await Util.waitForModuleState( 'mediawiki.base' );
-		return await browser.execute( () => {
-			return mw.config.get( 'skin' ) === 'vector-2022';
-		} );
+		return await browser.execute( () => mw.config.get( 'skin' ) === 'vector-2022' );
 	}
 
 }
