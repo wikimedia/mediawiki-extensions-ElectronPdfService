@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jack who built the house",
 			"Liuxinyu970226",
 			"Raymond",
 			"Robby",
@@ -9,7 +10,7 @@
 	},
 	"electronpdfservice": "electronpdfservice",
 	"electronpdfservice-desc": "{{desc|name=ElectronPdfService|url=}}",
-	"electronpdfservice-special-page-headline": "Title for the special page.",
+	"electronpdfservice-special-page-headline": "{{doc-special|DownloadAsPdf|unlisted=1}}",
 	"electronpdfservice-download-label": "Label for the heading that appears in the box associated with the download button on the Special:ElectronPdf page.",
 	"electronpdfservice-download-button": "Label for the download button.\n{{Identical|Download}}",
 	"electronpdfservice-sidebar-portlet-heading": "Title of the portlet in which the link is shown.\n\n{{Identical|Print/Export}}",
