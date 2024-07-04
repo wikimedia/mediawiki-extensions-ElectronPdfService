@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog"
+		]
+	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Dodaje podršku za iscrtavanje PDF-ova odmah iz preglednika pomoću usluge Electron PDF",
+	"electronpdfservice-special-page-headline": "Preuzimanje u PDF-u",
+	"electronpdfservice-download-label": "Preuzimanje u PDF-u",
+	"electronpdfservice-download-button": "Preuzmi",
+	"electronpdfservice-sidebar-portlet-heading": "Štampanje/izvoz",
+	"electronpdfservice-sidebar-portlet-print-text": "Preuzmi u PDF-u",
+	"electronpdfservice-invalid-page-title": "Nevažeća stranica",
+	"electronpdfservice-invalid-page-text": "Navedena stranica nije važeća."
+}
