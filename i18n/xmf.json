@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Narazeni"
+		]
+	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-special-page-headline": "PDF-ო გჷმოხარგუა",
+	"electronpdfservice-download-label": "PDF-ო გჷმოხარგუა",
+	"electronpdfservice-download-button": "გჷმოხარგუა",
+	"electronpdfservice-sidebar-portlet-heading": "ბეშტუა/ექსპორტი",
+	"electronpdfservice-sidebar-portlet-print-text": "PDF-ო გჷმოხარგუა",
+	"electronpdfservice-invalid-page-title": "ჩილათერი ხასჷლა",
+	"electronpdfservice-invalid-page-text": "მეწურაფილი რე ჩილათერი ხასჷლა."
+}

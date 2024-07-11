@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"बडा काजी",
-			"हिमाल सुबेदी"
+			"हिमाल सुबेदी",
+			"पर्वत सुबेदी"
 		]
 	},
-	"electronpdfservice-special-page-headline": "पिडिएफकाे रूपमा डाउनलोड गरिएकाे",
-	"electronpdfservice-download-label": "पिडिएफकाे रूपमा डाउनलोड गरिएकाे",
+	"electronpdfservice-special-page-headline": "पिडिएफकाे रूपमा डाउनलोड गर्नुहोस्",
+	"electronpdfservice-download-label": "पिडिएफकाे रूपमा डाउनलोड गर्नुहोस्",
 	"electronpdfservice-download-button": "डाउनलोड गरिएकाे",
 	"electronpdfservice-sidebar-portlet-heading": "छाप्नुहोस्/निर्यात गर्नुहोस्",
-	"electronpdfservice-sidebar-portlet-print-text": "पिडिएफकाे रूपमा डाउनलोड गरिएकाे"
+	"electronpdfservice-sidebar-portlet-print-text": "पिडिएफकाे रूपमा डाउनलोड गर्नुहोस्"
 }
