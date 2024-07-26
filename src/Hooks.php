@@ -39,7 +39,6 @@ class Hooks implements SidebarBeforeOutputHook {
 		$config = $skin->getConfig();
 
 		if (
-			$output->isRevisionCurrent() &&
 			ExtensionRegistry::getInstance()->isLoaded( 'Collection' ) &&
 			$config->has( 'CollectionFormats' ) &&
 			array_key_exists( 'coll-print_export', $bar )
@@ -48,41 +47,48 @@ class Hooks implements SidebarBeforeOutputHook {
 				$bar['coll-print_export'],
 				$config->get( 'CollectionFormats' )
 			);
-			// if Collection extension provides a download-as-pdf link, make it point to the download screen
-			if ( $index !== false ) {
-				$bar['coll-print_export'][$index]['href'] = self::generateDownloadScreenLink(
-					$title
-				);
-			// if no download-as-pdf link is there, add one and point to the download screen
-			} else {
-				$bar['coll-print_export'][] = [
-					'text' => $skin->msg( 'electronpdfservice-sidebar-portlet-print-text' )->text(),
-					'id' => 'electron-print_pdf',
-					'href' => self::generateDownloadScreenLink( $title )
-				];
-			}
-		} else {
-			// in case Collection is not installed, let's add our own portlet
-			// with a link to the download screen
-			$out = [];
+
 			if ( $output->isRevisionCurrent() ) {
-				$out[] = [
-					'text' => $skin->msg( 'electronpdfservice-sidebar-portlet-print-text' )->text(),
-					'id' => 'electron-print_pdf',
-					'href' => self::generateDownloadScreenLink( $title )
-				];
+				if ( $index !== false ) {
+					// if Collection extension provides a download-as-pdf link, make it point to the download screen
+					$bar['coll-print_export'][$index]['href'] = self::generateDownloadScreenLink(
+						$title
+					);
+				} else {
+					// if no download-as-pdf link is there, add one and point to the download screen
+					$bar['coll-print_export'][] = [
+						'text' => $skin->msg( 'electronpdfservice-sidebar-portlet-print-text' )->text(),
+						'id' => 'electron-print_pdf',
+						'href' => self::generateDownloadScreenLink( $title )
+					];
+				}
+			} elseif ( $index ) {
+				// Electron/Proton do not support generating PDFs for old versions, but Collection did
+				unset( $bar['coll-print_export'][$index] );
 			}
-
-			if ( !$skin->getOutput()->isPrintable() && isset( $bar['TOOLBOX']['print'] ) ) {
-				$printItem = $bar['TOOLBOX']['print'];
-
-				// Unset 'print' item and move it to our section
-				unset( $bar['TOOLBOX']['print'] );
-				$out[] = $printItem;
-			}
-
-			$bar['electronpdfservice-sidebar-portlet-heading'] = $out;
+			return;
 		}
+
+		// in case Collection is not installed, let's add our own portlet
+		// with a link to the download screen
+		$out = [];
+		if ( $output->isRevisionCurrent() ) {
+			$out[] = [
+				'text' => $skin->msg( 'electronpdfservice-sidebar-portlet-print-text' )->text(),
+				'id' => 'electron-print_pdf',
+				'href' => self::generateDownloadScreenLink( $title )
+			];
+		}
+
+		if ( !$skin->getOutput()->isPrintable() && isset( $bar['TOOLBOX']['print'] ) ) {
+			$printItem = $bar['TOOLBOX']['print'];
+
+			// Unset 'print' item and move it to our section
+			unset( $bar['TOOLBOX']['print'] );
+			$out[] = $printItem;
+		}
+
+		$bar['electronpdfservice-sidebar-portlet-heading'] = $out;
 	}
 
 	private static function getIndexOfDownloadPdfSidebarItem( $portlet, $collectionFormats ) {
