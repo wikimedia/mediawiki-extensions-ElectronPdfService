@@ -26,8 +26,7 @@
 		"ElectronPdfServiceAlias": "ElectronPdfService.i18n.alias.php"
 	},
 	"Hooks": {
-		"SidebarBeforeOutput": "main",
-		"BeforePageDisplay": "main"
+		"SidebarBeforeOutput": "main"
 	},
 	"HookHandlers": {
 		"main": {
@@ -40,11 +39,6 @@
 		]
 	},
 	"ResourceModules": {
-		"ext.ElectronPdfService.print.styles": {
-			"styles": [
-				"modules/ext.ElectronPdfService.print.css"
-			]
-		},
 		"ext.ElectronPdfService.special.styles": {
 			"styles": [
 				"modules/ext.ElectronPdfService.special.css"

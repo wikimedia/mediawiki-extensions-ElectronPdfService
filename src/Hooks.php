@@ -10,16 +10,11 @@
 namespace MediaWiki\Extension\ElectronPdfService;
 
 use MediaWiki\Hook\SidebarBeforeOutputHook;
-use MediaWiki\Output\Hook\BeforePageDisplayHook;
-use MediaWiki\Output\OutputPage;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
 use Skin;
 
-class Hooks implements
-	SidebarBeforeOutputHook,
-	BeforePageDisplayHook
-{
+class Hooks implements SidebarBeforeOutputHook {
 
 	/**
 	 * If present, make the "Download as PDF" link in the sidebar point to the download screen,
@@ -85,18 +80,6 @@ class Hooks implements
 			}
 
 			$bar['electronpdfservice-sidebar-portlet-heading'] = $out;
-		}
-	}
-
-	/**
-	 * @param OutputPage $out
-	 * @param Skin $skin
-	 */
-	public function onBeforePageDisplay( $out, $skin ): void {
-		$userAgent = $out->getRequest()->getHeader( 'User-Agent' );
-
-		if ( strstr( $userAgent, 'electron-render-service' ) ) {
-			$out->addModuleStyles( 'ext.ElectronPdfService.print.styles' );
 		}
 	}
 
