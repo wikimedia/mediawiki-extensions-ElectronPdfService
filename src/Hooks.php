@@ -9,6 +9,7 @@
 
 namespace MediaWiki\Extension\ElectronPdfService;
 
+use ExtensionRegistry;
 use MediaWiki\Hook\SidebarBeforeOutputHook;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
@@ -39,6 +40,7 @@ class Hooks implements SidebarBeforeOutputHook {
 
 		if (
 			$output->isRevisionCurrent() &&
+			ExtensionRegistry::getInstance()->isLoaded( 'Collection' ) &&
 			$config->has( 'CollectionFormats' ) &&
 			array_key_exists( 'coll-print_export', $bar )
 		) {
