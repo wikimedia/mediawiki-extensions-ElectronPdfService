@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Nike",
-			"Pyscowicz"
+			"Pyscowicz",
+			"Samoasambia"
 		]
 	},
 	"electronpdfservice-special-page-headline": "Lataa PDF-tiedostona",
@@ -10,5 +11,6 @@
 	"electronpdfservice-download-button": "Lataa",
 	"electronpdfservice-sidebar-portlet-heading": "Tulosta/vie",
 	"electronpdfservice-sidebar-portlet-print-text": "Lataa PDF-tiedostona",
-	"electronpdfservice-invalid-page-title": "Virheellinen sivu"
+	"electronpdfservice-invalid-page-title": "Virheellinen sivu",
+	"electronpdfservice-invalid-page-text": "Määritetty sivu ei kelpaa."
 }
