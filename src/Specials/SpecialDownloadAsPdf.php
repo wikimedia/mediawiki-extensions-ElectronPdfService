@@ -47,18 +47,33 @@ class SpecialDownloadAsPdf extends SpecialPage {
 		}
 
 		$action = $request->getVal( 'action', 'default' );
-		$stats = MediaWikiServices::getInstance()->getStatsdDataFactory();
+		$stats = MediaWikiServices::getInstance()->getStatsFactory();
 		$dbName = $this->getConfig()->get( 'DBname' );
 
 		switch ( $action ) {
 			case 'redirect-to-electron':
-				$stats->increment( 'electronpdf.action.' . $action );
-				$stats->increment( 'electronpdf.actionsPerWiki.' . $dbName . '.' . $action );
+				$stats->getCounter( 'electronpdf_action_total' )
+					->setLabel( 'action', $action )
+					->copyToStatsdAt( 'electronpdf.action.' . $action )
+					->increment();
+				$stats->getCounter( 'electronpdf_actions_per_wiki_total' )
+					->setLabel( 'action', $action )
+					->setLabel( 'wiki', $dbName )
+					->copyToStatsdAt( 'electronpdf.actionsPerWiki.' . $dbName . '.' . $action )
+					->increment();
 				$this->redirectToElectron( $title );
 				return;
 			default:
-				$stats->increment( 'electronpdf.action.show-download-screen' );
-				$stats->increment( 'electronpdf.actionsPerWiki.' . $dbName . '.show-download-screen' );
+				$stats->getCounter( 'electronpdf_action_total' )
+					->setLabel( 'action', 'show-download-screen' )
+					->copyToStatsdAt( 'electronpdf.action.show-download-screen' )
+					->increment();
+				$stats->getCounter( 'electronpdf_actions_per_wiki_total' )
+					->setLabel( 'action', 'show-download-screen' )
+					->setLabel( 'wiki', $dbName )
+					->copyToStatsdAt( 'electronpdf.actionsPerWiki.' . $dbName . '.show-download-screen' )
+					->increment();
+
 				$this->showRenderModeSelectionPage( $title );
 		}
 	}
