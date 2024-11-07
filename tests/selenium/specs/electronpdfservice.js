@@ -1,8 +1,7 @@
 'use strict';
 
-const assert = require( 'assert' ),
-	MainPage = require( '../pageobjects/main.page' ),
-	SpecialDownloadAsPdfPage = require( '../pageobjects/specialdownloadpdf.page' );
+const MainPage = require( '../pageobjects/main.page' );
+const SpecialDownloadAsPdfPage = require( '../pageobjects/specialdownloadpdf.page' );
 
 describe( 'ElectronPdfService', () => {
 
@@ -18,7 +17,7 @@ describe( 'ElectronPdfService', () => {
 		await MainPage.downloadAsPdfLink.waitForDisplayed();
 		await MainPage.downloadAsPdfLink.click();
 
-		assert( await SpecialDownloadAsPdfPage.downloadButton.isDisplayed() );
+		await expect( SpecialDownloadAsPdfPage.downloadButton ).toBeDisplayed();
 
 	} );
 
