@@ -91,6 +91,11 @@ class Hooks implements SidebarBeforeOutputHook {
 		$bar['electronpdfservice-sidebar-portlet-heading'] = $out;
 	}
 
+	/**
+	 * @param array $portlet
+	 * @param string[] $collectionFormats
+	 * @return int|false
+	 */
 	private static function getIndexOfDownloadPdfSidebarItem( $portlet, $collectionFormats ) {
 		$usedPdfLib = array_search( 'PDF', $collectionFormats );
 		if ( $usedPdfLib !== false ) {
@@ -104,6 +109,10 @@ class Hooks implements SidebarBeforeOutputHook {
 		return false;
 	}
 
+	/**
+	 * @param Title $title
+	 * @return string
+	 */
 	private static function generateDownloadScreenLink( Title $title ) {
 		return SpecialPage::getTitleFor( 'DownloadAsPdf' )->getLocalURL(
 			[
