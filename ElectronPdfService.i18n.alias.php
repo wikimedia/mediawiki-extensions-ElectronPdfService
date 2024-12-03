@@ -13,6 +13,11 @@ $specialPageAliases['en'] = [
 	'DownloadAsPdf' => [ 'DownloadAsPdf', 'ElectronPdf' ],
 ];
 
+/** Azerbaijani (azərbaycanca) */
+$specialPageAliases['az'] = [
+	'DownloadAsPdf' => [ 'PdfOlaraqYüklə', 'PdfYüklə' ]
+];
+
 /** Urdu (اردو) */
 $specialPageAliases['ur'] = [
 	'DownloadAsPdf' => [ 'الیکٹران_پی_ڈی_ایف' ],
