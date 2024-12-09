@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"The Discoverer"
+			"The Discoverer",
+			"QW90"
 		]
 	},
 	"electronpdfservice-special-page-headline": "PDF koxem download kor",
@@ -9,5 +10,6 @@
 	"electronpdfservice-download-button": "Download kor",
 	"electronpdfservice-sidebar-portlet-heading": "Chhap / Nirgot kor",
 	"electronpdfservice-sidebar-portlet-print-text": "PDF koxem download kor",
-	"electronpdfservice-invalid-page-title": "Ovoid pan"
+	"electronpdfservice-invalid-page-title": "Ovoid pan",
+	"electronpdfservice-invalid-page-text": "Suchoilolem pan ovoid asa."
 }
