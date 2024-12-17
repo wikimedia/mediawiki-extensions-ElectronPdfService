@@ -5,6 +5,7 @@
 			"Toghrul Rahimli"
 		]
 	},
+	"electronpdfservice": "ElectronPdfService",
 	"electronpdfservice-desc": "Electron PDF xidməti vasitəsilə brauzer əsaslı PDF göstərmə dəstəyi əlavə edir",
 	"electronpdfservice-special-page-headline": "PDF kimi yüklə",
 	"electronpdfservice-download-label": "PDF kimi yüklə",
