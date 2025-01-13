@@ -13,8 +13,8 @@ class MainPage extends Page {
 		return $( '[id^=coll-download-as-r]' );
 	}
 
-	open() {
-		super.openTitle( 'Main_Page' );
+	async open() {
+		return super.openTitle( 'Main_Page' );
 	}
 
 	async usesVector2022() {
