@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"electronpdfservice-special-page-headline": "Als PDF eroflueden",
@@ -9,6 +10,6 @@
 	"electronpdfservice-download-button": "Eroflueden",
 	"electronpdfservice-sidebar-portlet-heading": "Drécken/Exportéieren",
 	"electronpdfservice-sidebar-portlet-print-text": "Als PDF eroflueden",
-	"electronpdfservice-invalid-page-title": "Net valabel Säit",
-	"electronpdfservice-invalid-page-text": "Déi spezifizéiert Säit ass net valabel."
+	"electronpdfservice-invalid-page-title": "Ongülteg Säit",
+	"electronpdfservice-invalid-page-text": "Déi spezifizéiert Säit ass ongülteg."
 }
