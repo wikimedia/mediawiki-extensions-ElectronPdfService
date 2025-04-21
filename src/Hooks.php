@@ -11,9 +11,9 @@ namespace MediaWiki\Extension\ElectronPdfService;
 
 use MediaWiki\Hook\SidebarBeforeOutputHook;
 use MediaWiki\Registration\ExtensionRegistry;
+use MediaWiki\Skin\Skin;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
-use Skin;
 
 class Hooks implements SidebarBeforeOutputHook {
 
