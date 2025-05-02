@@ -9,6 +9,7 @@
 	},
 	"electronpdfservice": "ElectronPdfService",
 	"electronpdfservice-special-page-headline": "PDF-ად ჩამოტვირთვა",
+	"electronpdfservice-download-button": "ჩამოტვირთვა",
 	"electronpdfservice-sidebar-portlet-heading": "დაბეჭდვა/ექსპორტი",
 	"electronpdfservice-sidebar-portlet-print-text": "PDF-ად ჩამოტვირთვა"
 }
