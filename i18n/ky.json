@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bosogo"
+		]
+	},
+	"electronpdfservice-special-page-headline": "PDF форматында жүктөп алуу",
+	"electronpdfservice-download-label": "PDF форматында жүктөп алуу",
+	"electronpdfservice-download-button": "Жүктөп алуу",
+	"electronpdfservice-sidebar-portlet-heading": "Басып чыгаруу/экспорттоо",
+	"electronpdfservice-sidebar-portlet-print-text": "PDF форматында жүктөп алуу",
+	"electronpdfservice-invalid-page-title": "Жараксыз барак"
+}
