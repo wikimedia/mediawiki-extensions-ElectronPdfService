@@ -8,7 +8,6 @@
 
 namespace MediaWiki\Extension\ElectronPdfService\Specials;
 
-use MediaWiki\Config\Config;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
@@ -19,14 +18,8 @@ use OOUI\Tag;
 
 class SpecialDownloadAsPdf extends SpecialPage {
 
-	/**
-	 * @var Config
-	 */
-	public $config;
-
 	public function __construct() {
 		parent::__construct( 'DownloadAsPdf', '', false );
-		$this->config = MediaWikiServices::getInstance()->getMainConfig();
 	}
 
 	/**
@@ -173,7 +166,7 @@ class SpecialDownloadAsPdf extends SpecialPage {
 	 * @return string
 	 */
 	private function getServiceUrl( Title $title ) {
-		$restBaseUrl = $this->config->get( 'ElectronPdfServiceRESTbaseURL' );
+		$restBaseUrl = $this->getConfig()->get( 'ElectronPdfServiceRESTbaseURL' );
 
 		return $restBaseUrl . urlencode( $title->getPrefixedDBkey() );
 	}
