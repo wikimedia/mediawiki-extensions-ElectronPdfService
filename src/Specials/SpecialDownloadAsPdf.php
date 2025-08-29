@@ -8,17 +8,19 @@
 
 namespace MediaWiki\Extension\ElectronPdfService\Specials;
 
-use MediaWiki\MediaWikiServices;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
 use OOUI\ButtonGroupWidget;
 use OOUI\ButtonInputWidget;
 use OOUI\FormLayout;
 use OOUI\Tag;
+use Wikimedia\Stats\StatsFactory;
 
 class SpecialDownloadAsPdf extends SpecialPage {
 
-	public function __construct() {
+	public function __construct(
+		private readonly StatsFactory $statsFactory
+	) {
 		parent::__construct( 'DownloadAsPdf', '', false );
 	}
 
@@ -40,16 +42,15 @@ class SpecialDownloadAsPdf extends SpecialPage {
 		}
 
 		$action = $request->getVal( 'action', 'default' );
-		$stats = MediaWikiServices::getInstance()->getStatsFactory();
 		$dbName = $this->getConfig()->get( 'DBname' );
 
 		switch ( $action ) {
 			case 'redirect-to-electron':
-				$stats->getCounter( 'electronpdf_action_total' )
+				$this->statsFactory->getCounter( 'electronpdf_action_total' )
 					->setLabel( 'action', $action )
 					->copyToStatsdAt( 'electronpdf.action.' . $action )
 					->increment();
-				$stats->getCounter( 'electronpdf_actions_per_wiki_total' )
+				$this->statsFactory->getCounter( 'electronpdf_actions_per_wiki_total' )
 					->setLabel( 'action', $action )
 					->setLabel( 'wiki', $dbName )
 					->copyToStatsdAt( 'electronpdf.actionsPerWiki.' . $dbName . '.' . $action )
@@ -57,11 +58,11 @@ class SpecialDownloadAsPdf extends SpecialPage {
 				$this->redirectToElectron( $title );
 				return;
 			default:
-				$stats->getCounter( 'electronpdf_action_total' )
+				$this->statsFactory->getCounter( 'electronpdf_action_total' )
 					->setLabel( 'action', 'show-download-screen' )
 					->copyToStatsdAt( 'electronpdf.action.show-download-screen' )
 					->increment();
-				$stats->getCounter( 'electronpdf_actions_per_wiki_total' )
+				$this->statsFactory->getCounter( 'electronpdf_actions_per_wiki_total' )
 					->setLabel( 'action', 'show-download-screen' )
 					->setLabel( 'wiki', $dbName )
 					->copyToStatsdAt( 'electronpdf.actionsPerWiki.' . $dbName . '.show-download-screen' )
