@@ -4,15 +4,17 @@
 			"Jayprakash12345",
 			"Rishi.Singh",
 			"Sfic",
-			"हिंदुस्थान वासी"
+			"हिंदुस्थान वासी",
+			"Saurmandal"
 		]
 	},
-	"electronpdfservice": "इलेक्ट्रॉन पीडीएफ़ सेवा",
-	"electronpdfservice-special-page-headline": "पीडीएफ़ के रूप में डाउनलोड करें",
-	"electronpdfservice-download-label": "पीडीएफ़ के रूप में डाउनलोड करें",
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Electron PDF सेवा के माध्यम से ब्राउज़र-आधारित PDF रेंडरिंग समर्थन जोड़ता है",
+	"electronpdfservice-special-page-headline": "PDF के रूप में डाउनलोड करें",
+	"electronpdfservice-download-label": "PDF के रूप में डाउनलोड करें",
 	"electronpdfservice-download-button": "डाउनलोड करें",
-	"electronpdfservice-sidebar-portlet-heading": "प्रिंट/निर्यात",
-	"electronpdfservice-sidebar-portlet-print-text": "पीडीएफ़ के रूप में डाउनलोड करें",
+	"electronpdfservice-sidebar-portlet-heading": "मुद्रण/निर्यात",
+	"electronpdfservice-sidebar-portlet-print-text": "PDF के रूप में डाउनलोड करें",
 	"electronpdfservice-invalid-page-title": "अमान्य पृष्ठ",
-	"electronpdfservice-invalid-page-text": "दिया गया पृष्ठ मान्य नहीं है।"
+	"electronpdfservice-invalid-page-text": "निर्दिष्ट पृष्ठ मान्य नहीं है।"
 }
