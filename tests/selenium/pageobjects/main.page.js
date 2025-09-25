@@ -1,7 +1,5 @@
-'use strict';
-
-const Page = require( 'wdio-mediawiki/Page' ),
-	Util = require( 'wdio-mediawiki/Util' );
+import Page from 'wdio-mediawiki/Page';
+import * as Util from 'wdio-mediawiki/Util';
 
 class MainPage extends Page {
 
@@ -23,4 +21,5 @@ class MainPage extends Page {
 	}
 
 }
-module.exports = new MainPage();
+
+export default new MainPage();

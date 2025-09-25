@@ -1,7 +1,5 @@
-'use strict';
-
-const MainPage = require( '../pageobjects/main.page' );
-const SpecialDownloadAsPdfPage = require( '../pageobjects/specialdownloadpdf.page' );
+import MainPage from '../pageobjects/main.page.js';
+import SpecialDownloadAsPdfPage from '../pageobjects/specialdownloadpdf.page.js';
 
 describe( 'ElectronPdfService', () => {
 

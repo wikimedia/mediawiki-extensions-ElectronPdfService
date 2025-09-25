@@ -1,6 +1,4 @@
-'use strict';
-
-const Page = require( 'wdio-mediawiki/Page' );
+import Page from 'wdio-mediawiki/Page';
 
 class SpecialDownloadAsPdfPage extends Page {
 
@@ -9,4 +7,5 @@ class SpecialDownloadAsPdfPage extends Page {
 	}
 
 }
-module.exports = new SpecialDownloadAsPdfPage();
+
+export default new SpecialDownloadAsPdfPage();
