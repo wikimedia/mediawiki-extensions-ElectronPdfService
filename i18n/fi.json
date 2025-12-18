@@ -6,6 +6,7 @@
 			"Samoasambia"
 		]
 	},
+	"electronpdfservice-desc": "Lisää selainpohjaisen PDF-renderöintituen Electron PDF servicen kautta",
 	"electronpdfservice-special-page-headline": "Lataa PDF-tiedostona",
 	"electronpdfservice-download-label": "Lataa PDF-tiedostona",
 	"electronpdfservice-download-button": "Lataa",
