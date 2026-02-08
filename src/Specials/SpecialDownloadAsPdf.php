@@ -21,7 +21,12 @@ class SpecialDownloadAsPdf extends SpecialPage {
 	public function __construct(
 		private readonly StatsFactory $statsFactory
 	) {
-		parent::__construct( 'DownloadAsPdf', '', false );
+		parent::__construct( 'DownloadAsPdf' );
+	}
+
+	/** @inheritDoc */
+	public function isListed() {
+		return false;
 	}
 
 	/**
