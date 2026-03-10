@@ -112,6 +112,7 @@ class SpecialDownloadAsPdf extends SpecialPage {
 					] )
 				)
 		);
+		// @phan-suppress-next-line PhanTypeMismatchArgumentProbablyReal
 		$out->addHTML( $form );
 	}
 
