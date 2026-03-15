@@ -112,7 +112,7 @@ class SpecialDownloadAsPdf extends SpecialPage {
 					] )
 				)
 		);
-		$out->addHTML( $form->toString() );
+		$out->addHTML( (string)$form );
 	}
 
 	/**
