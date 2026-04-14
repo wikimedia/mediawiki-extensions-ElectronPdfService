@@ -9,8 +9,8 @@
 
 namespace MediaWiki\Extension\ElectronPdfService;
 
-use MediaWiki\Hook\SidebarBeforeOutputHook;
 use MediaWiki\Registration\ExtensionRegistry;
+use MediaWiki\Skin\Hook\SidebarBeforeOutputHook;
 use MediaWiki\Skin\Skin;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
