@@ -4,7 +4,8 @@
 			"Hex",
 			"Mainframe98",
 			"McDutchie",
-			"Sjoerddebruin"
+			"Sjoerddebruin",
+			"Siebrand"
 		]
 	},
 	"electronpdfservice": "ElectronPdfService",
@@ -15,5 +16,5 @@
 	"electronpdfservice-sidebar-portlet-heading": "Afdrukken/exporteren",
 	"electronpdfservice-sidebar-portlet-print-text": "Als PDF downloaden",
 	"electronpdfservice-invalid-page-title": "Ongeldige pagina",
-	"electronpdfservice-invalid-page-text": "De opgegeven pagina is ongeldig."
+	"electronpdfservice-invalid-page-text": "De opgegeven pagina is onjuist."
 }
