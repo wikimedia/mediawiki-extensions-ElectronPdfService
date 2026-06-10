@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Waxay ku dartaa taageerada samaynta PDF ee ku salaysan biraawsarka iyada oo loo marayo adeegga Electron PDF",
+	"electronpdfservice-special-page-headline": "Soo dejiso PDF ahaan",
+	"electronpdfservice-download-label": "Soo dejiso PDF ahaan",
+	"electronpdfservice-download-button": "Soo deji",
+	"electronpdfservice-sidebar-portlet-heading": "Daabac/Dhoofi",
+	"electronpdfservice-sidebar-portlet-print-text": "Soo dejiso PDF ahaan",
+	"electronpdfservice-invalid-page-title": "Bog aan sax ahayn",
+	"electronpdfservice-invalid-page-text": "Bogga la cayimay ma aha mid sax ah."
+}
