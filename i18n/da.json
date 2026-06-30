@@ -1,12 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Saederup92"
+			"Saederup92",
+			"Steenth"
 		]
 	},
+	"electronpdfservice": "ElectronPdf-tjeneste",
+	"electronpdfservice-desc": "Tilføjer browserbaseret PDF-gengivelsesunderstøttelse via Electron PDF-tjenesten",
 	"electronpdfservice-special-page-headline": "Hent som PDF",
 	"electronpdfservice-download-label": "Hent som PDF",
+	"electronpdfservice-download-button": "Download",
 	"electronpdfservice-sidebar-portlet-heading": "Udskriv/eksporter",
 	"electronpdfservice-sidebar-portlet-print-text": "Hent som PDF",
-	"electronpdfservice-invalid-page-title": "Ugyldig side"
+	"electronpdfservice-invalid-page-title": "Ugyldig side",
+	"electronpdfservice-invalid-page-text": "Den angivne side er ikke gyldig."
 }
