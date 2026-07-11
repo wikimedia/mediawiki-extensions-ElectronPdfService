@@ -53,24 +53,20 @@ class SpecialDownloadAsPdf extends SpecialPage {
 			case 'redirect-to-electron':
 				$this->statsFactory->getCounter( 'electronpdf_action_total' )
 					->setLabel( 'action', $action )
-					->copyToStatsdAt( 'electronpdf.action.' . $action )
 					->increment();
 				$this->statsFactory->getCounter( 'electronpdf_actions_per_wiki_total' )
 					->setLabel( 'action', $action )
 					->setLabel( 'wiki', $dbName )
-					->copyToStatsdAt( 'electronpdf.actionsPerWiki.' . $dbName . '.' . $action )
 					->increment();
 				$this->redirectToElectron( $title );
 				return;
 			default:
 				$this->statsFactory->getCounter( 'electronpdf_action_total' )
 					->setLabel( 'action', 'show-download-screen' )
-					->copyToStatsdAt( 'electronpdf.action.show-download-screen' )
 					->increment();
 				$this->statsFactory->getCounter( 'electronpdf_actions_per_wiki_total' )
 					->setLabel( 'action', 'show-download-screen' )
 					->setLabel( 'wiki', $dbName )
-					->copyToStatsdAt( 'electronpdf.actionsPerWiki.' . $dbName . '.show-download-screen' )
 					->increment();
 
 				$this->showRenderModeSelectionPage( $title );
