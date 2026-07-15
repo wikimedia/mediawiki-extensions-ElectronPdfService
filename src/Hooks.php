@@ -22,9 +22,9 @@ class Hooks implements SidebarBeforeOutputHook {
 	 * add a new link otherwise.
 	 *
 	 * @param Skin $skin
-	 * @param array &$bar
+	 * @param array &$sidebar
 	 */
-	public function onSidebarBeforeOutput( $skin, &$bar ): void {
+	public function onSidebarBeforeOutput( $skin, &$sidebar ): void {
 		$title = $skin->getTitle();
 		if ( $title === null || !$title->exists() ) {
 			return;
@@ -41,30 +41,30 @@ class Hooks implements SidebarBeforeOutputHook {
 		if (
 			ExtensionRegistry::getInstance()->isLoaded( 'Collection' ) &&
 			$config->has( 'CollectionFormats' ) &&
-			array_key_exists( 'coll-print_export', $bar )
+			array_key_exists( 'coll-print_export', $sidebar )
 		) {
 			$index = self::getIndexOfDownloadPdfSidebarItem(
-				$bar['coll-print_export'],
+				$sidebar['coll-print_export'],
 				$config->get( 'CollectionFormats' )
 			);
 
 			if ( $output->isRevisionCurrent() ) {
-				if ( $index !== false ) {
+				if ( $index !== null ) {
 					// if Collection extension provides a download-as-pdf link, make it point to the download screen
-					$bar['coll-print_export'][$index]['href'] = self::generateDownloadScreenLink(
+					$sidebar['coll-print_export'][$index]['href'] = self::generateDownloadScreenLink(
 						$title
 					);
 				} else {
 					// if no download-as-pdf link is there, add one and point to the download screen
-					$bar['coll-print_export'][] = [
+					$sidebar['coll-print_export'][] = [
 						'text' => $skin->msg( 'electronpdfservice-sidebar-portlet-print-text' )->text(),
 						'id' => 'electron-print_pdf',
 						'href' => self::generateDownloadScreenLink( $title )
 					];
 				}
-			} elseif ( $index ) {
+			} elseif ( $index !== null ) {
 				// Electron/Proton do not support generating PDFs for old versions, but Collection did
-				unset( $bar['coll-print_export'][$index] );
+				unset( $sidebar['coll-print_export'][$index] );
 			}
 			return;
 		}
@@ -80,23 +80,26 @@ class Hooks implements SidebarBeforeOutputHook {
 			];
 		}
 
-		if ( !$skin->getOutput()->isPrintable() && isset( $bar['TOOLBOX']['print'] ) ) {
-			$printItem = $bar['TOOLBOX']['print'];
+		if ( !$skin->getOutput()->isPrintable() && isset( $sidebar['TOOLBOX']['print'] ) ) {
+			$printItem = $sidebar['TOOLBOX']['print'];
 
 			// Unset 'print' item and move it to our section
-			unset( $bar['TOOLBOX']['print'] );
+			unset( $sidebar['TOOLBOX']['print'] );
 			$out[] = $printItem;
 		}
 
-		$bar['electronpdfservice-sidebar-portlet-heading'] = $out;
+		$sidebar['electronpdfservice-sidebar-portlet-heading'] = $out;
 	}
 
 	/**
 	 * @param array $portlet
 	 * @param string[] $collectionFormats
-	 * @return int|false
+	 * @return int|null
 	 */
-	private static function getIndexOfDownloadPdfSidebarItem( $portlet, $collectionFormats ) {
+	private static function getIndexOfDownloadPdfSidebarItem(
+		array $portlet,
+		array $collectionFormats
+	): ?int {
 		$usedPdfLib = array_search( 'PDF', $collectionFormats );
 		if ( $usedPdfLib !== false ) {
 			foreach ( $portlet as $index => $element ) {
@@ -106,14 +109,10 @@ class Hooks implements SidebarBeforeOutputHook {
 			}
 		}
 
-		return false;
+		return null;
 	}
 
-	/**
-	 * @param Title $title
-	 * @return string
-	 */
-	private static function generateDownloadScreenLink( Title $title ) {
+	private static function generateDownloadScreenLink( Title $title ): string {
 		return SpecialPage::getTitleFor( 'DownloadAsPdf' )->getLocalURL(
 			[
 				'page' => $title->getPrefixedDBkey(),
