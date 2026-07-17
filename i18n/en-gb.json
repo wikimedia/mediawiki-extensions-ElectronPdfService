@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alhadis"
+		]
+	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Adds browser based PDF rendering support through Electron PDF service",
+	"electronpdfservice-special-page-headline": "Download as PDF",
+	"electronpdfservice-download-label": "Download as PDF",
+	"electronpdfservice-download-button": "Download",
+	"electronpdfservice-sidebar-portlet-heading": "Print/export",
+	"electronpdfservice-sidebar-portlet-print-text": "Download as PDF",
+	"electronpdfservice-invalid-page-title": "Invalid page",
+	"electronpdfservice-invalid-page-text": "The specified page is not valid."
+}
