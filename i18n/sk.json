@@ -2,13 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Luky001",
-			"Robert Važan"
+			"Robert Važan",
+			"Wizzard"
 		]
 	},
+	"electronpdfservice": "ElectronPdfService",
 	"electronpdfservice-desc": "Pridáva podporu vykresľovania PDF v prehliadači prostredníctvom služby Electron PDF",
 	"electronpdfservice-special-page-headline": "Stiahnuť ako PDF",
 	"electronpdfservice-download-label": "Stiahnuť ako PDF",
 	"electronpdfservice-download-button": "Stiahnuť",
 	"electronpdfservice-sidebar-portlet-heading": "Tlač/export",
-	"electronpdfservice-sidebar-portlet-print-text": "Stiahnuť ako PDF"
+	"electronpdfservice-sidebar-portlet-print-text": "Stiahnuť ako PDF",
+	"electronpdfservice-invalid-page-title": "Neplatná stránka",
+	"electronpdfservice-invalid-page-text": "Zadaná stránka nie je platná."
 }
