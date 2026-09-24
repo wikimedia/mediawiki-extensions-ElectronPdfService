@@ -13,7 +13,6 @@
 	"requires": {
 		"MediaWiki": ">= 1.47.0"
 	},
-	"manifest_version": 2,
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\ElectronPdfService\\": "src/"
 	},
@@ -62,11 +61,7 @@
 		"remoteExtPath": "ElectronPdfService"
 	},
 	"SpecialPages": {
-		"DownloadAsPdf": {
-			"class": "MediaWiki\\Extension\\ElectronPdfService\\Specials\\SpecialDownloadAsPdf",
-			"services": [
-				"StatsFactory"
-			]
-		}
-	}
+		"DownloadAsPdf": "MediaWiki\\Extension\\ElectronPdfService\\Specials\\SpecialDownloadAsPdf"
+	},
+	"manifest_version": 2
 }

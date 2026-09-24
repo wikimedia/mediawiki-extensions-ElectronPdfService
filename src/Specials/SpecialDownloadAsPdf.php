@@ -14,13 +14,10 @@ use OOUI\ButtonGroupWidget;
 use OOUI\ButtonInputWidget;
 use OOUI\FormLayout;
 use OOUI\Tag;
-use Wikimedia\Stats\StatsFactory;
 
 class SpecialDownloadAsPdf extends SpecialPage {
 
-	public function __construct(
-		private readonly StatsFactory $statsFactory
-	) {
+	public function __construct() {
 		parent::__construct( 'DownloadAsPdf' );
 	}
 
@@ -47,28 +44,12 @@ class SpecialDownloadAsPdf extends SpecialPage {
 		}
 
 		$action = $request->getVal( 'action', 'default' );
-		$dbName = $this->getConfig()->get( 'DBname' );
 
 		switch ( $action ) {
 			case 'redirect-to-electron':
-				$this->statsFactory->getCounter( 'electronpdf_action_total' )
-					->setLabel( 'action', $action )
-					->increment();
-				$this->statsFactory->getCounter( 'electronpdf_actions_per_wiki_total' )
-					->setLabel( 'action', $action )
-					->setLabel( 'wiki', $dbName )
-					->increment();
 				$this->redirectToElectron( $title );
 				return;
 			default:
-				$this->statsFactory->getCounter( 'electronpdf_action_total' )
-					->setLabel( 'action', 'show-download-screen' )
-					->increment();
-				$this->statsFactory->getCounter( 'electronpdf_actions_per_wiki_total' )
-					->setLabel( 'action', 'show-download-screen' )
-					->setLabel( 'wiki', $dbName )
-					->increment();
-
 				$this->showRenderModeSelectionPage( $title );
 		}
 	}
