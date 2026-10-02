@@ -1,8 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmad252"
+			"Ahmad252",
+			"شاه زمان پټان"
 		]
 	},
-	"electronpdfservice-download-label": "د پی‌ډی‌اف بڼه يې ښکته کړئ"
+	"electronpdfservice-special-page-headline": "پي‌ډي‌اېف په بڼه راکښته‌کول",
+	"electronpdfservice-download-label": "د پی‌ډی‌اف بڼه يې ښکته کړئ",
+	"electronpdfservice-download-button": "راکښته‌کول",
+	"electronpdfservice-sidebar-portlet-heading": "چاپول/بهرلېږل",
+	"electronpdfservice-sidebar-portlet-print-text": "پي‌ډي‌اېف په بڼه راکښته‌کول",
+	"electronpdfservice-invalid-page-title": "ناسم مخ",
+	"electronpdfservice-invalid-page-text": "ټاکل شوی مخ باوري نه دی."
 }
