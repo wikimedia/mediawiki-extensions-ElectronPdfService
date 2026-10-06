@@ -80,7 +80,7 @@ class Hooks implements SidebarBeforeOutputHook {
 			];
 		}
 
-		if ( !$skin->getOutput()->isPrintable() && isset( $sidebar['TOOLBOX']['print'] ) ) {
+		if ( isset( $sidebar['TOOLBOX']['print'] ) ) {
 			$printItem = $sidebar['TOOLBOX']['print'];
 
 			// Unset 'print' item and move it to our section
