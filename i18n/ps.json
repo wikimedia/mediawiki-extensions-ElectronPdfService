@@ -5,6 +5,8 @@
 			"شاه زمان پټان"
 		]
 	},
+	"electronpdfservice": "برېښنايي‌پي‌ډي‌اېف‌چوپړ",
+	"electronpdfservice-desc": "برېښنايي پي‌ډي‌اېف چوپړ له لارې د ښوونگر پر بنسټ د پي‌ډي‌اېف وړاندې‌کولو ملاتړ ورگډوي",
 	"electronpdfservice-special-page-headline": "پي‌ډي‌اېف په بڼه راکښته‌کول",
 	"electronpdfservice-download-label": "د پی‌ډی‌اف بڼه يې ښکته کړئ",
 	"electronpdfservice-download-button": "راکښته‌کول",
