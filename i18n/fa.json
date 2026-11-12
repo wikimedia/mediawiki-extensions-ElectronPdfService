@@ -5,13 +5,14 @@
 			"Amjad Khan",
 			"Huji",
 			"Ladsgroup",
-			"Reza1615"
+			"Reza1615",
+			"LProfo"
 		]
 	},
 	"electronpdfservice": "انتخاب سرویس پی‌دی‌اف",
 	"electronpdfservice-desc": "افزودن پشتیبانی از موتور رندر پی‌دی‌اف مرورگر به کمک ابزار انتخاب سرویس پی‌دی‌اف",
 	"electronpdfservice-special-page-headline": "بارگیری به عنوان پی‌دی‌اف",
-	"electronpdfservice-download-label": "دریافت به عنوان پی‌دی‌اف",
+	"electronpdfservice-download-label": "بارگیری به‌عنوان پی‌دی‌اف",
 	"electronpdfservice-download-button": "بارگیری",
 	"electronpdfservice-sidebar-portlet-heading": "چاپ/برون‌بری",
 	"electronpdfservice-sidebar-portlet-print-text": "بارگیری به عنوان پی‌دی‌اف",
