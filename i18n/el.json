@@ -8,7 +8,7 @@
 	"electronpdfservice": "ElectronPdfService",
 	"electronpdfservice-desc": "Προσθέτει υποστήριξη αναπαραγωγής PDF βάσει προγράμματος περιήγησης μέσω της υπηρεσίας Electron PDF",
 	"electronpdfservice-special-page-headline": "Κατέβασμα ως PDF",
-	"electronpdfservice-download-label": "Εγκατάσταση ως PDF",
+	"electronpdfservice-download-label": "Λήψη ως PDF",
 	"electronpdfservice-download-button": "Λήψη",
 	"electronpdfservice-sidebar-portlet-heading": "Εκτύπωση/εξαγωγή",
 	"electronpdfservice-sidebar-portlet-print-text": "Λήψη ως PDF",
